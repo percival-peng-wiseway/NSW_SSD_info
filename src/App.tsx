@@ -1,14 +1,13 @@
 import { useState, useMemo } from 'react';
 import { MAJOR_PROJECTS_DATA } from './data/majorProjectsData';
 import type { MajorProject, ViewMode } from './types';
-import { ProjectsStatsHeader } from './components/ProjectsStatsHeader';
 import { ProjectCard } from './components/ProjectCard';
 import { ProjectDetailDrawer } from './components/ProjectDetailDrawer';
 import { ConsultantMatrix } from './components/ConsultantMatrix';
 import { ProjectCompareModal } from './components/ProjectCompareModal';
 import { 
   Building2, Search, Filter, Download, LayoutGrid, Table, 
-  Users, RefreshCw, Zap, ExternalLink, SlidersHorizontal, Sun, Moon
+  Users, RefreshCw, SlidersHorizontal, Sun, Moon
 } from 'lucide-react';
 
 export function App() {
@@ -22,7 +21,7 @@ export function App() {
   const [comparedProjects, setComparedProjects] = useState<MajorProject[]>([]);
   const [showCompareModal, setShowCompareModal] = useState(false);
   
-  // Theme state: false = Light Mode (白天模式, default), true = Dark Mode (暗黑模式)
+  // Theme state: false = Light Mode (default), true = Dark Mode
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
   // Extract unique LGAs and Consultants for dropdowns
@@ -92,7 +91,7 @@ export function App() {
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement('a');
     link.setAttribute('href', encodedUri);
-    link.setAttribute('download', `NSW_Major_Projects_Export_${new Date().toISOString().slice(0, 10)}.csv`);
+    link.setAttribute('download', `NSW_SSD_Projects_Export_${new Date().toISOString().slice(0, 10)}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -133,25 +132,18 @@ export function App() {
           ? 'bg-slate-950/80 border-slate-800/80' 
           : 'bg-white/80 border-slate-200 shadow-sm'
       }`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between gap-4">
+          
+          {/* Clean Title Only */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-blue-500/20">
               <Building2 className="w-5 h-5" />
             </div>
-            <div>
-              <h1 className={`text-xl font-bold tracking-tight flex items-center gap-2 ${
-                isDarkMode ? 'text-white' : 'text-slate-900'
-              }`}>
-                NSW State Significant Development Base
-                <span className={`text-[10px] font-semibold px-2 py-0.5 rounded uppercase ${
-                  isDarkMode 
-                    ? 'bg-blue-950 text-blue-400 border border-blue-800/60' 
-                    : 'bg-blue-50 text-blue-700 border border-blue-200'
-                }`}>
-                  Major Projects Hub
-                </span>
-              </h1>
-            </div>
+            <h1 className={`text-2xl font-bold tracking-tight ${
+              isDarkMode ? 'text-white' : 'text-slate-900'
+            }`}>
+              NSW State Significant Development Base
+            </h1>
           </div>
 
           {/* Quick Actions & Theme Switcher */}
@@ -206,14 +198,6 @@ export function App() {
 
       {/* Main Content Container */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 space-y-6">
-        
-        {/* Dashboard Stats Panel */}
-        <ProjectsStatsHeader 
-          projects={filteredProjects}
-          onFilterSector={(sec) => setSelectedSector(sec)}
-          selectedSector={selectedSector}
-          isDarkMode={isDarkMode}
-        />
 
         {/* Filter Bar & Controls */}
         <div className={`p-5 rounded-2xl border backdrop-blur-xl space-y-4 transition-colors ${
