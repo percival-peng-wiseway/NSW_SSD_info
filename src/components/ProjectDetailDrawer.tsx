@@ -257,16 +257,6 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
           {/* TAB 3: APPENDICES LIST - STYLED EXACTLY LIKE NSW PLANNING PORTAL */}
           {activeTab === 'appendices' && (
             <div className="space-y-4">
-              {/* Informational Tip Banner */}
-              <div className={`p-3 rounded-xl border text-xs leading-relaxed flex items-center gap-2 ${
-                isDarkMode ? 'bg-slate-950 border-slate-800 text-slate-300' : 'bg-blue-50/80 border-blue-200 text-blue-900'
-              }`}>
-                <span className="text-base">📌</span>
-                <div>
-                  <strong>官方在线阅读提示:</strong> NSW 规划门户要求先建立官方页面安全 Token。点击右侧 <strong>「 View ↗」</strong> 按钮，将前往 NSW 门户文档中心（如截图所示），点击折叠面板即可直接全屏在线阅读并下载完整 PDF 文件！
-                </div>
-              </div>
-
               <div className="space-y-3">
                 {project.appendices.map((app, idx) => (
                   <div key={idx} className={`p-4 rounded-xl border transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 ${
