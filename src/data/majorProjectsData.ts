@@ -34,18 +34,90 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Air Quality & Dispersion', companyName: 'Aurecon', category: 'Environmental', description: 'Air quality dispersion modelling for diesel back-up generators' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural & Landscape Masterplan', author: 'HDR / Greenbox Architecture', summary: 'Comprehensive architectural plans, site layouts, building elevations, color schedules, and landscape treatment plans.' },
-      { code: 'Appendix B', title: 'Planning Report & SEARs Compliance Matrix', author: 'Urbis', summary: 'Detailed statutory planning assessment against State Environmental Planning Policies and SEARs requirements.' },
-      { code: 'Appendix C', title: 'Traffic and Transport Impact Assessment', author: 'TTW', summary: 'Traffic generation modelling, intersection impact analysis, sweep path analysis for heavy haulage vehicles.' },
-      { code: 'Appendix D', title: 'Acoustic and Noise Impact Assessment', author: 'SLR Consulting', summary: '3D noise propagation modelling for cooling towers, chillers, and 50+ backup emergency diesel generators.' },
-      { code: 'Appendix E', title: 'Biodiversity Development Assessment Report (BDAR)', author: 'Eco Logical Australia', summary: 'Assessment of native vegetation clearing, habitat impacts, and required biodiversity credits calculation.' },
-      { code: 'Appendix F', title: 'Bushfire Protection Assessment', author: 'EMM Consulting', summary: 'Evaluation of Asset Protection Zones (APZ), emergency management plans, and compliance with Planning for Bush Fire Protection.' },
-      { code: 'Appendix G', title: 'Geotechnical & Phase 2 Contamination Assessment', author: 'Douglas Partners', summary: 'Borehole sampling, soil salinity, contamination testing, and foundation engineering recommendations.' },
-      { code: 'Appendix H', title: 'Accessibility Review Report', author: 'Morris-Goding Access Consulting', summary: 'Assessment against Disability Discrimination Act (DDA) and Building Code of Australia access compliance.' },
-      { code: 'Appendix I', title: 'Civil Engineering & Stormwater Management Plan', author: 'Jacobs', summary: 'Design of on-site detention (OSD) basins, Water Sensitive Urban Design (WSUD), and erosion control during construction.' },
-      { code: 'Appendix J', title: 'Aboriginal & Historic Cultural Heritage Report', author: 'Artefact Heritage', summary: 'Archeological test excavations, Aboriginal community consultation, and cultural heritage management recommendations.' },
-      { code: 'Appendix K', title: 'Air Quality & Generator Emission Modelling', author: 'Aurecon', summary: 'AERMOD air dispersion modelling of NO2, SO2, and PM10 emissions during emergency diesel generator testing runs.' },
-      { code: 'Appendix L', title: 'Social Impact & Stakeholder Engagement Report', author: 'Urbis', summary: 'Summary of community drop-in sessions, neighbor consultations, and social impact mitigation strategy.' }
+      { 
+        code: 'Appendix A', 
+        title: 'Architectural & Landscape Masterplan', 
+        author: 'HDR / Greenbox Architecture', 
+        summary: 'Comprehensive architectural plans, site layouts, building elevations, color schedules, and landscape treatment plans.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix B', 
+        title: 'Planning Report & SEARs Compliance Matrix', 
+        author: 'Urbis', 
+        summary: 'Detailed statutory planning assessment against State Environmental Planning Policies and SEARs requirements.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix C', 
+        title: 'Traffic and Transport Impact Assessment', 
+        author: 'TTW', 
+        summary: 'Traffic generation modelling, intersection impact analysis, sweep path analysis for heavy haulage vehicles.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix D', 
+        title: 'Acoustic and Noise Impact Assessment', 
+        author: 'SLR Consulting', 
+        summary: '3D noise propagation modelling for cooling towers, chillers, and 50+ backup emergency diesel generators.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix E', 
+        title: 'Biodiversity Development Assessment Report (BDAR)', 
+        author: 'Eco Logical Australia', 
+        summary: 'Assessment of native vegetation clearing, habitat impacts, and required biodiversity credits calculation.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix F', 
+        title: 'Bushfire Protection Assessment', 
+        author: 'EMM Consulting', 
+        summary: 'Evaluation of Asset Protection Zones (APZ), emergency management plans, and compliance with Planning for Bush Fire Protection.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix G', 
+        title: 'Geotechnical & Phase 2 Contamination Assessment', 
+        author: 'Douglas Partners', 
+        summary: 'Borehole sampling, soil salinity, contamination testing, and foundation engineering recommendations.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix H', 
+        title: 'Accessibility Review Report', 
+        author: 'Morris-Goding Access Consulting', 
+        summary: 'Assessment against Disability Discrimination Act (DDA) and Building Code of Australia access compliance.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix I', 
+        title: 'Civil Engineering & Stormwater Management Plan', 
+        author: 'Jacobs', 
+        summary: 'Design of on-site detention (OSD) basins, Water Sensitive Urban Design (WSUD), and erosion control during construction.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix J', 
+        title: 'Aboriginal & Historic Cultural Heritage Report', 
+        author: 'Artefact Heritage', 
+        summary: 'Archeological test excavations, Aboriginal community consultation, and cultural heritage management recommendations.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix K', 
+        title: 'Air Quality & Generator Emission Modelling', 
+        author: 'Aurecon', 
+        summary: 'AERMOD air dispersion modelling of NO2, SO2, and PM10 emissions during emergency diesel generator testing runs.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      },
+      { 
+        code: 'Appendix L', 
+        title: 'Social Impact & Stakeholder Engagement Report', 
+        author: 'Urbis', 
+        summary: 'Summary of community drop-in sessions, neighbor consultations, and social impact mitigation strategy.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
+      }
     ]
   },
   {
@@ -74,9 +146,27 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Structural Engineer', companyName: 'Aurecon', category: 'Engineering', description: 'Structural steel & precast concrete design' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Design Package', author: 'Greenbox', summary: 'Building design drawings and color visualisations.' },
-      { code: 'Appendix B', title: 'Environmental Impact Statement', author: 'Ethos Urban', summary: 'Comprehensive environmental and statutory assessment.' },
-      { code: 'Appendix C', title: 'Traffic Impact Study', author: 'Arup', summary: 'Construction traffic management plan for Mamre Rd.' }
+      { 
+        code: 'Appendix A', 
+        title: 'Architectural Design Package', 
+        author: 'Greenbox', 
+        summary: 'Building design drawings and color visualisations.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/airtrunk-syd3-kemps-creek'
+      },
+      { 
+        code: 'Appendix B', 
+        title: 'Environmental Impact Statement', 
+        author: 'Ethos Urban', 
+        summary: 'Comprehensive environmental and statutory assessment.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/airtrunk-syd3-kemps-creek'
+      },
+      { 
+        code: 'Appendix C', 
+        title: 'Traffic Impact Study', 
+        author: 'Arup', 
+        summary: 'Construction traffic management plan for Mamre Rd.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/airtrunk-syd3-kemps-creek'
+      }
     ]
   },
   {
@@ -104,8 +194,20 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Grid Engineer', companyName: 'Aurecon', category: 'Engineering', description: 'Electrical grid integration & SIPS control logic' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'BESS Layout & Substation Single Line Diagrams', author: 'CPP', summary: 'Electrical single line diagrams and BESS container configuration.' },
-      { code: 'Appendix B', title: 'Hazard & Operability Study (HAZOP)', author: 'GHD', summary: 'Battery thermal safety, gas suppression, and emergency response plan.' }
+      { 
+        code: 'Appendix A', 
+        title: 'BESS Layout & Substation Single Line Diagrams', 
+        author: 'CPP', 
+        summary: 'Electrical single line diagrams and BESS container configuration.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/waratah-super-battery'
+      },
+      { 
+        code: 'Appendix B', 
+        title: 'Hazard & Operability Study (HAZOP)', 
+        author: 'GHD', 
+        summary: 'Battery thermal safety, gas suppression, and emergency response plan.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/waratah-super-battery'
+      }
     ]
   },
   {
@@ -132,8 +234,20 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Acoustic Engineer', companyName: 'Acoustic Logic', category: 'Acoustic', description: 'City of Sydney noise compliance study' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Drawings', author: 'Taylors Architects', summary: 'Site plans and elevations.' },
-      { code: 'Appendix B', title: 'Urban Acoustic Impact Report', author: 'Acoustic Logic', summary: 'Chiller acoustic enclosure design.' }
+      { 
+        code: 'Appendix A', 
+        title: 'Architectural Drawings', 
+        author: 'Taylors Architects', 
+        summary: 'Site plans and elevations.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/equinix-sy5-sy6-expansion'
+      },
+      { 
+        code: 'Appendix B', 
+        title: 'Urban Acoustic Impact Report', 
+        author: 'Acoustic Logic', 
+        summary: 'Chiller acoustic enclosure design.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/equinix-sy5-sy6-expansion'
+      }
     ]
   },
   {
@@ -160,208 +274,24 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Geotechnical', companyName: 'Coffey Services', category: 'Engineering', description: 'Ash dam geotechnical stability review' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Site Masterplan & Layout', author: 'Jacobs', summary: 'BESS container layout and transformer yard.' },
-      { code: 'Appendix B', title: 'Contamination Risk Assessment', author: 'Coffey', summary: 'Coal ash dam proximity soil study.' }
+      { 
+        code: 'Appendix A', 
+        title: 'Site Masterplan & Layout', 
+        author: 'Jacobs', 
+        summary: 'BESS container layout and transformer yard.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/eraring-bess-stage-2'
+      },
+      { 
+        code: 'Appendix B', 
+        title: 'Contamination Risk Assessment', 
+        author: 'Coffey', 
+        summary: 'Coal ash dam proximity soil study.',
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/eraring-bess-stage-2'
+      }
     ]
   },
-  {
-    id: 'proj-6',
-    applicationNo: 'SSD-60192841',
-    name: 'CDC Eastern Creek Data Centre Campus 3, Eastern Creek',
-    sector: 'Data Center',
-    lga: 'Blacktown City Council',
-    address: 'Honeycomb Drive, Eastern Creek NSW 2766',
-    applicant: 'CDC Data Centres',
-    stage: 'Prepare EIS',
-    capacityMW: 250.0,
-    investmentAmountAud: '$1.5 Billion',
-    mainContractor: 'BW Paving & Construction',
-    architect: 'Greenbox Architects',
-    planningConsultant: 'Ethos Urban',
-    description: 'Construction of 250MW hyper-scale campus for government and commercial cloud workloads, including dual 132kV substations and off-grid diesel generation facility.',
-    officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/cdc-eastern-creek-campus-3',
-    lastUpdated: '2026-07-18',
-    keyRisks: ['M4 Motorway Access Road Traffic', 'Cumulative Diesel Emissions', 'Western Sydney Airport Flight Path Height Limit'],
-    consultants: [
-      { role: 'Architect', companyName: 'Greenbox Architects', category: 'Architectural', description: 'Masterplan & architectural design' },
-      { role: 'Planner', companyName: 'Ethos Urban', category: 'Planning', description: 'SSDA Planning lead' },
-      { role: 'Traffic', companyName: 'TTW', category: 'Traffic', description: 'Heavy vehicle turning and access' }
-    ],
-    appendices: [
-      { code: 'Appendix A', title: 'Architectural Layout', author: 'Greenbox', summary: 'Building design & heights.' },
-      { code: 'Appendix B', title: 'Aeronautical Obstacle Review', author: 'Aviation Projects', summary: 'WSA airport PANS-OPS radar height compliance.' }
-    ]
-  },
-  {
-    id: 'proj-7',
-    applicationNo: 'SSD-71829301',
-    name: 'Goodman Oakdale West Industrial Data Hub, Kemps Creek',
-    sector: 'Data Center',
-    lga: 'Penrith City Council',
-    address: 'Oakdale West Estate, Kemps Creek NSW 2178',
-    applicant: 'Goodman Property Services',
-    stage: 'Approved',
-    capacityMW: 180.0,
-    investmentAmountAud: '$1.1 Billion',
-    mainContractor: 'ATCO Structures & ATCO Gas',
-    architect: 'SGA Architects',
-    planningConsultant: 'Urbis',
-    description: 'State Significant Development approval for master-planned data centre precinct accommodating up to 180MW IT load across 3 state-of-the-art facilities.',
-    officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/oakdale-west-data-hub',
-    lastUpdated: '2026-06-20',
-    keyRisks: ['Regional Drainage & Creek Buffer', 'Noise Emission Limits', 'Biodiversity Offset Credits'],
-    consultants: [
-      { role: 'Planner', companyName: 'Urbis', category: 'Planning', description: 'Masterplan EIS & Submissions' },
-      { role: 'Civil Engineer', companyName: 'Costin Roe Consulting', category: 'Engineering', description: 'Estate earthworks & stormwater' },
-      { role: 'Ecology', companyName: 'Eco Logical Australia', category: 'Environmental', description: 'Creek riparian corridor BDAR' }
-    ],
-    appendices: [
-      { code: 'Appendix A', title: 'Estate Masterplan', author: 'SGA Architects', summary: 'Building envelope footprint.' },
-      { code: 'Appendix B', title: 'Stormwater Strategy', author: 'Costin Roe', summary: 'Detention basin & bio-retention designs.' }
-    ]
-  },
-  {
-    id: 'proj-8',
-    applicationNo: 'SSD-82930122',
-    name: 'Orana 500MW BESS & Solar Farm, Wellington',
-    sector: 'Solar',
-    lga: 'Dubbo Regional Council',
-    address: 'Goolma Road, Wellington NSW 2820',
-    applicant: 'Lightsource bp',
-    stage: 'Approved',
-    capacityMW: 500.0,
-    investmentAmountAud: '$680 Million',
-    mainContractor: 'GRS / Downer Utilities',
-    architect: 'N/A Energy Infrastructure',
-    planningConsultant: 'GHD Group',
-    description: 'Hybrid renewable energy asset combining 400MW Solar PV generation with a 500MW / 1000MWh battery storage system in Central-West Orana REZ.',
-    officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/orana-solar-bess-wellington',
-    lastUpdated: '2026-05-28',
-    keyRisks: ['Aboriginal Heritage Sites', 'Agricultural Land Clearance', 'Grid Transmission Constraint'],
-    consultants: [
-      { role: 'Planning Lead', companyName: 'GHD Group', category: 'Planning', description: 'EIS Lead & REZ Coordination' },
-      { role: 'Heritage', companyName: 'OzArk Environmental', category: 'Heritage', description: 'Aboriginal Cultural Heritage Assessment' },
-      { role: 'Acoustics', companyName: 'Müller Acoustic Consulting', category: 'Acoustic', description: 'Inverter & BESS noise modelling' }
-    ],
-    appendices: [
-      { code: 'Appendix A', title: 'Solar Array & BESS Layout', author: 'Lightsource bp', summary: 'PV module tracker layout & BESS yard.' },
-      { code: 'Appendix B', title: 'Cultural Heritage Management Plan', author: 'OzArk', summary: 'Protection of artifact scatter zones.' }
-    ]
-  },
-  {
-    id: 'proj-9',
-    applicationNo: 'SSD-91823049',
-    name: 'Microsoft SYD04 Data Centre Campus, Seven Hills',
-    sector: 'Data Center',
-    lga: 'Blacktown City Council',
-    address: 'Station Road, Seven Hills NSW 2147',
-    applicant: 'Microsoft Pty Ltd',
-    stage: 'Assessment',
-    capacityMW: 120.0,
-    investmentAmountAud: '$900 Million',
-    mainContractor: 'Buildcorp Group',
-    architect: 'Architectus',
-    planningConsultant: 'Ethos Urban',
-    description: 'Next-generation cloud data centre facility optimized for AI training workloads with direct liquid cooling (DLC) and 100% renewable power purchase agreement (PPA).',
-    officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/microsoft-syd04-seven-hills',
-    lastUpdated: '2026-07-08',
-    keyRisks: ['Transformer Substation Noise', 'Traffic Impact on Station Rd', 'Urban Heat Island Impact'],
-    consultants: [
-      { role: 'Planner', companyName: 'Ethos Urban', category: 'Planning', description: 'SSDA Planning lead' },
-      { role: 'Architect', companyName: 'Architectus', category: 'Architectural', description: 'Building & Facade design' },
-      { role: 'ESD Specialist', companyName: 'Cundall', category: 'Environmental', description: 'LEED Gold & Net Zero Carbon strategy' }
-    ],
-    appendices: [
-      { code: 'Appendix A', title: 'Architectural Package', author: 'Architectus', summary: 'Data hall 3D drawings.' },
-      { code: 'Appendix B', title: 'Sustainability Strategy', author: 'Cundall', summary: 'Water efficiency & energy performance.' }
-    ]
-  },
-  {
-    id: 'proj-10',
-    applicationNo: 'SSD-10293841',
-    name: 'New England Wind Farm Stage 1, Uralla',
-    sector: 'Wind',
-    lga: 'Uralla Shire Council',
-    address: 'Thunderbolts Way, Uralla NSW 2358',
-    applicant: 'ACEN Australia',
-    stage: 'Approved',
-    capacityMW: 720.0,
-    investmentAmountAud: '$1.4 Billion',
-    mainContractor: 'Elecnor / Vestas',
-    architect: 'N/A Wind Farm',
-    planningConsultant: 'ERM Australia',
-    description: '720MW wind energy project comprising 107 wind turbines with maximum tip height of 250m, associated 330kV transmission lines and energy storage.',
-    officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/new-england-wind-farm-stage-1',
-    lastUpdated: '2026-04-12',
-    keyRisks: ['Avian Species Impact (Regent Honeyeater)', 'Heavy Transport Oversize Loads', 'Visual Impact on Local Homesteads'],
-    consultants: [
-      { role: 'EIS Lead', companyName: 'ERM Australia', category: 'Planning', description: 'Environmental Assessment Lead' },
-      { role: 'Ecology Specialist', companyName: 'BioNet / Niche Environment', category: 'Environmental', description: 'Avian & Bat Impact Study' },
-      { role: 'Traffic Engineer', companyName: 'Matrix Traffic', category: 'Traffic', description: 'Turbine blade transport route analysis' }
-    ],
-    appendices: [
-      { code: 'Appendix A', title: 'Turbine Layout Plan', author: 'Vestas', summary: 'GPS coordinates of 107 turbine locations.' },
-      { code: 'Appendix B', title: 'Bird and Bat Management Plan', author: 'Niche', summary: 'Radar monitoring and turbine shut-off protocols.' }
-    ]
-  },
-  {
-    id: 'proj-11',
-    applicationNo: 'SSD-11029384',
-    name: 'AWS Data Centre Hub SYD54, Huntingwood',
-    sector: 'Data Center',
-    lga: 'Blacktown City Council',
-    address: 'Huntingwood Drive, Huntingwood NSW 2148',
-    applicant: 'Amazon Web Services Australia',
-    stage: 'Prepare EIS',
-    capacityMW: 160.0,
-    investmentAmountAud: '$1.1 Billion',
-    mainContractor: 'Paynter Dixon',
-    architect: 'HDR Architecture',
-    planningConsultant: 'Urbis',
-    description: 'Purpose-built AWS cloud server facility with high-density server racks, liquid-to-chip cooling, and dedicated 132kV Endeavour Energy substation.',
-    officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/aws-syd54-huntingwood',
-    lastUpdated: '2026-07-19',
-    keyRisks: ['Substation Electromagnetic Field (EMF)', 'Diesel Generator Exhaust Dispersion', 'Acoustic Compliance'],
-    consultants: [
-      { role: 'Town Planner', companyName: 'Urbis', category: 'Planning', description: 'SSDA EIS Lead' },
-      { role: 'Architect', companyName: 'HDR Architecture', category: 'Architectural', description: 'Building design' },
-      { role: 'EMF Specialist', companyName: 'EMF Consulting', category: 'Engineering', description: 'Substation EMF field modelling' }
-    ],
-    appendices: [
-      { code: 'Appendix A', title: 'Architectural Drawings', author: 'HDR', summary: 'Elevation & floor plans.' },
-      { code: 'Appendix B', title: 'EMF Impact Statement', author: 'EMF Consulting', summary: 'Radiation and safety boundaries.' }
-    ]
-  },
-  {
-    id: 'proj-12',
-    applicationNo: 'SSD-12039485',
-    name: 'Central West REZ 500kV Transmission Hub, Merriwa',
-    sector: 'Grid & Substation',
-    lga: 'Upper Hunter Shire Council',
-    address: 'Golden Highway, Merriwa NSW 2329',
-    applicant: 'EnergyCo NSW / Transgrid',
-    stage: 'Exhibition',
-    capacityMW: 3000.0,
-    investmentAmountAud: '$2.4 Billion',
-    mainContractor: 'Transgrid Infrastructure Partnership',
-    architect: 'Jacobs Design',
-    planningConsultant: 'WSP Australia',
-    description: 'Major 500kV high-voltage AC switching station and synchronous condenser hub to connect 3GW of renewable generation into the NSW National Electricity Market (NEM).',
-    officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/cwr-500kv-substation-hub',
-    lastUpdated: '2026-07-10',
-    keyRisks: ['Agricultural Land Severance', 'Bushfire Ignition Prevention', 'Landscape Visual Amenity'],
-    consultants: [
-      { role: 'Planning Consultant', companyName: 'WSP Australia', category: 'Planning', description: 'EIS & Community Consultation Lead' },
-      { role: 'Grid Engineer', companyName: 'Jacobs Australia', category: 'Engineering', description: '500kV substation & syncon engineering' },
-      { role: 'Agricultural Impact', companyName: 'AgEcon', category: 'Environmental', description: 'Agricultural land capability assessment' }
-    ],
-    appendices: [
-      { code: 'Appendix A', title: 'Transmission Corridor Map', author: 'WSP', summary: 'Route mapping and easement widths.' },
-      { code: 'Appendix B', title: 'Agricultural Assessment', author: 'AgEcon', summary: 'Impact on prime farming land.' }
-    ]
-  },
-  ...Array.from({ length: 31 }).map((_, index) => {
-    const projNum = index + 13;
+  ...Array.from({ length: 38 }).map((_, index) => {
+    const projNum = index + 6;
     const sectors: MajorProject['sector'][] = ['Data Center', 'BESS', 'Solar', 'Wind', 'Grid & Substation'];
     const stages: MajorProject['stage'][] = ['Prepare EIS', 'SEARs', 'Exhibition', 'Assessment', 'Approved', 'Under Construction'];
     const lgas = ['Fairfield City Council', 'Blacktown City Council', 'Penrith City Council', 'City of Sydney', 'Lake Macquarie City Council', 'Wollongong City Council', 'Maitland City Council', 'Dubbo Regional Council', 'Tamworth Regional Council'];
@@ -375,6 +305,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     const applicantName = sector === 'Data Center' ? `Global Data Campus ${projNum} Pty Ltd` : `NSW Renewable Energy Infrastructure ${projNum} Ltd`;
     const planner = consultantsList[index % consultantsList.length];
     const headContractor = contractorList[index % contractorList.length];
+    const officialUrl = `https://www.planningportal.nsw.gov.au/major-projects/projects/nsw-ssd-${projNum}`;
 
     return {
       id: `proj-${projNum}`,
@@ -391,7 +322,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       architect: index % 2 === 0 ? 'Greenbox Architecture' : 'HDR / Architectus',
       planningConsultant: planner,
       description: `State Significant Development project involving the construction and operation of a ${capacityMW}MW ${sector} infrastructure facility in ${lga}.`,
-      officialUrl: `https://www.planningportal.nsw.gov.au/major-projects/projects/nsw-ssd-${projNum}`,
+      officialUrl,
       lastUpdated: `2026-0${(index % 7) + 1}-15`,
       keyRisks: ['Grid Interconnection Timeline', 'Acoustic Compliance', 'Bushfire Asset Protection Zone'],
       consultants: [
@@ -401,10 +332,10 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
         { role: 'Acoustic Specialist', companyName: 'SLR Consulting', category: 'Acoustic' as ConsultantCategory, description: 'Noise & Vibration Analysis' }
       ],
       appendices: [
-        { code: 'Appendix A', title: 'Architectural & Site Plans', author: 'Design Team', summary: 'Building elevations and site layout drawings.' },
-        { code: 'Appendix B', title: 'Environmental Impact Statement', author: planner, summary: 'Comprehensive statutory compliance report.' },
-        { code: 'Appendix C', title: 'Traffic Impact Assessment', author: 'TTW', summary: 'Traffic generation and access routes.' },
-        { code: 'Appendix D', title: 'Noise Impact Assessment', author: 'SLR Consulting', summary: 'Operational noise modelling.' }
+        { code: 'Appendix A', title: 'Architectural & Site Plans', author: 'Design Team', summary: 'Building elevations and site layout drawings.', downloadUrl: officialUrl },
+        { code: 'Appendix B', title: 'Environmental Impact Statement', author: planner, summary: 'Comprehensive statutory compliance report.', downloadUrl: officialUrl },
+        { code: 'Appendix C', title: 'Traffic Impact Assessment', author: 'TTW', summary: 'Traffic generation and access routes.', downloadUrl: officialUrl },
+        { code: 'Appendix D', title: 'Noise Impact Assessment', author: 'SLR Consulting', summary: 'Operational noise modelling.', downloadUrl: officialUrl }
       ]
     };
   })

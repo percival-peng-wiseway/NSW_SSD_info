@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { MajorProject } from '../types';
-import { X, ExternalLink, FileText, Users, Building2, ShieldAlert, MapPin, Zap, Layers } from 'lucide-react';
+import { X, ExternalLink, FileText, Users, Building2, ShieldAlert, MapPin, Zap, Layers, Download } from 'lucide-react';
 
 interface Props {
   project: MajorProject | null;
@@ -283,9 +283,35 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                         编制单位: {app.author}
                       </span>
                     </div>
-                    <p className={`text-xs leading-relaxed pl-1 ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}`}>
+
+                    <p className={`text-xs leading-relaxed mb-3 ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}`}>
                       {app.summary}
                     </p>
+
+                    {/* Official Document Download / Access Link */}
+                    <div className={`pt-2 border-t flex items-center justify-between text-xs ${
+                      isDarkMode ? 'border-slate-800/80' : 'border-slate-100'
+                    }`}>
+                      <span className={`text-[11px] font-mono ${isDarkMode ? 'text-slate-500' : 'text-slate-400'}`}>
+                        源数据归档: NSW Major Projects EIS Attachments
+                      </span>
+
+                      <a
+                        href={app.downloadUrl || project.officialUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                          isDarkMode 
+                            ? 'bg-blue-600/20 hover:bg-blue-600 text-blue-400 hover:text-white border border-blue-500/30' 
+                            : 'bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white border border-blue-200 shadow-sm'
+                        }`}
+                      >
+                        <Download className="w-3.5 h-3.5" />
+                        调阅/下载 {app.code} 原始官方文档
+                        <ExternalLink className="w-3 h-3" />
+                      </a>
+                    </div>
+
                   </div>
                 ))}
               </div>

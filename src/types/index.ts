@@ -17,6 +17,7 @@ export interface AppendixInfo {
   author: string;
   summary: string;
   fileCount?: number;
+  downloadUrl?: string; // Direct PDF / Portal Attachment link
 }
 
 export interface MajorProject {
