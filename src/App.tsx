@@ -142,18 +142,15 @@ export function App() {
               <h1 className={`text-xl font-bold tracking-tight flex items-center gap-2 ${
                 isDarkMode ? 'text-white' : 'text-slate-900'
               }`}>
-                NSW 重大项目与数据中心情报交互平台
+                NSW State Significant Development Base
                 <span className={`text-[10px] font-semibold px-2 py-0.5 rounded uppercase ${
                   isDarkMode 
                     ? 'bg-blue-950 text-blue-400 border border-blue-800/60' 
                     : 'bg-blue-50 text-blue-700 border border-blue-200'
                 }`}>
-                  Major Projects 43 Hub
+                  Major Projects Hub
                 </span>
               </h1>
-              <p className={`text-xs ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                涵盖 NEXTDC S4 Phase 2 及 43 个 NSW State Significant Development (SSD) 详细附录与咨询公司名录
-              </p>
             </div>
           </div>
 
@@ -210,55 +207,6 @@ export function App() {
       {/* Main Content Container */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 space-y-6">
         
-        {/* Highlight Banner: NEXTDC S4 Horsley Park Phase 2 Direct Portal Access */}
-        <div className={`p-5 rounded-2xl border shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4 transition-colors ${
-          isDarkMode 
-            ? 'bg-gradient-to-r from-blue-950/60 via-indigo-950/40 to-slate-900 border-blue-500/40' 
-            : 'bg-gradient-to-r from-blue-50 via-indigo-50/60 to-white border-blue-200 shadow-blue-500/5'
-        }`}>
-          <div className="flex items-start gap-4">
-            <div className={`p-3 rounded-xl shrink-0 ${
-              isDarkMode 
-                ? 'bg-blue-600/20 text-blue-400 border border-blue-500/30' 
-                : 'bg-blue-100 text-blue-600 border border-blue-200'
-            }`}>
-              <Zap className="w-6 h-6" />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className={`text-xs font-mono px-2 py-0.5 rounded ${
-                  isDarkMode 
-                    ? 'bg-blue-900/80 text-blue-300 border border-blue-700' 
-                    : 'bg-blue-100 text-blue-800 border border-blue-300'
-                }`}>
-                  SSD-108864209
-                </span>
-                <span className={`text-xs font-bold px-2 py-0.5 rounded ${
-                  isDarkMode 
-                    ? 'text-amber-400 bg-amber-950/80 border border-amber-800' 
-                    : 'text-amber-800 bg-amber-100 border border-amber-300'
-                }`}>
-                  Prepare EIS
-                </span>
-              </div>
-              <h2 className={`text-lg font-bold mt-1 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-                NEXTDC S4 Data Centre Phase 2, Horsley Park (134.4 MW)
-              </h2>
-              <p className={`text-xs mt-1 max-w-3xl leading-relaxed ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}`}>
-                包含完整组装的 <strong>Appendix A 至 L 拆解目录</strong> 以及参建单位：<strong>Multiplex</strong> (总包), <strong>HDR/Greenbox</strong> (建筑设计), <strong>Urbis/Ethos Urban</strong> (规划申报), <strong>TTW</strong> (交通), <strong>SLR</strong> (声学), <strong>Eco Logical</strong> (生物多样性) 等。
-              </p>
-            </div>
-          </div>
-
-          <button
-            onClick={() => setSelectedProject(MAJOR_PROJECTS_DATA[0])}
-            className="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs flex items-center gap-2 shadow-lg shadow-blue-600/20 shrink-0 transition-all"
-          >
-            打开深度拆解抽屉
-            <ExternalLink className="w-4 h-4" />
-          </button>
-        </div>
-
         {/* Dashboard Stats Panel */}
         <ProjectsStatsHeader 
           projects={filteredProjects}
