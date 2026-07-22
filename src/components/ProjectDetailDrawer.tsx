@@ -257,8 +257,14 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
           {/* TAB 3: APPENDICES LIST - STYLED EXACTLY LIKE NSW PLANNING PORTAL */}
           {activeTab === 'appendices' && (
             <div className="space-y-4">
-              <div className={`text-xs mb-2 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                点击下方文件名称或右侧 <strong>「↗ View」</strong> 按钮，将直接在新标签页中打开并在线阅读 PDF 原始文件（完全同 SSD 官网）：
+              {/* Informational Tip Banner */}
+              <div className={`p-3 rounded-xl border text-xs leading-relaxed flex items-center gap-2 ${
+                isDarkMode ? 'bg-slate-950 border-slate-800 text-slate-300' : 'bg-blue-50/80 border-blue-200 text-blue-900'
+              }`}>
+                <span className="text-base">📌</span>
+                <div>
+                  <strong>官方在线阅读提示:</strong> NSW 规划门户要求先建立官方页面安全 Token。点击右侧 <strong>「 View ↗」</strong> 按钮，将前往 NSW 门户文档中心（如截图所示），点击折叠面板即可直接全屏在线阅读并下载完整 PDF 文件！
+                </div>
               </div>
 
               <div className="space-y-3">
@@ -274,9 +280,9 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                           {app.code}
                         </span>
                         
-                        {/* Direct PDF Link on Title */}
+                        {/* Direct Portal Link on Title */}
                         <a
-                          href={app.downloadUrl || project.officialUrl}
+                          href={project.officialUrl}
                           target="_blank"
                           rel="noreferrer"
                           className={`text-sm font-bold hover:underline transition-colors ${
@@ -300,11 +306,11 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
 
                     {/* Official SSD Portal Style "[↗ View]" Blue Button */}
                     <a
-                      href={app.downloadUrl || project.officialUrl}
+                      href={project.officialUrl}
                       target="_blank"
                       rel="noreferrer"
                       className="px-4 py-2 bg-[#002664] hover:bg-[#001c4b] text-white rounded font-bold text-xs flex items-center gap-1.5 shrink-0 shadow transition-colors"
-                      title="直接打开阅读 PDF 原始文件"
+                      title="打开官方文档中心在线阅读 PDF"
                     >
                       <ExternalLink className="w-3.5 h-3.5" />
                       View

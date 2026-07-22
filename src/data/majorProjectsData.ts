@@ -39,84 +39,84 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
         title: 'Architectural & Landscape Masterplan', 
         author: 'HDR / Greenbox Architecture', 
         summary: 'Comprehensive architectural plans, site layouts, building elevations, color schedules, and landscape treatment plans.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_A_Architectural_Plans.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix B', 
         title: 'Planning Report & SEARs Compliance Matrix', 
         author: 'Urbis', 
         summary: 'Detailed statutory planning assessment against State Environmental Planning Policies and SEARs requirements.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_B_Planning_Report.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix C', 
         title: 'Traffic and Transport Impact Assessment', 
         author: 'TTW', 
         summary: 'Traffic generation modelling, intersection impact analysis, sweep path analysis for heavy haulage vehicles.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_C_Traffic_Assessment.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix D', 
         title: 'Acoustic and Noise Impact Assessment', 
         author: 'SLR Consulting', 
         summary: '3D noise propagation modelling for cooling towers, chillers, and 50+ backup emergency diesel generators.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_D_Acoustic_Report.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix E', 
         title: 'Biodiversity Development Assessment Report (BDAR)', 
         author: 'Eco Logical Australia', 
         summary: 'Assessment of native vegetation clearing, habitat impacts, and required biodiversity credits calculation.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_E_BDAR.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix F', 
         title: 'Bushfire Protection Assessment', 
         author: 'EMM Consulting', 
         summary: 'Evaluation of Asset Protection Zones (APZ), emergency management plans, and compliance with Planning for Bush Fire Protection.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_F_Bushfire.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix G', 
         title: 'Geotechnical & Phase 2 Contamination Assessment', 
         author: 'Douglas Partners', 
         summary: 'Borehole sampling, soil salinity, contamination testing, and foundation engineering recommendations.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_G_Geotechnical.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix H', 
         title: 'Accessibility Review Report', 
         author: 'Morris-Goding Access Consulting', 
         summary: 'Assessment against Disability Discrimination Act (DDA) and Building Code of Australia access compliance.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_H_Accessibility.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix I', 
         title: 'Civil Engineering & Stormwater Management Plan', 
         author: 'Jacobs', 
         summary: 'Design of on-site detention (OSD) basins, Water Sensitive Urban Design (WSUD), and erosion control during construction.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_I_Stormwater.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix J', 
         title: 'Aboriginal & Historic Cultural Heritage Report', 
         author: 'Artefact Heritage', 
         summary: 'Archeological test excavations, Aboriginal community consultation, and cultural heritage management recommendations.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_J_Heritage.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix K', 
         title: 'Air Quality & Generator Emission Modelling', 
         author: 'Aurecon', 
         summary: 'AERMOD air dispersion modelling of NO2, SO2, and PM10 emissions during emergency diesel generator testing runs.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_K_AirQuality.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       },
       { 
         code: 'Appendix L', 
         title: 'Social Impact & Stakeholder Engagement Report', 
         author: 'Urbis', 
         summary: 'Summary of community drop-in sessions, neighbor consultations, and social impact mitigation strategy.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260715-Appendix_L_SocialImpact.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park'
       }
     ]
   },
@@ -151,21 +151,21 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
         title: 'Architectural Design Package', 
         author: 'Greenbox', 
         summary: 'Building design drawings and color visualisations.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260615-Appendix_A_Architectural.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/airtrunk-syd3-kemps-creek'
       },
       { 
         code: 'Appendix B', 
         title: 'Environmental Impact Statement', 
         author: 'Ethos Urban', 
         summary: 'Comprehensive environmental and statutory assessment.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260615-Appendix_B_EIS.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/airtrunk-syd3-kemps-creek'
       },
       { 
         code: 'Appendix C', 
         title: 'Traffic Impact Study', 
         author: 'Arup', 
         summary: 'Construction traffic management plan for Mamre Rd.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260615-Appendix_C_Traffic.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/airtrunk-syd3-kemps-creek'
       }
     ]
   },
@@ -199,14 +199,14 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
         title: 'BESS Layout & Substation Single Line Diagrams', 
         author: 'CPP', 
         summary: 'Electrical single line diagrams and BESS container configuration.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260510-Appendix_A_Diagrams.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/waratah-super-battery'
       },
       { 
         code: 'Appendix B', 
         title: 'Hazard & Operability Study (HAZOP)', 
         author: 'GHD', 
         summary: 'Battery thermal safety, gas suppression, and emergency response plan.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260510-Appendix_B_HAZOP.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/waratah-super-battery'
       }
     ]
   },
@@ -239,14 +239,14 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
         title: 'Architectural Drawings', 
         author: 'Taylors Architects', 
         summary: 'Site plans and elevations.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260702-Appendix_A_Architectural.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/equinix-sy5-sy6-expansion'
       },
       { 
         code: 'Appendix B', 
         title: 'Urban Acoustic Impact Report', 
         author: 'Acoustic Logic', 
         summary: 'Chiller acoustic enclosure design.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260702-Appendix_B_Acoustic.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/equinix-sy5-sy6-expansion'
       }
     ]
   },
@@ -279,14 +279,14 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
         title: 'Site Masterplan & Layout', 
         author: 'Jacobs', 
         summary: 'BESS container layout and transformer yard.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260714-Appendix_A_Layout.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/eraring-bess-stage-2'
       },
       { 
         code: 'Appendix B', 
         title: 'Contamination Risk Assessment', 
         author: 'Coffey', 
         summary: 'Coal ash dam proximity soil study.',
-        downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260714-Appendix_B_Contamination.pdf'
+        downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/eraring-bess-stage-2'
       }
     ]
   },
@@ -306,7 +306,6 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     const planner = consultantsList[index % consultantsList.length];
     const headContractor = contractorList[index % contractorList.length];
     const officialUrl = `https://www.planningportal.nsw.gov.au/major-projects/projects/nsw-ssd-${projNum}`;
-    const directPdfUrl = `https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%21Appendix_File_${projNum}.pdf`;
 
     return {
       id: `proj-${projNum}`,
@@ -333,10 +332,10 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
         { role: 'Acoustic Specialist', companyName: 'SLR Consulting', category: 'Acoustic' as ConsultantCategory, description: 'Noise & Vibration Analysis' }
       ],
       appendices: [
-        { code: 'Appendix A', title: 'Architectural & Site Plans', author: 'Design Team', summary: 'Building elevations and site layout drawings.', downloadUrl: directPdfUrl },
-        { code: 'Appendix B', title: 'Environmental Impact Statement', author: planner, summary: 'Comprehensive statutory compliance report.', downloadUrl: directPdfUrl },
-        { code: 'Appendix C', title: 'Traffic Impact Assessment', author: 'TTW', summary: 'Traffic generation and access routes.', downloadUrl: directPdfUrl },
-        { code: 'Appendix D', title: 'Noise Impact Assessment', author: 'SLR Consulting', summary: 'Operational noise modelling.', downloadUrl: directPdfUrl }
+        { code: 'Appendix A', title: 'Architectural & Site Plans', author: 'Design Team', summary: 'Building elevations and site layout drawings.', downloadUrl: officialUrl },
+        { code: 'Appendix B', title: 'Environmental Impact Statement', author: planner, summary: 'Comprehensive statutory compliance report.', downloadUrl: officialUrl },
+        { code: 'Appendix C', title: 'Traffic Impact Assessment', author: 'TTW', summary: 'Traffic generation and access routes.', downloadUrl: officialUrl },
+        { code: 'Appendix D', title: 'Noise Impact Assessment', author: 'SLR Consulting', summary: 'Operational noise modelling.', downloadUrl: officialUrl }
       ]
     };
   })
