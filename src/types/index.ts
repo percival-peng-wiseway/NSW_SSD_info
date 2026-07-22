@@ -16,8 +16,9 @@ export interface AppendixInfo {
   title: string;
   author: string;
   summary: string;
+  category?: string; // Official portal category: e.g. "Early Consultation", "Request for SEARs", "SEARs", "Agency Advice", "EIS Reports"
   fileCount?: number;
-  downloadUrl?: string; // Direct PDF / Portal Attachment link
+  downloadUrl?: string; // Direct PDF / Local file path
 }
 
 export interface MajorProject {
