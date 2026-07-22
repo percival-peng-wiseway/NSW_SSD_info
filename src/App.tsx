@@ -328,6 +328,15 @@ export function App() {
               ))}
             </select>
 
+            {/* Project Counter Badge */}
+            <div className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 shrink-0 ${
+              isDarkMode 
+                ? 'bg-blue-950/80 text-blue-300 border-blue-800/80' 
+                : 'bg-blue-50 text-blue-800 border-blue-200'
+            }`}>
+              <span>显示 <strong>{filteredProjects.length}</strong> / {MAJOR_PROJECTS_DATA.length} 个项目</span>
+            </div>
+
             {/* Reset Button */}
             <button
               onClick={handleResetFilters}
