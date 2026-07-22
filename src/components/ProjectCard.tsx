@@ -1,6 +1,6 @@
 import React from 'react';
 import type { MajorProject } from '../types';
-import { Building2, MapPin, Zap, ExternalLink, FileText, Users } from 'lucide-react';
+import { Building2, MapPin, Zap, ExternalLink, FileText, Users, SlidersHorizontal } from 'lucide-react';
 
 interface Props {
   project: MajorProject;
@@ -11,8 +11,6 @@ interface Props {
 }
 
 export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, onToggleCompare, isDarkMode = false }) => {
-  const isFeatured = project.applicationNo === 'SSD-108864209'; // Highlight NEXTDC S4 Phase 2
-
   const getStageColor = (stage: string) => {
     switch (stage) {
       case 'Approved':
@@ -55,25 +53,13 @@ export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, on
   return (
     <div 
       className={`group relative rounded-2xl p-6 transition-all duration-300 border flex flex-col justify-between ${
-        isFeatured 
-          ? isDarkMode
-            ? 'bg-gradient-to-b from-blue-950/40 via-slate-900/90 to-slate-900 border-blue-500/60 shadow-xl ring-1 ring-blue-500/30'
-            : 'bg-gradient-to-b from-blue-50/60 via-white to-white border-blue-300 shadow-xl shadow-blue-500/10 ring-1 ring-blue-300'
-          : isDarkMode
-            ? 'bg-slate-900/60 border-slate-800/80 hover:border-slate-700 hover:bg-slate-900/90 hover:shadow-xl'
-            : 'bg-white border-slate-200 hover:border-blue-300 hover:shadow-xl shadow-sm'
+        isDarkMode
+          ? 'bg-slate-900/60 border-slate-800/80 hover:border-slate-700 hover:bg-slate-900/90 hover:shadow-xl'
+          : 'bg-white border-slate-200 hover:border-blue-300 hover:shadow-xl shadow-sm'
       }`}
     >
-      {/* Featured ribbon for NEXTDC S4 */}
-      {isFeatured && (
-        <div className="absolute -top-3 left-6 px-3 py-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full text-[10px] font-bold tracking-wider text-white uppercase shadow-md flex items-center gap-1.5">
-          <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping" />
-          当前深度焦点项目 (Featured Focus)
-        </div>
-      )}
-
       <div>
-        {/* Header: Sector & Stage */}
+        {/* Header: Sector, Stage & Comparison Checkbox */}
         <div className="flex items-center justify-between gap-2 mb-3 mt-1">
           <span className={`px-2.5 py-1 text-xs font-medium rounded-lg border ${getSectorBadge(project.sector)}`}>
             {project.sector}
@@ -83,16 +69,27 @@ export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, on
             <span className={`px-2.5 py-1 text-xs font-semibold rounded-lg border ${getStageColor(project.stage)}`}>
               {project.stage}
             </span>
+
+            {/* Labeled Comparison Button/Checkbox */}
             {onToggleCompare && (
-              <input
-                type="checkbox"
-                checked={isCompared}
-                onChange={() => onToggleCompare(project)}
-                className={`w-4 h-4 rounded text-blue-600 cursor-pointer ${
-                  isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-slate-100 border-slate-300'
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onToggleCompare(project);
+                }}
+                className={`flex items-center gap-1 px-2 py-1 rounded-lg text-[11px] font-semibold transition-all border ${
+                  isCompared
+                    ? 'bg-indigo-600 text-white border-indigo-600 shadow-sm'
+                    : isDarkMode
+                      ? 'bg-slate-800/80 text-slate-400 border-slate-700 hover:text-white'
+                      : 'bg-slate-100 text-slate-600 border-slate-200 hover:bg-slate-200'
                 }`}
-                title="加入项目对比"
-              />
+                title="加入项目横向对比"
+              >
+                <SlidersHorizontal className="w-3 h-3" />
+                <span>{isCompared ? '已加入对比' : '加入对比'}</span>
+              </button>
             )}
           </div>
         </div>
