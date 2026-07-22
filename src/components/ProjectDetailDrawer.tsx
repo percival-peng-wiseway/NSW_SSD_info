@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { MajorProject } from '../types';
-import { X, ExternalLink, FileText, Users, Building2, ShieldAlert, MapPin, Zap, Layers, Download } from 'lucide-react';
+import { X, ExternalLink, FileText, Users, Building2, ShieldAlert, MapPin, Zap, Layers } from 'lucide-react';
 
 interface Props {
   project: MajorProject | null;
@@ -254,63 +254,61 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
             </div>
           )}
 
-          {/* TAB 3: APPENDICES LIST */}
+          {/* TAB 3: APPENDICES LIST - STYLED EXACTLY LIKE NSW PLANNING PORTAL */}
           {activeTab === 'appendices' && (
             <div className="space-y-4">
               <div className={`text-xs mb-2 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                项目的环境影响报告书 (EIS) 及配套的技术附录文件（Appendix A 至 L）拆解：
+                点击下方文件名称或右侧 <strong>「↗ View」</strong> 按钮，将直接在新标签页中打开并在线阅读 PDF 原始文件（完全同 SSD 官网）：
               </div>
 
               <div className="space-y-3">
                 {project.appendices.map((app, idx) => (
-                  <div key={idx} className={`p-4 rounded-xl border transition-all ${
+                  <div key={idx} className={`p-4 rounded-xl border transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 ${
                     isDarkMode ? 'bg-slate-950/50 border-slate-800 hover:border-blue-500/40' : 'bg-white border-slate-200 hover:border-blue-300 shadow-sm'
                   }`}>
-                    <div className="flex items-center justify-between gap-4 mb-2">
-                      <div className="flex items-center gap-2">
-                        <span className={`px-2.5 py-1 text-xs font-mono font-bold rounded border ${
+                    <div className="flex-1 space-y-1.5">
+                      <div className="flex items-center flex-wrap gap-2">
+                        <span className={`px-2.5 py-0.5 text-xs font-mono font-bold rounded border ${
                           isDarkMode ? 'bg-blue-600/20 text-blue-400 border-blue-500/30' : 'bg-blue-50 text-blue-700 border-blue-200'
                         }`}>
                           {app.code}
                         </span>
-                        <h4 className={`text-sm font-bold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
+                        
+                        {/* Direct PDF Link on Title */}
+                        <a
+                          href={app.downloadUrl || project.officialUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                          className={`text-sm font-bold hover:underline transition-colors ${
+                            isDarkMode ? 'text-white hover:text-blue-400' : 'text-slate-900 hover:text-blue-600'
+                          }`}
+                        >
                           {app.title}
-                        </h4>
+                        </a>
+
+                        <span className={`text-[11px] px-2 py-0.5 rounded border shrink-0 ${
+                          isDarkMode ? 'text-indigo-400 bg-indigo-950/60 border-indigo-800/50' : 'text-indigo-800 bg-indigo-50 border-indigo-200'
+                        }`}>
+                          编制单位: {app.author}
+                        </span>
                       </div>
-                      <span className={`text-xs px-2 py-0.5 rounded border shrink-0 ${
-                        isDarkMode ? 'text-indigo-400 bg-indigo-950/60 border-indigo-800/50' : 'text-indigo-800 bg-indigo-50 border-indigo-200'
-                      }`}>
-                        编制单位: {app.author}
-                      </span>
+
+                      <p className={`text-xs leading-relaxed ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}`}>
+                        {app.summary}
+                      </p>
                     </div>
 
-                    <p className={`text-xs leading-relaxed mb-3 ${isDarkMode ? 'text-slate-300' : 'text-slate-600'}`}>
-                      {app.summary}
-                    </p>
-
-                    {/* Official Document Download / Access Link */}
-                    <div className={`pt-2 border-t flex items-center justify-between text-xs ${
-                      isDarkMode ? 'border-slate-800/80' : 'border-slate-100'
-                    }`}>
-                      <span className={`text-[11px] font-mono ${isDarkMode ? 'text-slate-500' : 'text-slate-400'}`}>
-                        源数据归档: NSW Major Projects EIS Attachments
-                      </span>
-
-                      <a
-                        href={app.downloadUrl || project.officialUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
-                          isDarkMode 
-                            ? 'bg-blue-600/20 hover:bg-blue-600 text-blue-400 hover:text-white border border-blue-500/30' 
-                            : 'bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white border border-blue-200 shadow-sm'
-                        }`}
-                      >
-                        <Download className="w-3.5 h-3.5" />
-                        调阅/下载 {app.code} 原始官方文档
-                        <ExternalLink className="w-3 h-3" />
-                      </a>
-                    </div>
+                    {/* Official SSD Portal Style "[↗ View]" Blue Button */}
+                    <a
+                      href={app.downloadUrl || project.officialUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="px-4 py-2 bg-[#002664] hover:bg-[#001c4b] text-white rounded font-bold text-xs flex items-center gap-1.5 shrink-0 shadow transition-colors"
+                      title="直接打开阅读 PDF 原始文件"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      View
+                    </a>
 
                   </div>
                 ))}
