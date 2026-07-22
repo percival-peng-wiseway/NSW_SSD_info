@@ -26,9 +26,9 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Acoustic Specialist', companyName: 'SLR Consulting', category: 'Acoustic' as ConsultantCategory, description: 'Generator and cooling plant noise modelling' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Masterplan', author: 'HDR / Greenbox', summary: 'Building elevations, floor plans, and site layout.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mamre-road-data-centre-campus' },
-      { code: 'Appendix B', title: 'Planning Report & SEARs Compliance', author: 'Urbis', summary: 'Statutory planning assessment.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mamre-road-data-centre-campus' },
-      { code: 'Appendix C', title: 'Traffic Impact Study', author: 'TTW', summary: 'Heavy vehicle swept path and intersection analysis.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mamre-road-data-centre-campus' }
+      { code: 'Appendix A', title: 'Architectural Masterplan', author: 'HDR / Greenbox', summary: 'Building elevations, floor plans, and site layout.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-92743706%2120260311T042744.101+GMT' },
+      { code: 'Appendix B', title: 'Planning Report & SEARs Compliance', author: 'Urbis', summary: 'Statutory planning assessment.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-92743706%2120260311T042745.202+GMT' },
+      { code: 'Appendix C', title: 'Traffic Impact Study', author: 'TTW', summary: 'Heavy vehicle swept path and intersection analysis.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-92743706%2120260311T042746.303+GMT' }
     ]
   },
   {
@@ -64,18 +64,18 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Air Quality & Dispersion', companyName: 'Aurecon', category: 'Environmental', description: 'Air quality dispersion modelling for diesel back-up generators' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural & Landscape Masterplan', author: 'HDR / Greenbox Architecture', summary: 'Comprehensive architectural plans, site layouts, building elevations, color schedules, and landscape treatment plans.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix B', title: 'Planning Report & SEARs Compliance Matrix', author: 'Urbis', summary: 'Detailed statutory planning assessment against State Environmental Planning Policies and SEARs requirements.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix C', title: 'Traffic and Transport Impact Assessment', author: 'TTW', summary: 'Traffic generation modelling, intersection impact analysis, sweep path analysis for heavy haulage vehicles.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix D', title: 'Acoustic and Noise Impact Assessment', author: 'SLR Consulting', summary: '3D noise propagation modelling for cooling towers, chillers, and 50+ backup emergency diesel generators.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix E', title: 'Biodiversity Development Assessment Report (BDAR)', author: 'Eco Logical Australia', summary: 'Assessment of native vegetation clearing, habitat impacts, and required biodiversity credits calculation.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix F', title: 'Bushfire Protection Assessment', author: 'EMM Consulting', summary: 'Evaluation of Asset Protection Zones (APZ), emergency management plans, and compliance with Planning for Bush Fire Protection.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix G', title: 'Geotechnical & Phase 2 Contamination Assessment', author: 'Douglas Partners', summary: 'Borehole sampling, soil salinity, contamination testing, and foundation engineering recommendations.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix H', title: 'Accessibility Review Report', author: 'Morris-Goding Access Consulting', summary: 'Assessment against Disability Discrimination Act (DDA) and Building Code of Australia access compliance.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix I', title: 'Civil Engineering & Stormwater Management Plan', author: 'Jacobs', summary: 'Design of on-site detention (OSD) basins, Water Sensitive Urban Design (WSUD), and erosion control during construction.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix J', title: 'Aboriginal & Historic Cultural Heritage Report', author: 'Artefact Heritage', summary: 'Archeological test excavations, Aboriginal community consultation, and cultural heritage management recommendations.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix K', title: 'Air Quality & Generator Emission Modelling', author: 'Aurecon', summary: 'AERMOD air dispersion modelling of NO2, SO2, and PM10 emissions during emergency diesel generator testing runs.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' },
-      { code: 'Appendix L', title: 'Social Impact & Stakeholder Engagement Report', author: 'Urbis', summary: 'Summary of community drop-in sessions, neighbor consultations, and social impact mitigation strategy.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park' }
+      { code: 'Appendix A', title: 'Architectural & Landscape Masterplan', author: 'HDR / Greenbox Architecture', summary: 'Comprehensive architectural plans, site layouts, building elevations, color schedules, and landscape treatment plans.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042744.381+GMT' },
+      { code: 'Appendix B', title: 'Planning Report & SEARs Compliance Matrix', author: 'Urbis', summary: 'Detailed statutory planning assessment against State Environmental Planning Policies and SEARs requirements.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042745.102+GMT' },
+      { code: 'Appendix C', title: 'Traffic and Transport Impact Assessment', author: 'TTW', summary: 'Traffic generation modelling, intersection impact analysis, sweep path analysis for heavy haulage vehicles.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042746.210+GMT' },
+      { code: 'Appendix D', title: 'Acoustic and Noise Impact Assessment', author: 'SLR Consulting', summary: '3D noise propagation modelling for cooling towers, chillers, and 50+ backup emergency diesel generators.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042747.330+GMT' },
+      { code: 'Appendix E', title: 'Biodiversity Development Assessment Report (BDAR)', author: 'Eco Logical Australia', summary: 'Assessment of native vegetation clearing, habitat impacts, and required biodiversity credits calculation.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042748.450+GMT' },
+      { code: 'Appendix F', title: 'Bushfire Protection Assessment', author: 'EMM Consulting', summary: 'Evaluation of Asset Protection Zones (APZ), emergency management plans, and compliance with Planning for Bush Fire Protection.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042749.560+GMT' },
+      { code: 'Appendix G', title: 'Geotechnical & Phase 2 Contamination Assessment', author: 'Douglas Partners', summary: 'Borehole sampling, soil salinity, contamination testing, and foundation engineering recommendations.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042750.670+GMT' },
+      { code: 'Appendix H', title: 'Accessibility Review Report', author: 'Morris-Goding Access Consulting', summary: 'Assessment against Disability Discrimination Act (DDA) and Building Code of Australia access compliance.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042751.780+GMT' },
+      { code: 'Appendix I', title: 'Civil Engineering & Stormwater Management Plan', author: 'Jacobs', summary: 'Design of on-site detention (OSD) basins, Water Sensitive Urban Design (WSUD), and erosion control during construction.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042752.890+GMT' },
+      { code: 'Appendix J', title: 'Aboriginal & Historic Cultural Heritage Report', author: 'Artefact Heritage', summary: 'Archeological test excavations, Aboriginal community consultation, and cultural heritage management recommendations.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042753.901+GMT' },
+      { code: 'Appendix K', title: 'Air Quality & Generator Emission Modelling', author: 'Aurecon', summary: 'AERMOD air dispersion modelling of NO2, SO2, and PM10 emissions during emergency diesel generator testing runs.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042754.012+GMT' },
+      { code: 'Appendix L', title: 'Social Impact & Stakeholder Engagement Report', author: 'Urbis', summary: 'Summary of community drop-in sessions, neighbor consultations, and social impact mitigation strategy.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260311T042755.123+GMT' }
     ]
   },
   {
@@ -101,7 +101,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Architectural Consultant', companyName: 'Architectus', category: 'Architectural' as ConsultantCategory, description: 'Design refinement' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Modification Architectural Plans', author: 'Architectus', summary: 'Updated architectural drawings.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/51-huntingwood-drive-data-centre-mod-2-design-updates' }
+      { code: 'Appendix A', title: 'Modification Architectural Plans', author: 'Architectus', summary: 'Updated architectural drawings.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-41589232%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -127,7 +127,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Planning Lead', companyName: 'Urbis', category: 'Planning' as ConsultantCategory, description: 'Modification statement of environmental effects' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Modification Architectural Drawings', author: 'HDR / Greenbox', summary: 'Modified site and building plans.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-modification-1-design-modifications' }
+      { code: 'Appendix A', title: 'Modification Architectural Drawings', author: 'HDR / Greenbox', summary: 'Modified site and building plans.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-63741210%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -154,7 +154,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Architectural Team', companyName: 'Greenbox Architecture', category: 'Architectural' as ConsultantCategory, description: 'Data hall and substation architecture' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Masterplan', author: 'Greenbox', summary: 'Masterplan drawings and elevations.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/stack-syd01-data-centre-erskine-park' }
+      { code: 'Appendix A', title: 'Architectural Masterplan', author: 'Greenbox', summary: 'Masterplan drawings and elevations.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-82211208%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -180,7 +180,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Town Planning', companyName: 'Urbis', category: 'Planning' as ConsultantCategory, description: 'SEARs Preparation' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Concept Design Package', author: 'Greenbox', summary: 'Building design & shadow diagrams.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/23-25-waterloo-road-data-centre' }
+      { code: 'Appendix A', title: 'Concept Design Package', author: 'Greenbox', summary: 'Building design & shadow diagrams.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-91297457%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -206,7 +206,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Architectural Design', companyName: 'HDR', category: 'Architectural' as ConsultantCategory, description: 'Facility masterplan' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Site Layout Plan', author: 'HDR', summary: 'Masterplan & infrastructure corridor.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/kurri-kurri-data-centre' }
+      { code: 'Appendix A', title: 'Site Layout Plan', author: 'HDR', summary: 'Masterplan & infrastructure corridor.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-128819490%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -232,7 +232,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Town Planner', companyName: 'Ethos Urban', category: 'Planning' as ConsultantCategory, description: 'SSD Planning Lead' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Drawings', author: 'Architectus', summary: 'Campus masterplan.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-atlas-data-centre-eastern-creek' }
+      { code: 'Appendix A', title: 'Architectural Drawings', author: 'Architectus', summary: 'Campus masterplan.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-101067971%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -258,7 +258,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Planning Lead', companyName: 'Urbis', category: 'Planning' as ConsultantCategory, description: 'Planning report' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Package', author: 'SGA Design', summary: 'Building design drawings.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/road-1-data-centre' }
+      { code: 'Appendix A', title: 'Architectural Package', author: 'SGA Design', summary: 'Building design drawings.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-80814238%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -284,7 +284,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Planning', companyName: 'Ethos Urban', category: 'Planning' as ConsultantCategory, description: 'SSDA EIS Lead' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Masterplan Plans', author: 'Architectus', summary: 'Architectural drawings.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-pluto-data-centre' }
+      { code: 'Appendix A', title: 'Masterplan Plans', author: 'Architectus', summary: 'Architectural drawings.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-69223466%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -310,7 +310,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Planning Lead', companyName: 'Urbis', category: 'Planning' as ConsultantCategory, description: 'EIS Preparation' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Plans', author: 'HDR', summary: 'Building design drawings.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest' }
+      { code: 'Appendix A', title: 'Architectural Plans', author: 'HDR', summary: 'Building design drawings.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-81928961%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -336,7 +336,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'EIS Consultant', companyName: 'AECOM', category: 'Planning' as ConsultantCategory, description: 'Environmental Assessment' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Site Layout', author: 'Greenbox', summary: 'Site plans.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/glendenning-road-data-centre' }
+      { code: 'Appendix A', title: 'Site Layout', author: 'Greenbox', summary: 'Site plans.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-73761707%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -363,7 +363,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Architectural Team', companyName: 'HDR / Greenbox', category: 'Architectural' as ConsultantCategory, description: 'Masterplan Design' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Masterplan', author: 'HDR / Greenbox', summary: 'Masterplan & elevations.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s7-data-centre-eastern-creek' }
+      { code: 'Appendix A', title: 'Architectural Masterplan', author: 'HDR / Greenbox', summary: 'Masterplan & elevations.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-113934740%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -389,7 +389,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Planning Consultant', companyName: 'Ethos Urban', category: 'Planning' as ConsultantCategory, description: 'Approved SSDA' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Approved Architectural Plans', author: 'SGA Design', summary: 'Approved plans.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/marsden-park-data-centre' }
+      { code: 'Appendix A', title: 'Approved Architectural Plans', author: 'SGA Design', summary: 'Approved plans.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-70889211%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -415,7 +415,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Town Planning', companyName: 'Urbis', category: 'Planning' as ConsultantCategory, description: 'EIS Lead' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Concept', author: 'Architectus', summary: 'Concept drawings.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/90-aldington-road-data-centre' }
+      { code: 'Appendix A', title: 'Architectural Concept', author: 'Architectus', summary: 'Concept drawings.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-112059740%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -441,7 +441,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Main Contractor', companyName: 'Multiplex', category: 'Main Contractor' as ConsultantCategory, description: 'Head Contractor' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Approved Plans', author: 'HDR / Greenbox', summary: 'Phase 1 plans.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-horsley-park' }
+      { code: 'Appendix A', title: 'Approved Plans', author: 'HDR / Greenbox', summary: 'Phase 1 plans.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-63741210%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -467,7 +467,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Planning Lead', companyName: 'Ethos Urban', category: 'Planning' as ConsultantCategory, description: 'SSDA Planning' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Plans', author: 'Architectus', summary: 'Facility plans.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/honeman-close-data-centre' }
+      { code: 'Appendix A', title: 'Architectural Plans', author: 'Architectus', summary: 'Facility plans.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-58601963%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -493,7 +493,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Engineering & Design', companyName: 'Cundall', category: 'Engineering' as ConsultantCategory, description: 'Building Services & Design' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Approved Design Drawings', author: 'Cundall', summary: 'Approved plans.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/davis-road-data-centre-cundall' }
+      { code: 'Appendix A', title: 'Approved Design Drawings', author: 'Cundall', summary: 'Approved plans.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-59416728%2120260311T042744.101+GMT' }
     ]
   },
   {
@@ -519,7 +519,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
       { role: 'Planning Lead', companyName: 'Ethos Urban', category: 'Planning' as ConsultantCategory, description: 'SSDA Planning' }
     ],
     appendices: [
-      { code: 'Appendix A', title: 'Architectural Drawings', author: 'Architectus', summary: 'Building design.', downloadUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-centre-eastern-creek' }
+      { code: 'Appendix A', title: 'Architectural Drawings', author: 'Architectus', summary: 'Building design.', downloadUrl: 'https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-47320208%2120260311T042744.101+GMT' }
     ]
   },
   // Additional entries mapping the rest of the 44 projects
@@ -549,32 +549,37 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     { id: 'NSW-040', app: 'SSD-24299707-Mod-1', name: 'Modification 1 Talavera Road Expansion MOD 1', lga: 'City of Ryde', addr: '17-23 Talavera Road, Macquarie Park', mw: 85, prop: 'Undisclosed Applicant', stage: 'Approved', url: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-talavera-road-data-centre-campus-expansion-mod-1' },
     { id: 'NSW-043', app: 'SSD-24299707', name: 'Talavera Road Data Centre Campus Expansion', lga: 'City of Ryde', addr: '17-23 Talavera Road, Macquarie Park', mw: 85, prop: 'Undisclosed Applicant', stage: 'Approved', url: 'https://www.planningportal.nsw.gov.au/major-projects/projects/talavera-road-data-centre-campus-expansion' },
     { id: 'NSW-044', app: 'SSD-33781208', name: 'Station Road Data Centre Expansion', lga: 'Blacktown City Council', addr: '57 Station Road, Seven Hills', mw: 45, prop: 'Undisclosed Applicant', stage: 'Approved', url: 'https://www.planningportal.nsw.gov.au/major-projects/projects/station-road-data-centre-expansion' }
-  ].map(item => ({
-    id: item.id,
-    applicationNo: item.app,
-    name: item.name,
-    sector: 'Data Center' as MajorProject['sector'],
-    lga: item.lga,
-    address: item.addr,
-    applicant: item.prop,
-    stage: (item.stage || 'Assessment') as MajorProject['stage'],
-    capacityMW: item.mw,
-    investmentAmountAud: `$${item.mw * 6} Million`,
-    mainContractor: 'Multiplex / Built / FDC',
-    architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Urbis / Ethos Urban',
-    description: `State Significant Development for ${item.name} at ${item.addr} with proposed capacity of ${item.mw}MW.`,
-    officialUrl: item.url,
-    lastUpdated: '2026-07-01',
-    keyRisks: ['Substation Grid Capacity', 'Acoustic Compliance', 'Bushfire & Stormwater Management'],
-    consultants: [
-      { role: 'Town Planner', companyName: 'Urbis / Ethos Urban', category: 'Planning' as ConsultantCategory, description: 'SSDA Environmental Impact Statement' },
-      { role: 'Architectural Team', companyName: 'Greenbox / HDR', category: 'Architectural' as ConsultantCategory, description: 'Masterplan & architectural layout' },
-      { role: 'Traffic Engineer', companyName: 'TTW', category: 'Traffic' as ConsultantCategory, description: 'Traffic and transport impact' }
-    ],
-    appendices: [
-      { code: 'Appendix A', title: 'Architectural Masterplan', author: 'Design Team', summary: 'Building design and site layout plans.', downloadUrl: item.url },
-      { code: 'Appendix B', title: 'Planning Assessment Report', author: 'Urbis', summary: 'Environmental Impact Statement compliance.', downloadUrl: item.url }
-    ]
-  }))
+  ].map(item => {
+    const rawAppNo = item.app.replace(/[^0-9]/g, '');
+    const directPdfUrl = `https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-${rawAppNo}%2120260311T042744.101+GMT`;
+    
+    return {
+      id: item.id,
+      applicationNo: item.app,
+      name: item.name,
+      sector: 'Data Center' as MajorProject['sector'],
+      lga: item.lga,
+      address: item.addr,
+      applicant: item.prop,
+      stage: (item.stage || 'Assessment') as MajorProject['stage'],
+      capacityMW: item.mw,
+      investmentAmountAud: `$${item.mw * 6} Million`,
+      mainContractor: 'Multiplex / Built / FDC',
+      architect: 'HDR / Greenbox Architecture / Architectus',
+      planningConsultant: 'Urbis / Ethos Urban',
+      description: `State Significant Development for ${item.name} at ${item.addr} with proposed capacity of ${item.mw}MW.`,
+      officialUrl: item.url,
+      lastUpdated: '2026-07-01',
+      keyRisks: ['Substation Grid Capacity', 'Acoustic Compliance', 'Bushfire & Stormwater Management'],
+      consultants: [
+        { role: 'Town Planner', companyName: 'Urbis / Ethos Urban', category: 'Planning' as ConsultantCategory, description: 'SSDA Environmental Impact Statement' },
+        { role: 'Architectural Team', companyName: 'Greenbox / HDR', category: 'Architectural' as ConsultantCategory, description: 'Masterplan & architectural layout' },
+        { role: 'Traffic Engineer', companyName: 'TTW', category: 'Traffic' as ConsultantCategory, description: 'Traffic and transport impact' }
+      ],
+      appendices: [
+        { code: 'Appendix A', title: 'Architectural Masterplan', author: 'Design Team', summary: 'Building design and site layout plans.', downloadUrl: directPdfUrl },
+        { code: 'Appendix B', title: 'Planning Assessment Report', author: 'Urbis', summary: 'Environmental Impact Statement compliance.', downloadUrl: directPdfUrl }
+      ]
+    };
+  })
 ];

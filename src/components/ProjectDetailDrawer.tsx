@@ -272,7 +272,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                         
                         {/* Direct Portal Link on Title */}
                         <a
-                          href={project.officialUrl}
+                          href={app.downloadUrl || project.officialUrl}
                           target="_blank"
                           rel="noreferrer"
                           className={`text-sm font-bold hover:underline transition-colors ${
@@ -296,7 +296,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
 
                     {/* Official SSD Portal Style "[↗ View]" Blue Button */}
                     <a
-                      href={project.officialUrl}
+                      href={app.downloadUrl || project.officialUrl}
                       target="_blank"
                       rel="noreferrer"
                       className="px-4 py-2 bg-[#002664] hover:bg-[#001c4b] text-white rounded font-bold text-xs flex items-center gap-1.5 shrink-0 shadow transition-colors"
