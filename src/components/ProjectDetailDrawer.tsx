@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { MajorProject, AppendixInfo } from '../types';
-import { X, ExternalLink, FileText, Users, Building2, ShieldAlert, MapPin, Zap, Layers, ChevronDown, ChevronRight } from 'lucide-react';
+import { X, ExternalLink, FileText, Users, Building2, MapPin, Zap, Layers, ChevronDown, ChevronRight } from 'lucide-react';
 
 interface Props {
   project: MajorProject | null;
@@ -136,16 +136,6 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
             }`}
           >
             <FileText className="w-4 h-4" /> {lang === 'zh' ? `附件与归档资源 (${project.appendices.length})` : `Attachments (${project.appendices.length})`}
-          </button>
-          <button
-            onClick={() => setActiveTab('risks')}
-            className={`py-3 px-3 sm:px-4 text-xs sm:text-sm font-semibold border-b-2 transition-all flex items-center gap-1.5 shrink-0 ${
-              activeTab === 'risks'
-                ? 'border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-500/10'
-                : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
-            }`}
-          >
-            <ShieldAlert className="w-4 h-4 text-amber-500" /> {lang === 'zh' ? '评估要点与风险' : 'Key Risks'}
           </button>
         </div>
 
@@ -354,98 +344,6 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
                     </div>
                   );
                 })}
-              </div>
-            </div>
-          )}
-
-          {/* TAB 4: RISKS */}
-          {activeTab === 'risks' && (
-            <div className="space-y-4">
-              <div className={`p-5 rounded-2xl border ${
-                isDarkMode ? 'bg-slate-950/80 border-slate-800' : 'bg-slate-50 border-slate-200'
-              }`}>
-                <h3 className={`text-base sm:text-lg font-bold mb-4 flex items-center gap-2.5 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-                  <ShieldAlert className="w-5 h-5 text-amber-500" />
-                  {lang === 'zh' ? '关键评估与政府合规风控要点 (附往来批复原件)' : 'Key Agency Requirements & Attached Official Documents'}
-                </h3>
-                
-                <div className="space-y-4">
-                  {project.keyRisks.map((risk, idx) => {
-                    // Extract Tag if present
-                    const tagMatch = risk.match(/^\[(.*?)\]\s*(.*)$/);
-                    const tag = tagMatch ? tagMatch[1] : (lang === 'zh' ? '政府部门审查' : 'Gov Review');
-                    const text = tagMatch ? tagMatch[2] : risk;
-
-                    // Match corresponding official document from project appendices
-                    const matchedDoc = project.appendices.find(a => {
-                      const titleLower = (a.title || '').toLowerCase();
-                      const authorLower = (a.author || '').toLowerCase();
-                      const catLower = (a.category || '').toLowerCase();
-                      
-                      if (tag.includes('TfNSW') && (authorLower.includes('transport') || titleLower.includes('tfnsw') || titleLower.includes('traffic'))) return true;
-                      if (tag.includes('EPA') && (authorLower.includes('epa') || titleLower.includes('epa') || titleLower.includes('environment protection'))) return true;
-                      if ((tag.includes('Fire') || tag.includes('RFS')) && (authorLower.includes('fire') || authorLower.includes('rfs') || titleLower.includes('fire') || titleLower.includes('rfs'))) return true;
-                      if (tag.includes('Heritage') && (authorLower.includes('heritage') || titleLower.includes('heritage') || titleLower.includes('achar'))) return true;
-                      if (tag.includes('Water') && (authorLower.includes('water') || titleLower.includes('water') || titleLower.includes('osd') || titleLower.includes('stormwater'))) return true;
-                      if (tag.includes('Council') && (authorLower.includes('council') || titleLower.includes('council') || titleLower.includes('submission'))) return true;
-                      if (tag.includes('SEARs') && (catLower.includes('sears') || titleLower.includes('sears'))) return true;
-
-                      return false;
-                    });
-
-                    return (
-                      <div 
-                        key={idx} 
-                        className={`p-4.5 rounded-xl border flex flex-col gap-3 transition-all ${
-                          isDarkMode ? 'bg-slate-900/90 border-slate-800' : 'bg-white border-slate-200 shadow-sm'
-                        }`}
-                      >
-                        <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-                          <span className="inline-flex items-center px-3 py-1 rounded-lg text-xs font-bold font-mono tracking-wide shrink-0 bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">
-                            {tag}
-                          </span>
-                          <p className={`text-sm sm:text-base leading-relaxed font-medium ${
-                            isDarkMode ? 'text-slate-200' : 'text-slate-800'
-                          }`}>
-                            {text}
-                          </p>
-                        </div>
-
-                        {/* Attached Official Document Button */}
-                        {matchedDoc ? (
-                          <div className="pt-2 border-t border-slate-200/50 dark:border-slate-800/60 flex items-center justify-between flex-wrap gap-2">
-                            <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">
-                              {lang === 'zh' ? '依据政府往来原件:' : 'Source Document:'}
-                            </span>
-                            <a
-                              href={matchedDoc.downloadUrl || project.officialUrl}
-                              target="_blank"
-                              rel="noreferrer"
-                              className="text-xs font-mono font-semibold inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border bg-blue-500/10 text-blue-700 dark:text-blue-400 border-blue-500/30 hover:bg-blue-500/20 transition-all"
-                            >
-                              <FileText className="w-3.5 h-3.5" />
-                              <span className="max-w-[280px] sm:max-w-[360px] truncate">{matchedDoc.title}</span>
-                              <ExternalLink className="w-3 h-3 ml-0.5 opacity-80 shrink-0" />
-                            </a>
-                          </div>
-                        ) : (
-                          <div className="pt-2 border-t border-slate-200/50 dark:border-slate-800/60 flex items-center justify-between flex-wrap gap-2">
-                            <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">
-                              {lang === 'zh' ? '依据批复与核发要求:' : 'Official Regulatory Requirement:'}
-                            </span>
-                            <button
-                              onClick={() => setActiveTab('appendices')}
-                              className="text-xs font-mono font-semibold inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border bg-slate-500/10 text-slate-700 dark:text-slate-300 border-slate-500/30 hover:bg-slate-500/20 transition-all"
-                            >
-                              <FileText className="w-3.5 h-3.5" />
-                              <span>{lang === 'zh' ? `查看全量评估批复文件 (${project.appendices.length} 份)` : `View All Assessment Files (${project.appendices.length})`}</span>
-                            </button>
-                          </div>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
               </div>
             </div>
           )}
