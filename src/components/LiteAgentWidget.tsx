@@ -86,7 +86,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
     URL.revokeObjectURL(url);
   };
 
-  // Core Smart RAG & Intelligent Natural Language Entity Extractor
+  // Core Smart RAG & Dynamic Aggregator Analytics Engine
   const processQuery = async (queryText: string) => {
     const userMsg: Message = {
       id: Date.now().toString(),
@@ -105,15 +105,60 @@ export const LiteAgentWidget: React.FC<Props> = ({
     const ssdMatch = q.match(/ssd[-_]?\d+/i);
     const ssdQuery = ssdMatch ? ssdMatch[0].replace(/[-_]/g, '').toLowerCase() : (q.match(/\d{6,}/) ? q.match(/\d{6,}/)![0] : '');
 
-    // 2. Extract English / Alphanumeric Entity Tokens (e.g. "nextdc开发了几个项目" -> ["nextdc"])
+    // 2. Extract English / Alphanumeric Entity Tokens
     const extractedTokens = q.match(/[a-z0-9]+/g) || [];
 
     let matchedProjects: MajorProject[] = [];
     let sources: { title: string; url: string }[] = [];
     let replyText = '';
 
+    // Check for Statistical / Ranking Queries (e.g. "哪个咨询公司合作的项目最多", "容量最大")
+    const isRankQuery = q.includes('最多') || q.includes('排名') || q.includes('排行') || q.includes('合作') || q.includes('最大') || q.includes('最高');
+
+    if (isRankQuery && (q.includes('咨询') || q.includes('公司') || q.includes('机构') || q.includes('团队') || q.includes('规划') || q.includes('设计') || q.includes('顾问'))) {
+      // Aggregate consultant company participation counts dynamically across 478 records
+      const companyCountMap: Record<string, { count: number; projects: MajorProject[] }> = {};
+
+      projects.forEach(p => {
+        const uniqueFirms = new Set<string>();
+        if (p.planningConsultant) uniqueFirms.add(p.planningConsultant.trim());
+        if (p.architect) uniqueFirms.add(p.architect.trim());
+        p.consultants.forEach(c => uniqueFirms.add(c.companyName.trim()));
+
+        uniqueFirms.forEach(firm => {
+          if (firm.length < 2) return;
+          if (!companyCountMap[firm]) {
+            companyCountMap[firm] = { count: 0, projects: [] };
+          }
+          companyCountMap[firm].count += 1;
+          companyCountMap[firm].projects.push(p);
+        });
+      });
+
+      const sortedFirms = Object.entries(companyCountMap)
+        .sort((a, b) => b[1].count - a[1].count)
+        .slice(0, 5);
+
+      const topFirm = sortedFirms[0];
+      matchedProjects = topFirm ? topFirm[1].projects.slice(0, 6) : projects.slice(0, 5);
+
+      replyText = lang === 'zh'
+        ? `根据全库 44 个重大数据中心项目的 478 项参建机构全量统计，合作项目最多的咨询与设计机构 Top 5 为：\n\n` +
+          sortedFirms.map((f, i) => `${i + 1}. ${f[0]}: 参建 ${f[1].count} 个项目`).join('\n') +
+          `\n\n其中，【${topFirm ? topFirm[0] : ''}】合作项目数居全州榜首！以下为您列举其参建的核心项目：`
+        : `Based on 478 consultant records across 44 projects, top 5 firms are:\n\n` +
+          sortedFirms.map((f, i) => `${i + 1}. ${f[0]}: ${f[1].count} projects`).join('\n');
+    } else if (isRankQuery && (q.includes('容量') || q.includes('规模') || q.includes('最大') || q.includes('最高'))) {
+      const sortedByCap = [...projects].sort((a, b) => (b.capacityMW || 0) - (a.capacityMW || 0));
+      matchedProjects = sortedByCap.slice(0, 6);
+      const topP = sortedByCap[0];
+      replyText = lang === 'zh'
+        ? `根据最新电力容量数据统计，全新州拟建容量最大的数据中心项目为 ${topP.name}（容量达 ${topP.capacityMW} MW）。拟建容量排名前列的项目如下：`
+        : `Highest capacity project in NSW is ${topP.name} (${topP.capacityMW} MW). Top capacity projects:`;
+    }
+
     // Exact SSD Number Matching Priority
-    if (ssdQuery) {
+    if (!replyText && ssdQuery) {
       matchedProjects = projects.filter(p => p.applicationNo.replace(/[-_]/g, '').toLowerCase().includes(ssdQuery));
     }
 
@@ -121,7 +166,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
     const consultantNames = ['urbis', 'ethos', 'hdr', 'greenbox', 'ttw', 'slr', 'jacobs', 'biosis', 'willowtree', 'patch', 'mecone', 'arup', 'linesight', 'douglas'];
     const foundConsultant = consultantNames.find(c => q.includes(c));
 
-    if (matchedProjects.length === 0) {
+    if (!replyText && matchedProjects.length === 0) {
       if (foundConsultant) {
         matchedProjects = projects.filter(p => 
           p.consultants.some(c => c.companyName.toLowerCase().includes(foundConsultant)) ||
@@ -176,7 +221,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
       `${idx + 1}. [${p.applicationNo}] ${p.name} | LGA: ${p.lga} | 拟建容量: ${p.capacityMW}MW | 申请人/开发商: ${p.applicant} | 阶段: ${p.stage} | 总规划: ${p.planningConsultant || '未列出'} | 建筑设计: ${p.architect || '未列出'} | 主要参建公司: ${p.consultants.slice(0, 5).map(c => c.companyName).join(', ')}`
     ).join('\n');
 
-    if (apiKey && apiKey.trim().length > 5) {
+    if (!replyText && apiKey && apiKey.trim().length > 5) {
       try {
         const endpoint = selectedProvider === 'deepseek'
           ? 'https://api.deepseek.com/chat/completions'
@@ -184,7 +229,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
 
         const systemPrompt = `你叫 WiseBot，是一个专业的 NSW 新州数据中心重大项目 Intelligence Agent。你手中拥有新州全量 44 个重大数据中心项目数据库。
 输出格式要求：请使用干净清爽的纯文本回答，禁止在输出中包含任何 ** 加粗符号。若提到具体项目，请包含项目申请编号（如 SSD-xxxxx）。
-请结合下面提供的全量 44 个项目数据库解答用户的提问（包括特定开发商如 NEXTDC、特定 SSD 编号如 SSD-63168959、咨询公司或区域项目数量等）：
+请结合下面提供的全量 44 个项目数据库解答用户的提问（包括哪家咨询公司合作项目最多、特定开发商如 NEXTDC、特定 SSD 编号如 SSD-63168959 等）：
 
 全量 44 个项目数据库（知识库）：
 ${fullDatabaseContext}`;
@@ -447,7 +492,7 @@ ${fullDatabaseContext}`;
               value={inputQuery}
               onChange={(e) => setInputQuery(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && inputQuery.trim() && processQuery(inputQuery)}
-              placeholder={lang === 'zh' ? '向 WiseBot 提问（如：nextdc开发了几个项目）...' : 'Ask WiseBot (e.g. NEXTDC projects)...'}
+              placeholder={lang === 'zh' ? '向 WiseBot 提问（如：哪个咨询公司合作的项目最多？）...' : 'Ask WiseBot (e.g. Most frequent consultants)...'}
               className={`flex-1 px-3.5 py-2 rounded-xl text-xs border focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                 isDarkMode ? 'bg-slate-900 border-slate-800 text-white' : 'bg-slate-100 border-slate-200 text-slate-900'
               }`}
