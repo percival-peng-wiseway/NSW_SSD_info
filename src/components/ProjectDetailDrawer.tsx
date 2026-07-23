@@ -115,7 +115,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
             }`}
           >
-            <Layers className="w-4 h-4" /> {lang === 'zh' ? '项目概况 (Overview)' : 'Overview & Specs'}
+            <Layers className="w-4 h-4" /> {lang === 'zh' ? '项目概况' : 'Overview & Specs'}
           </button>
           <button
             onClick={() => setActiveTab('consultants')}
@@ -362,7 +362,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
                 isDarkMode ? 'bg-slate-950/60 border-slate-800' : 'bg-slate-50 border-slate-200'
               }`}>
                 <h3 className={`text-sm font-bold mb-2 flex items-center gap-2 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-                  <ShieldAlert className="w-4 h-4 text-amber-500" /> {lang === 'zh' ? '关键评估风控要点 (Key Assessment Focus)' : 'Key Assessment Focus & Risks'}
+                  <ShieldAlert className="w-4 h-4 text-amber-500" /> {lang === 'zh' ? '关键评估风控要点' : 'Key Assessment Focus & Risks'}
                 </h3>
                 <ul className="space-y-2 text-xs">
                   {project.keyRisks.map((risk, idx) => (

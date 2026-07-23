@@ -170,7 +170,7 @@ export function App() {
             <h1 className={`text-xl sm:text-2xl font-bold tracking-tight ${
               isDarkMode ? 'text-white' : 'text-slate-900'
             }`}>
-              {lang === 'zh' ? '新州 (NSW) 规划局数据中心 SSD 特别重大项目智库' : 'NSW Data Centre State Significant Development Intelligence'}
+              {lang === 'zh' ? 'NSW数据中心信息库' : 'NSW Data Centre Information Base'}
             </h1>
           </div>
 
@@ -421,7 +421,7 @@ export function App() {
                             checked={isComp}
                             onChange={() => handleToggleCompare(p)}
                             className="w-4 h-4 rounded text-indigo-600 cursor-pointer"
-                            title="加入项目横向对比"
+                            title={lang === 'zh' ? '加入项目横向对比' : 'Add to cross-comparison'}
                           />
                         </td>
                         <td className="p-4 font-mono font-semibold text-blue-600 dark:text-blue-400">{p.applicationNo}</td>

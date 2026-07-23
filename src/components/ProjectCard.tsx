@@ -93,7 +93,7 @@ export const ProjectCard: React.FC<Props> = ({
                       ? 'bg-slate-800/80 text-slate-400 border-slate-700 hover:text-white'
                       : 'bg-slate-100 text-slate-600 border-slate-200 hover:bg-slate-200'
                 }`}
-                title="加入项目横向对比"
+                title={lang === 'zh' ? '加入项目横向对比' : 'Add to cross-comparison'}
               >
                 <SlidersHorizontal className="w-3 h-3" />
                 <span>{isCompared ? (lang === 'zh' ? '已加入对比' : 'Compared') : (lang === 'zh' ? '加入对比' : 'Compare')}</span>
