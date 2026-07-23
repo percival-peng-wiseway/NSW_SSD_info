@@ -30,31 +30,109 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "companyName": "Transport for NSW",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Penrith City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Civil Aviation Safety Authority",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -918,10 +996,76 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NEXTDC",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fairfield City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -933,19 +1077,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Noise propagation modelling"
       }
 ],
     appendices: [
@@ -1129,34 +1261,52 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by EMKC Cubed"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "Architectural Design",
+            "companyName": "HDR / Greenbox Architecture",
+            "category": "Architectural",
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -1324,34 +1474,52 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Architectural Design",
+            "companyName": "HDR / Greenbox Architecture",
+            "category": "Architectural",
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fairfield City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Noise propagation modelling"
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -1519,34 +1687,112 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Urbis"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "Transport for NSW",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Penrith City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -2586,6 +2832,24 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Greenbox Architecture / Mecone"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
@@ -2601,19 +2865,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Noise propagation modelling"
       }
 ],
     appendices: [
@@ -2693,10 +2945,28 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by ADW Johnson"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -2708,19 +2978,13 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Noise propagation modelling"
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -2840,34 +3104,112 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "Transport for NSW",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "DCCEEW Energy",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Western Sydney International Airport",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Blacktown City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -3427,34 +3769,106 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Willowtree Planning"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "Transport for NSW",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "City of Ryde Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -4054,34 +4468,118 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Cumberland Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Jemena",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -4972,31 +5470,61 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -5420,34 +5948,112 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Lehr Consultants"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Blacktown City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -6351,34 +6957,112 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "City of Ryde Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -7189,31 +7873,115 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "companyName": "Transport for NSW",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Lane Cove Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW National Parks and Wildlife Service",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -8093,10 +8861,70 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -8108,19 +8936,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Noise propagation modelling"
       }
 ],
     appendices: [
@@ -8363,7 +9179,19 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Willoughby City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -8375,19 +9203,13 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Noise propagation modelling"
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -8475,34 +9297,148 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Urbis"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "companyName": "Transport for NSW",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Architectural Design",
+            "companyName": "HDR / Greenbox Architecture",
+            "category": "Architectural",
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW National Parks and Wildlife Service",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "DCCEEW Energy",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "City of Ryde Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Willoughby City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Jemena",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -9670,6 +10606,18 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Willowtree Planning"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
@@ -9685,19 +10633,13 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Noise propagation modelling"
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -9761,34 +10703,124 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Tract Consultants"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "Transport for NSW",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Blacktown City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Biodiversity, Conservation and Science",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -10996,34 +12028,100 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Willowtree Planning"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "Transport for NSW",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Technical Specialist",
+            "companyName": "City of Ryde Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -11839,6 +12937,12 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Mecone Planning"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
@@ -11854,19 +12958,13 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Noise propagation modelling"
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -11914,34 +13012,106 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Technical Specialist",
+            "companyName": "Lane Cove Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Willoughby City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -12757,34 +13927,118 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "companyName": "Transport for NSW",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "City of Ryde Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -13920,34 +15174,106 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "companyName": "Transport for NSW",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -14491,34 +15817,82 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by EMKC Cubed"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -15225,7 +16599,25 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -15237,19 +16629,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Noise propagation modelling"
       }
 ],
     appendices: [
@@ -15345,10 +16725,112 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Willowtree Planning"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Civil & Water Engineer",
+            "companyName": "Jacobs Engineering",
+            "category": "Engineering",
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Camden Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -15360,19 +16842,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Noise propagation modelling"
       }
 ],
     appendices: [
@@ -15956,10 +17426,52 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Willoughby City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -15968,22 +17480,10 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Traffic & transport impact assessment"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -16282,7 +17782,19 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -16294,19 +17806,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Noise propagation modelling"
       }
 ],
     appendices: [
@@ -16405,31 +17905,121 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -17552,31 +19142,79 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Blacktown City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -17992,34 +19630,112 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by SJB Planning"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Bushfire Safety Consultant",
+            "companyName": "NSW Rural Fire Service",
+            "category": "Engineering",
+            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "Transport for NSW",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Blacktown City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Biodiversity, Conservation and Science",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -18894,31 +20610,109 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "City of Sydney Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -19806,34 +21600,118 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "companyName": "Transport for NSW",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Civil Aviation Safety Authority",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Bayside Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -20905,10 +22783,52 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Civil & Water Engineer",
+            "companyName": "Jacobs Engineering",
+            "category": "Engineering",
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Willoughby City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -20917,22 +22837,10 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Traffic & transport impact assessment"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -21276,6 +23184,18 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Urbis"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
@@ -21291,19 +23211,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Noise propagation modelling"
       }
 ],
     appendices: [
@@ -21367,10 +23275,34 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Cundall / Ethos Urban"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Arboricultural Consultant",
+            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "category": "Environmental",
+            "description": "Official Arboricultural Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -21382,19 +23314,13 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Noise propagation modelling"
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -21554,34 +23480,112 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Insite Planning"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
             "companyName": "TTW Engineering",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Biodiversity, Conservation and Science",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "City of Parramatta Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Transport for NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -22293,6 +24297,12 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Urbis"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
@@ -22308,19 +24318,13 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Noise propagation modelling"
       },
       {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -22360,10 +24364,70 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "City of Ryde Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Biodiversity, Conservation and Science",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Ausgrid",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Civil & Water Engineer",
+            "companyName": "Jacobs Engineering",
+            "category": "Engineering",
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Architectural Design",
+            "companyName": "HDR Architecture",
+            "category": "Architectural",
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
@@ -22372,22 +24436,10 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Traffic & transport impact assessment"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
-      },
-      {
             "role": "Lead State Authority",
             "companyName": "NSW Dept of Planning (DPE)",
             "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "description": "Secretary Environmental Assessment Requirements"
       }
 ],
     appendices: [
@@ -22795,34 +24847,118 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Cundall / Ethos Urban"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "companyName": "Transport for NSW",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fairfield City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Jemena",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Biodiversity, Conservation and Science",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "ESD & Sustainability Consultant",
+            "companyName": "Cundall",
+            "category": "Environmental",
+            "description": "Official ESD & Sustainability Consultant identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -23534,34 +25670,88 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Urbis"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Facility masterplan & facade design"
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "companyName": "Transport for NSW",
             "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "role": "Technical Specialist",
+            "companyName": "Blacktown City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Architectural Design",
+            "companyName": "HDR / Greenbox Architecture",
+            "category": "Architectural",
+            "description": "Official Architectural Design identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -24169,34 +26359,118 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Ethos Urban"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Willowtree Planning",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "HDR",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Civil & Water Engineer",
             "companyName": "Jacobs Engineering",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Acoustic Specialist",
+            "companyName": "SLR Consulting",
+            "category": "Acoustic",
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Air Quality Specialist",
+            "companyName": "Aurecon",
+            "category": "Environmental",
+            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "Transport for NSW",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
+            "category": "Engineering",
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "City of Ryde Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Independent Planning Commission NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
@@ -25036,34 +27310,100 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Planning Future"
       },
       {
+            "role": "Technical Specialist",
+            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Town Planner & EIS Lead",
+            "companyName": "Urbis",
+            "category": "Planning",
+            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Dept of Planning (DPE)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "description": "Official Architectural Design identified in SSDA lodgement."
       },
       {
             "role": "Acoustic Specialist",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Noise propagation modelling for backup emergency diesel generators"
+            "description": "Official Acoustic Specialist identified in SSDA lodgement."
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "Heritage Specialist",
+            "companyName": "Artefact Heritage",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Biodiversity Specialist",
+            "companyName": "Eco Logical Australia",
+            "category": "Environmental",
+            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Geotechnical & Soil Specialist",
+            "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Civil works, stormwater quality and OSD detention management"
+            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements & State Approval"
+            "role": "Technical Specialist",
+            "companyName": "Blacktown City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Traffic Engineer",
+            "companyName": "TTW Engineering",
+            "category": "Traffic",
+            "description": "Official Traffic Engineer identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Fire and Rescue NSW",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Sydney Water",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW EPA",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "NSW Water (DCCEEW)",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Technical Specialist",
+            "companyName": "Penrith City Council",
+            "category": "Engineering",
+            "description": "Official Technical Specialist identified in SSDA lodgement."
+      },
+      {
+            "role": "Heritage Specialist",
+            "companyName": "Heritage NSW",
+            "category": "Heritage",
+            "description": "Official Heritage Specialist identified in SSDA lodgement."
       }
 ],
     appendices: [
