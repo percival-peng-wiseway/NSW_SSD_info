@@ -14,125 +14,137 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$6000 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Urbis',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Mamre Road Data Centre Campus at 706-752 Mamre Road, Kemps Creek NSW with proposed capacity of 1000.0MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mamre-road-data-centre-campus',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 1000MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee (\u542bDCP\u8bc4\u4f30)",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Urbis"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee (\u542bDCP\u8bc4\u4f30)"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u7ecf\u6d4e\u5f71\u54cd\u8bc4\u4f30 + \u9690\u542b\u78b3\u6750\u6599",
+            "companyName": "Linesight / Atlas Economics",
+            "category": "Engineering",
+            "description": "Linesight / Atlas Economics \u8d1f\u8d23 \u7ecf\u6d4e\u5f71\u54cd\u8bc4\u4f30 + \u9690\u542b\u78b3\u6750\u6599"
+      },
+      {
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox Architecture",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox Architecture \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "role": "\u6d4b\u91cf",
+            "companyName": "Land Partners",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Land Partners \u8d1f\u8d23 \u6d4b\u91cf"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "BCA\u5408\u89c4\u4e0e\u65e0\u969c\u788d",
+            "companyName": "MBC Group",
+            "category": "Access",
+            "description": "MBC Group \u8d1f\u8d23 BCA\u5408\u89c4\u4e0e\u65e0\u969c\u788d"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 + \u666f\u89c2",
+            "companyName": "Geoscapes",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "Geoscapes \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 + \u666f\u89c2"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u666f\u89c2\u89c4\u5212",
+            "companyName": "Creative Planning Solutions",
+            "category": "Planning",
+            "description": "Creative Planning Solutions \u8d1f\u8d23 \u666f\u89c2\u89c4\u5212"
+      },
+      {
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "Ason Group",
+            "category": "Traffic",
+            "description": "Ason Group \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
+      },
+      {
+            "role": "ESD/\u6e29\u5ba4\u6c14\u4f53/\u4eba\u7c7b\u5065\u5eb7\u8bc4\u4f30",
+            "companyName": "E-Lab Consulting",
+            "category": "Environmental",
+            "description": "E-Lab Consulting \u8d1f\u8d23 ESD/\u6e29\u5ba4\u6c14\u4f53/\u4eba\u7c7b\u5065\u5eb7\u8bc4\u4f30"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027\u3001\u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u8bc4\u4f30",
+            "companyName": "Biosis",
+            "category": "Environmental",
+            "description": "Biosis \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027\u3001\u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u8bc4\u4f30"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar",
+            "category": "Environmental",
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "Renzo Tonin & Associates",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "Renzo Tonin & Associates \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u5ca9\u571f\u4e0e\u76d0\u5206\u8bc4\u4f30",
+            "companyName": "PSM",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "PSM \u8d1f\u8d23 \u5ca9\u571f\u4e0e\u76d0\u5206\u8bc4\u4f30"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u5730\u4e0b\u6c34/\u6c61\u67d3/\u9178\u6027\u786b\u9178\u76d0\u571f",
+            "companyName": "JBS&G",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "JBS&G \u8d1f\u8d23 \u5730\u4e0b\u6c34/\u6c61\u67d3/\u9178\u6027\u786b\u9178\u76d0\u571f"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "NSW Rural Fire Service",
+            "role": "\u571f\u6728/\u9632\u6d2a/\u96e8\u6c34/\u571f\u65b9",
+            "companyName": "AT&L",
             "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+            "description": "AT&L \u8d1f\u8d23 \u571f\u6728/\u9632\u6d2a/\u96e8\u6c34/\u571f\u65b9"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Penrith City Council",
+            "role": "\u521d\u6b65\u98ce\u9669\u7b5b\u67e5",
+            "companyName": "Core Engineering",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Core Engineering \u8d1f\u8d23 \u521d\u6b65\u98ce\u9669\u7b5b\u67e5"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Civil Aviation Safety Authority",
+            "role": "\u5e9f\u7269\u4e0e\u8d44\u6e90\u56de\u6536",
+            "companyName": "MRA Consulting Group",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "MRA Consulting Group \u8d1f\u8d23 \u5e9f\u7269\u4e0e\u8d44\u6e90\u56de\u6536"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
+            "role": "\u793e\u4f1a\u5f71\u54cd\u4e0e\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Willowtree Communications",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Willowtree Communications \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd\u4e0e\u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
+            "role": "\u4e1b\u6797\u706b\u707e\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "Blackash Bushfire Consulting",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Blackash Bushfire Consulting \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u98ce\u9669\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u673a\u573a\u5b89\u5168\u8bc4\u4f30",
+            "companyName": "L-R Airport Consulting",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "L-R Airport Consulting \u8d1f\u8d23 \u673a\u573a\u5b89\u5168\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
+            "role": "\u8bbe\u5907\u7cfb\u7edf",
+            "companyName": "Aurecon",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Aurecon \u8d1f\u8d23 \u8bbe\u5907\u7cfb\u7edf"
       }
 ],
     appendices: [
@@ -983,101 +995,29 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$806 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for NEXTDC S4 Data Centre Phase 2, Horsley Park at 6 Johnston Crescent, Horsley Park NSW 2175 with proposed capacity of 134.4MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 134MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "\u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a\u3001\u521d\u6b65\u89c6\u89c9\u3001\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 (ACHAR)",
             "companyName": "Urbis",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Urbis \u8d1f\u8d23 \u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a\u3001\u521d\u6b65\u89c6\u89c9\u3001\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 (ACHAR)"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NEXTDC",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "HDR (HDR Pty Ltd)",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR (HDR Pty Ltd) \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
+            "role": "\u4f9b\u6c34/\u6c34\u52a1\u6280\u672f\u5907\u5fd8\u5f55",
+            "companyName": "GHD (GHD Pty Ltd)",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fairfield City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "description": "GHD (GHD Pty Ltd) \u8d1f\u8d23 \u4f9b\u6c34/\u6c34\u52a1\u6280\u672f\u5907\u5fd8\u5f55"
       }
 ],
     appendices: [
@@ -1248,65 +1188,83 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$720 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'EMKC Cubed',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for 51 Huntingwood Drive Data Centre MOD 2 - Design Updates at 51 Huntingwood Drive, Huntingwood with proposed capacity of 120MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/51-huntingwood-drive-data-centre-mod-2-design-updates',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 120MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "EMKC Cubed",
+            "role": "\u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by EMKC Cubed"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
+            "role": "\u666f\u89c2\u4e0e\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Geoscapes",
+            "category": "Environmental",
+            "description": "Geoscapes \u8d1f\u8d23 \u666f\u89c2\u4e0e\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "PWNA",
+            "category": "Acoustic",
+            "description": "PWNA \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar Air Quality Pty Ltd",
+            "category": "Environmental",
+            "description": "Northstar Air Quality Pty Ltd \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u4ea4\u901a\u8bc4\u4f30",
+            "companyName": "Impact Traffic Engineering Pty Ltd",
+            "category": "Traffic",
+            "description": "Impact Traffic Engineering Pty Ltd \u8d1f\u8d23 \u4ea4\u901a\u8bc4\u4f30"
+      },
+      {
+            "role": "\u571f\u6728/\u96e8\u6c34/\u57fa\u7840\u8bbe\u65bd\u4e0e\u6c34\u5faa\u73af",
+            "companyName": "Van Der Meer Pty Ltd",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Van Der Meer Pty Ltd \u8d1f\u8d23 \u571f\u6728/\u96e8\u6c34/\u57fa\u7840\u8bbe\u65bd\u4e0e\u6c34\u5faa\u73af"
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "role": "\u5371\u5bb3\u4e0e\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "SLR Consulting Australia Pty Ltd",
+            "category": "Engineering",
+            "description": "SLR Consulting Australia Pty Ltd \u8d1f\u8d23 \u5371\u5bb3\u4e0e\u98ce\u9669\u8bc4\u4f30"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027/\u751f\u6001",
+            "companyName": "Travers Bushfire & Ecology",
+            "category": "Environmental",
+            "description": "Travers Bushfire & Ecology \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027/\u751f\u6001"
+      },
+      {
+            "role": "BCA\u4e0e\u65e0\u969c\u788d\u62a5\u544a",
+            "companyName": "McKenzie Group Consulting",
+            "category": "Access",
+            "description": "McKenzie Group Consulting \u8d1f\u8d23 BCA\u4e0e\u65e0\u969c\u788d\u62a5\u544a"
+      },
+      {
+            "role": "\u6d88\u9632\u5b89\u5168",
+            "companyName": "Lote",
+            "category": "Engineering",
+            "description": "Lote \u8d1f\u8d23 \u6d88\u9632\u5b89\u5168"
+      },
+      {
+            "role": "\u6811\u6728/\u6797\u4e1a",
+            "companyName": "Tree Survey Pty Ltd",
+            "category": "Environmental",
+            "description": "Tree Survey Pty Ltd \u8d1f\u8d23 \u6811\u6728/\u6797\u4e1a"
       }
 ],
     appendices: [
@@ -1461,65 +1419,53 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$1392 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for NEXTDC S4 Modification 1 - Design Modifications at 16 Johnston Crescent, Horsley Park with proposed capacity of 232MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-modification-1-design-modifications',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 232MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a",
+            "companyName": "Urbis (Urbis Ltd)",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Urbis (Urbis Ltd) \u8d1f\u8d23 \u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "HDR (HDR Architecture)",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR (HDR Architecture) \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fairfield City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u571f\u6728\u5de5\u7a0b\u4e0e\u4ea4\u901a",
+            "companyName": "TTW (TTW Engineers)",
+            "category": "Traffic",
+            "description": "TTW (TTW Engineers) \u8d1f\u8d23 \u571f\u6728\u5de5\u7a0b\u4e0e\u4ea4\u901a"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u57fa\u7840\u8bbe\u65bd/\u5371\u5bb3/\u58f0\u5b66\u5907\u5fd8\u5f55\u53ca\u5907\u7528\u7535\u6e90",
+            "companyName": "Aurecon",
             "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "description": "Aurecon \u8d1f\u8d23 \u57fa\u7840\u8bbe\u65bd/\u5371\u5bb3/\u58f0\u5b66\u5907\u5fd8\u5f55\u53ca\u5907\u7528\u7535\u6e90"
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "role": "\u666f\u89c2\u5efa\u7b51",
+            "companyName": "Site Image Landscape Architecture",
+            "category": "Architectural",
+            "description": "Site Image Landscape Architecture \u8d1f\u8d23 \u666f\u89c2\u5efa\u7b51"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30 (\u5f15\u7528)",
+            "companyName": "Northstar",
+            "category": "Environmental",
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30 (\u5f15\u7528)"
+      },
+      {
+            "role": "\u6807\u8bc6\u8bbe\u8ba1",
+            "companyName": "Diadem",
+            "category": "Architectural",
+            "description": "Diadem \u8d1f\u8d23 \u6807\u8bc6\u8bbe\u8ba1"
       }
 ],
     appendices: [
@@ -1681,118 +1627,94 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     keyRisks: ["Transgrid / Local High-Voltage Grid 450MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\u3001\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Urbis (Urbis Ltd)",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Urbis"
+            "description": "Urbis (Urbis Ltd) \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\u3001\u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1\u4e0e\u6d4b\u91cf",
+            "companyName": "Genton",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Genton \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1\u4e0e\u6d4b\u91cf"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "\u5f00\u53d1\u6210\u672c\u3001\u9690\u542b\u78b3\u6750\u6599",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Linesight \u8d1f\u8d23 \u5f00\u53d1\u6210\u672c\u3001\u9690\u542b\u78b3\u6750\u6599"
+      },
+      {
+            "role": "BCA\u5408\u89c4",
+            "companyName": "Bm+g",
+            "category": "Access",
+            "description": "Bm+g \u8d1f\u8d23 BCA\u5408\u89c4"
+      },
+      {
+            "role": "\u65e0\u969c\u788d\u80fd\u529b\u62a5\u544a",
+            "companyName": "STACC",
+            "category": "Access",
+            "description": "STACC \u8d1f\u8d23 \u65e0\u969c\u788d\u80fd\u529b\u62a5\u544a"
+      },
+      {
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Habit8",
+            "category": "Architectural",
+            "description": "Habit8 \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "Acoustic Logic",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "Acoustic Logic \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "\u57fa\u7840\u8bbe\u65bd/\u5907\u7528\u7535\u6e90/ESD/\u6e29\u5ba4\u6c14\u4f53",
+            "companyName": "LCI Consultants",
+            "category": "Environmental",
+            "description": "LCI Consultants \u8d1f\u8d23 \u57fa\u7840\u8bbe\u65bd/\u5907\u7528\u7535\u6e90/ESD/\u6e29\u5ba4\u6c14\u4f53"
+      },
+      {
+            "role": "\u5ca9\u571f/\u5730\u4e0b\u6c34/\u6c61\u67d3/\u76d0\u5206",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u5ca9\u571f/\u5730\u4e0b\u6c34/\u6c61\u67d3/\u76d0\u5206"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "Positive Traffic",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "Positive Traffic \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "NSW Rural Fire Service",
+            "role": "\u5e9f\u7269\u7ba1\u7406",
+            "companyName": "Nuloop",
             "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+            "description": "Nuloop \u8d1f\u8d23 \u5e9f\u7269\u7ba1\u7406"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "role": "\u4e1b\u6797\u706b\u707e\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "Blackash",
+            "category": "Engineering",
+            "description": "Blackash \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u98ce\u9669\u8bc4\u4f30"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u751f\u7269\u591a\u6837\u6027 (BDAR\u8c41\u514d\u7533\u8bf7)",
+            "companyName": "\u00e9cologique",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "\u00e9cologique \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027 (BDAR\u8c41\u514d\u7533\u8bf7)"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u571f\u6728/\u9632\u6d2a/\u5371\u5bb3/\u5371\u9669\u54c1/\u96e8\u6c34",
+            "companyName": "Acor Consultants",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Penrith City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Acor Consultants \u8d1f\u8d23 \u571f\u6728/\u9632\u6d2a/\u5371\u5bb3/\u5371\u9669\u54c1/\u96e8\u6c34"
       }
 ],
     appendices: [
@@ -2819,53 +2741,23 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$420 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Greenbox Architecture / Mecone',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for 23-25 Waterloo Road Data Centre at 23-25 Waterloo Road, Macquarie Park with proposed capacity of 70MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/23-25-waterloo-road-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 70MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Greenbox Architecture / Mecone",
+            "role": "\u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a",
+            "companyName": "Willowtree Planning (NSW) Pty Ltd",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Greenbox Architecture / Mecone"
+            "description": "Willowtree Planning (NSW) Pty Ltd \u8d1f\u8d23 \u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox Architecture Pty Ltd",
             "category": "Architectural",
-            "description": "Facility masterplan & facade design"
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "description": "Greenbox Architecture Pty Ltd \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       }
 ],
     appendices: [
@@ -2932,59 +2824,41 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$3240 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'ADW Johnson',
+    planningConsultant: 'SKM Planning',
     description: "State Significant Development for Kurri Kurri Data Centre at 145 Bishops Bridge Road, Sawyers Gully with proposed capacity of 540MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/kurri-kurri-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 540MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "ADW Johnson",
+            "role": "\u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a",
+            "companyName": "SKM Planning Pty Ltd",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by ADW Johnson"
+            "description": "SKM Planning Pty Ltd \u8d1f\u8d23 \u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "role": "\u793e\u533a\u53c2\u4e0e (\u5f15\u7528)",
+            "companyName": "Willowtree Communication",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Willowtree Communication \u8d1f\u8d23 \u793e\u533a\u53c2\u4e0e (\u5f15\u7528)"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
+            "role": "\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30 BDAR (\u5f15\u7528\u81ea\u65e9\u524dDA)",
+            "companyName": "GHD",
+            "category": "Environmental",
+            "description": "GHD \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30 BDAR (\u5f15\u7528\u81ea\u65e9\u524dDA)"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 ACHAR (\u5f15\u7528\u81ea\u65e9\u524dDA)",
+            "companyName": "AMAC Archaeological",
+            "category": "Heritage",
+            "description": "AMAC Archaeological \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 ACHAR (\u5f15\u7528\u81ea\u65e9\u524dDA)"
       },
       {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "role": "\u4e13\u4e1a\u54a8\u8be2\u987e\u95ee",
+            "companyName": "*(EIS \u4e13\u4e1a\u56e2\u961f\u5c1a\u672a\u5168\u90e8\u4efb\u547d)*",
+            "category": "Engineering",
+            "description": "*(EIS \u4e13\u4e1a\u56e2\u961f\u5c1a\u672a\u5168\u90e8\u4efb\u547d)* \u8d1f\u8d23 \u4e13\u4e1a\u54a8\u8be2\u987e\u95ee"
       }
 ],
     appendices: [
@@ -3091,125 +2965,143 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$3000 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Mecone',
     description: "State Significant Development for Project Atlas Data Centre Eastern Creek at 10 Roberts Road, Eastern Creek with proposed capacity of 500MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-atlas-data-centre-eastern-creek',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 500MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Mecone (Mecone Group Pty Ltd)",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Mecone (Mecone Group Pty Ltd) \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Grimshaw",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Grimshaw \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u6d4b\u91cf",
+            "companyName": "LTS",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "LTS \u8d1f\u8d23 \u6d4b\u91cf"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
-            "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "\u8bbe\u5907/\u57fa\u7840\u8bbe\u65bd/\u6e29\u5ba4\u6c14\u4f53/ESD/\u9690\u542b\u78b3",
+            "companyName": "LCI",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "LCI \u8d1f\u8d23 \u8bbe\u5907/\u57fa\u7840\u8bbe\u65bd/\u6e29\u5ba4\u6c14\u4f53/ESD/\u9690\u542b\u78b3"
       },
       {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "NSW Rural Fire Service",
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "Renzo Tonin & Associates",
+            "category": "Acoustic",
+            "description": "Renzo Tonin & Associates \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar Air Quality",
+            "category": "Environmental",
+            "description": "Northstar Air Quality \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027/\u5e9f\u7269/\u690d\u88ab",
+            "companyName": "SLR",
+            "category": "Environmental",
+            "description": "SLR \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027/\u5e9f\u7269/\u690d\u88ab"
+      },
+      {
+            "role": "330kV\u9ad8\u538b\u7535\u7f06\u8def\u7ebf",
+            "companyName": "TransGrid",
             "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+            "description": "TransGrid \u8d1f\u8d23 330kV\u9ad8\u538b\u7535\u7f06\u8def\u7ebf"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "Ason (Ason Group)",
+            "category": "Traffic",
+            "description": "Ason (Ason Group) \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
+      },
+      {
+            "role": "\u6d88\u9632\u7b56\u7565/\u5371\u5bb3\u4e0e\u98ce\u9669",
+            "companyName": "Core Engineering",
+            "category": "Engineering",
+            "description": "Core Engineering \u8d1f\u8d23 \u6d88\u9632\u7b56\u7565/\u5371\u5bb3\u4e0e\u98ce\u9669"
+      },
+      {
+            "role": "\u89c6\u89c9\u4e0e\u666f\u89c2\u3001Connecting with Country",
+            "companyName": "Arcadia",
+            "category": "Environmental",
+            "description": "Arcadia \u8d1f\u8d23 \u89c6\u89c9\u4e0e\u666f\u89c2\u3001Connecting with Country"
+      },
+      {
+            "role": "\u5ca9\u571f/\u571f\u58e4/\u76d0\u5206",
+            "companyName": "PSM",
+            "category": "Engineering",
+            "description": "PSM \u8d1f\u8d23 \u5ca9\u571f/\u571f\u58e4/\u76d0\u5206"
+      },
+      {
+            "role": "\u96e8\u6c34/\u9632\u6d2a\u571f\u6728",
+            "companyName": "BG+E (bg+e)",
+            "category": "Engineering",
+            "description": "BG+E (bg+e) \u8d1f\u8d23 \u96e8\u6c34/\u9632\u6d2a\u571f\u6728"
+      },
+      {
+            "role": "\u6c61\u67d3\u573a\u5730\u8c03\u67e5",
+            "companyName": "Senversa",
+            "category": "Engineering",
+            "description": "Senversa \u8d1f\u8d23 \u6c61\u67d3\u573a\u5730\u8c03\u67e5"
+      },
+      {
+            "role": "\u6811\u6728/\u6797\u4e1a",
+            "companyName": "CIVICA",
+            "category": "Environmental",
+            "description": "CIVICA \u8d1f\u8d23 \u6811\u6728/\u6797\u4e1a"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7",
+            "companyName": "Artefact",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "description": "Artefact \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "DCCEEW Energy",
+            "role": "\u673a\u573a\u5b89\u5168\u8bc4\u4f30",
+            "companyName": "Arup",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Arup \u8d1f\u8d23 \u673a\u573a\u5b89\u5168\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Western Sydney International Airport",
+            "role": "\u5371\u9669\u6750\u6599\u8c03\u67e5",
+            "companyName": "Work Science",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Work Science \u8d1f\u8d23 \u5371\u9669\u6750\u6599\u8c03\u67e5"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Blacktown City Council",
+            "role": "BCA\u4e0e\u65e0\u969c\u788d\u62a5\u544a",
+            "companyName": "bm+g",
+            "category": "Access",
+            "description": "bm+g \u8d1f\u8d23 BCA\u4e0e\u65e0\u969c\u788d\u62a5\u544a"
+      },
+      {
+            "role": "\u5f00\u53d1\u6210\u672c\u62a5\u544a",
+            "companyName": "Turner and Townsend",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Turner and Townsend \u8d1f\u8d23 \u5f00\u53d1\u6210\u672c\u62a5\u544a"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u4e1b\u6797\u706b\u707e\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "Blackash",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Blackash \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u98ce\u9669\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "role": "\u6e29\u5ba4\u6c14\u4f53\u72ec\u7acb\u4e13\u5bb6\u8bc4\u5ba1",
+            "companyName": "Zephyr Environmental",
+            "category": "Environmental",
+            "description": "Zephyr Environmental \u8d1f\u8d23 \u6e29\u5ba4\u6c14\u4f53\u72ec\u7acb\u4e13\u5bb6\u8bc4\u5ba1"
       }
 ],
     appendices: [
@@ -3756,119 +3648,95 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$205 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Willowtree Planning',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for Road 1 Data Centre at 1-5 Khartoum Road, Macquarie Park with proposed capacity of 34.3MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/road-1-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 34MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Willowtree Planning",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Urbis (Urbis Ltd)",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Willowtree Planning"
+            "description": "Urbis (Urbis Ltd) \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox / Cox Architecture",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox / Cox Architecture \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "role": "\u5f00\u53d1\u6210\u672c",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Linesight \u8d1f\u8d23 \u5f00\u53d1\u6210\u672c"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Arcadia",
+            "category": "Architectural",
+            "description": "Arcadia \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u632f\u52a8/\u57fa\u7840\u8bbe\u65bd/\u6c34\u7ba1\u7406/ESD/\u5371\u5bb3/\u98ce\u5de5\u7a0b/\u6e29\u5ba4\u6c14\u4f53",
+            "companyName": "ARUP",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "ARUP \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u632f\u52a8/\u57fa\u7840\u8bbe\u65bd/\u6c34\u7ba1\u7406/ESD/\u5371\u5bb3/\u98ce\u5de5\u7a0b/\u6e29\u5ba4\u6c14\u4f53"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "\u6c61\u67d3/\u5ca9\u571f",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u6c61\u67d3/\u5ca9\u571f"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u6811\u6728/\u6797\u4e1a",
+            "companyName": "Birds Tree Consultancy",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Birds Tree Consultancy \u8d1f\u8d23 \u6811\u6728/\u6797\u4e1a"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "role": "BCA\u5408\u89c4",
+            "companyName": "Mckenzie (McKenzie Group)",
+            "category": "Access",
+            "description": "Mckenzie (McKenzie Group) \u8d1f\u8d23 BCA\u5408\u89c4"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "\u65e0\u969c\u788d/DDA",
+            "companyName": "Jensen Hughes",
+            "category": "Access",
+            "description": "Jensen Hughes \u8d1f\u8d23 \u65e0\u969c\u788d/DDA"
+      },
+      {
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "CBRK",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "CBRK \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
+            "role": "\u5e9f\u7269\u7ba1\u7406",
+            "companyName": "Elephants Foot",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Elephants Foot \u8d1f\u8d23 \u5e9f\u7269\u7ba1\u7406"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "City of Ryde Council",
+            "role": "\u9632\u6d2a/\u571f\u6728\u5de5\u7a0b",
+            "companyName": "Northrop",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Northrop \u8d1f\u8d23 \u9632\u6d2a/\u571f\u6728\u5de5\u7a0b"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u6d4b\u91cf",
+            "companyName": "LTS",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "LTS \u8d1f\u8d23 \u6d4b\u91cf"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
+            "role": "\u65bd\u5de5\u7ba1\u7406\u8ba1\u5212",
+            "companyName": "Hutchisons (Hutchinson Builders)",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Hutchisons (Hutchinson Builders) \u8d1f\u8d23 \u65bd\u5de5\u7ba1\u7406\u8ba1\u5212"
       }
 ],
     appendices: [
@@ -4455,131 +4323,125 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$756 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for Project Pluto Data Centre at 132 McCredie Road, Guildford West with proposed capacity of 126MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-pluto-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 126MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Urbis (Urbis Ltd)",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Urbis (Urbis Ltd) \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "\u6210\u672c\u62a5\u544a",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Linesight \u8d1f\u8d23 \u6210\u672c\u62a5\u544a"
+      },
+      {
+            "role": "\u6d4b\u91cf",
+            "companyName": "LTS",
+            "category": "Engineering",
+            "description": "LTS \u8d1f\u8d23 \u6d4b\u91cf"
+      },
+      {
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Arcadia",
+            "category": "Architectural",
+            "description": "Arcadia \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "BCA\u4e0e\u65e0\u969c\u788d",
+            "companyName": "MBC",
+            "category": "Access",
+            "description": "MBC \u8d1f\u8d23 BCA\u4e0e\u65e0\u969c\u788d"
+      },
+      {
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "Ason (Ason Group)",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "Ason (Ason Group) \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "ESD/\u9690\u542b\u78b3/\u566a\u58f0/\u5e9f\u7269",
+            "companyName": "SLR",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "SLR \u8d1f\u8d23 ESD/\u9690\u542b\u78b3/\u566a\u58f0/\u5e9f\u7269"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u751f\u7269\u591a\u6837\u6027",
+            "companyName": "Ecologique",
+            "category": "Environmental",
+            "description": "Ecologique \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar",
+            "category": "Environmental",
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u5730\u4e0b\u6c34/\u5ca9\u571f/\u76d0\u5206",
+            "companyName": "PSM",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "PSM \u8d1f\u8d23 \u5730\u4e0b\u6c34/\u5ca9\u571f/\u76d0\u5206"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u7efc\u5408\u6c34\u7ba1\u7406/\u571f\u6728",
+            "companyName": "Van Der Meer",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "Van Der Meer \u8d1f\u8d23 \u7efc\u5408\u6c34\u7ba1\u7406/\u571f\u6728"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u9632\u6d2a",
+            "companyName": "BMT",
+            "category": "Engineering",
+            "description": "BMT \u8d1f\u8d23 \u9632\u6d2a"
+      },
+      {
+            "role": "\u6c61\u67d3\u4fee\u590d/\u5371\u9669\u6750\u6599",
+            "companyName": "Aecom",
+            "category": "Engineering",
+            "description": "Aecom \u8d1f\u8d23 \u6c61\u67d3\u4fee\u590d/\u5371\u9669\u6750\u6599"
+      },
+      {
+            "role": "\u5371\u9669\u54c1/\u98ce\u9669\u4e0e\u5371\u5bb3SEPP",
+            "companyName": "Riskcon",
+            "category": "Engineering",
+            "description": "Riskcon \u8d1f\u8d23 \u5371\u9669\u54c1/\u98ce\u9669\u4e0e\u5371\u5bb3SEPP"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7",
+            "companyName": "Artefact",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "description": "Artefact \u8d1f\u8d23 \u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Cumberland Council",
+            "role": "\u57fa\u7840\u8bbe\u65bd/\u51b7\u5374\u7cfb\u7edf\u5206\u6790",
+            "companyName": "Arup",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Arup \u8d1f\u8d23 \u57fa\u7840\u8bbe\u65bd/\u51b7\u5374\u7cfb\u7edf\u5206\u6790"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u6811\u6728/\u6797\u4e1a",
+            "companyName": "Civica",
+            "category": "Environmental",
+            "description": "Civica \u8d1f\u8d23 \u6811\u6728/\u6797\u4e1a"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u6d88\u9632\u7b56\u7565",
+            "companyName": "Core Engineering",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Jemena",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Core Engineering \u8d1f\u8d23 \u6d88\u9632\u7b56\u7565"
       }
 ],
     appendices: [
@@ -5454,77 +5316,101 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$576 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Urbis',
+    planningConsultant: 'Patch Planning',
     description: "State Significant Development for Brookhollow Avenue Data Centre Expansion, Norwest at 3 Brookhollow Avenue, Norwest with proposed capacity of 96MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 96MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Patch (Patch Planning)",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Urbis"
+            "description": "Patch (Patch Planning) \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u6d4b\u91cf",
+            "companyName": "Stantec",
+            "category": "Engineering",
+            "description": "Stantec \u8d1f\u8d23 \u6d4b\u91cf"
+      },
+      {
+            "role": "\u5f00\u53d1\u6210\u672c\u3001\u9690\u542b\u78b3",
+            "companyName": "Turner and Townsend (T&T)",
+            "category": "Engineering",
+            "description": "Turner and Townsend (T&T) \u8d1f\u8d23 \u5f00\u53d1\u6210\u672c\u3001\u9690\u542b\u78b3"
+      },
+      {
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u89c6\u89c9\u4e0e\u666f\u89c2",
+            "companyName": "Arcadia",
+            "category": "Environmental",
+            "description": "Arcadia \u8d1f\u8d23 \u89c6\u89c9\u4e0e\u666f\u89c2"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u6811\u6728/\u6797\u4e1a",
+            "companyName": "Arbor Express",
+            "category": "Environmental",
+            "description": "Arbor Express \u8d1f\u8d23 \u6811\u6728/\u6797\u4e1a"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "role": "\u4ea4\u901a/\u571f\u6728/\u6c34/\u9632\u6d2a",
+            "companyName": "TTW",
+            "category": "Traffic",
+            "description": "TTW \u8d1f\u8d23 \u4ea4\u901a/\u571f\u6728/\u6c34/\u9632\u6d2a"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "ESD/\u5907\u7528\u7535\u6e90/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0/\u98ce\u9669\u5371\u5bb3/\u57fa\u7840\u8bbe\u65bd",
+            "companyName": "Aurecon",
+            "category": "Acoustic",
+            "description": "Aurecon \u8d1f\u8d23 ESD/\u5907\u7528\u7535\u6e90/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0/\u98ce\u9669\u5371\u5bb3/\u57fa\u7840\u8bbe\u65bd"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30 (\u4e0eAurecon)",
+            "companyName": "Northstar",
+            "category": "Environmental",
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30 (\u4e0eAurecon)"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027",
+            "companyName": "Arch Services / AEP",
+            "category": "Environmental",
+            "description": "Arch Services / AEP \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027"
+      },
+      {
+            "role": "\u5730\u4e0b\u6c34/\u5ca9\u571f",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u5730\u4e0b\u6c34/\u5ca9\u571f"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u6c61\u67d3/\u957f\u671f\u73af\u5883\u7ba1\u7406/\u5e9f\u7269",
+            "companyName": "JBSG (JBS&G)",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "JBSG (JBS&G) \u8d1f\u8d23 \u6c61\u67d3/\u957f\u671f\u73af\u5883\u7ba1\u7406/\u5e9f\u7269"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "role": "\u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u3001Connecting with Country",
+            "companyName": "Everick",
+            "category": "Heritage",
+            "description": "Everick \u8d1f\u8d23 \u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u3001Connecting with Country"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "The Planning Studio",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "The Planning Studio \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "role": "\u65bd\u5de5\u5206\u671f\u7b56\u7565",
+            "companyName": "GreenSquare DC",
+            "category": "Engineering",
+            "description": "GreenSquare DC \u8d1f\u8d23 \u65bd\u5de5\u5206\u671f\u7b56\u7565"
       }
 ],
     appendices: [
@@ -5935,125 +5821,125 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$1214 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Lehr Consultants',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Glendenning Road Data Centre at 2 Glendenning Road, Glendenning with proposed capacity of 202.4MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/glendenning-road-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 202MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Lehr Consultants",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001DCP\u8bc4\u4f30",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Lehr Consultants"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001DCP\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "role": "\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Willowtree Communications",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Willowtree Communications \u8d1f\u8d23 \u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
+            "role": "\u5f00\u53d1\u6210\u672c\u3001\u9690\u542b\u78b3",
+            "companyName": "Turner & Townsend",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Turner & Townsend \u8d1f\u8d23 \u5f00\u53d1\u6210\u672c\u3001\u9690\u542b\u78b3"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox Architecture",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox Architecture \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "role": "\u6d4b\u91cf",
+            "companyName": "LTS Surveyors",
+            "category": "Engineering",
+            "description": "LTS Surveyors \u8d1f\u8d23 \u6d4b\u91cf"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "BCA\u4e0e\u65e0\u969c\u788d",
+            "companyName": "MBC Group",
+            "category": "Access",
+            "description": "MBC Group \u8d1f\u8d23 BCA\u4e0e\u65e0\u969c\u788d"
+      },
+      {
+            "role": "\u89c6\u89c9\u4e0e\u666f\u89c2",
+            "companyName": "Geoscapes",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "Geoscapes \u8d1f\u8d23 \u89c6\u89c9\u4e0e\u666f\u89c2"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "Positive Traffic",
+            "category": "Traffic",
+            "description": "Positive Traffic \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
+      },
+      {
+            "role": "\u6811\u6728/\u6797\u4e1a",
+            "companyName": "Capability Green",
+            "category": "Environmental",
+            "description": "Capability Green \u8d1f\u8d23 \u6811\u6728/\u6797\u4e1a"
+      },
+      {
+            "role": "ESD/\u80fd\u6e90\u4e0e\u6c34/\u57fa\u7840\u8bbe\u65bd",
+            "companyName": "LCI Consultants",
+            "category": "Environmental",
+            "description": "LCI Consultants \u8d1f\u8d23 ESD/\u80fd\u6e90\u4e0e\u6c34/\u57fa\u7840\u8bbe\u65bd"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027",
+            "companyName": "Biosis",
+            "category": "Environmental",
+            "description": "Biosis \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar Air Quality",
+            "category": "Environmental",
+            "description": "Northstar Air Quality \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "Pulse White Noise Acoustics",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "Pulse White Noise Acoustics \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u5ca9\u571f/\u6c61\u67d3",
+            "companyName": "Martens",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Martens \u8d1f\u8d23 \u5ca9\u571f/\u6c61\u67d3"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u571f\u6728/\u9632\u6d2a/\u98ce\u9669/\u5371\u9669\u54c1",
+            "companyName": "Acor Consultants",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "Acor Consultants \u8d1f\u8d23 \u571f\u6728/\u9632\u6d2a/\u98ce\u9669/\u5371\u9669\u54c1"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u5e9f\u7269\u7ba1\u7406",
+            "companyName": "APC Waste Consultants",
+            "category": "Engineering",
+            "description": "APC Waste Consultants \u8d1f\u8d23 \u5e9f\u7269\u7ba1\u7406"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u3001\u8003\u53e4",
+            "companyName": "Virtus Heritage",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "description": "Virtus Heritage \u8d1f\u8d23 \u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u3001\u8003\u53e4"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
+            "role": "\u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Ethos Urban",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Ethos Urban \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u4e1b\u6797\u706b\u707e\u8bc4\u4f30",
+            "companyName": "Bushfire Consulting Services",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Blacktown City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Rural Fire Service",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Bushfire Consulting Services \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u8bc4\u4f30"
       }
 ],
     appendices: [
@@ -6944,125 +6830,101 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$540 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for Project Apollo Data Centre Macquarie Park at 4-10 Talavera Road, Macquarie Park with proposed capacity of 90MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-apollo-data-centre-macquarie-park',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 90MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Urbis (Urbis Ltd)",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Urbis (Urbis Ltd) \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1/ESD/\u51c0\u96f6/\u57fa\u7840\u8bbe\u65bd",
+            "companyName": "HDR",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1/ESD/\u51c0\u96f6/\u57fa\u7840\u8bbe\u65bd"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
+            "role": "\u6d4b\u91cf",
+            "companyName": "LTS",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "LTS \u8d1f\u8d23 \u6d4b\u91cf"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Geoscapes",
+            "category": "Architectural",
+            "description": "Geoscapes \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u6811\u6728/\u6797\u4e1a",
+            "companyName": "Civica",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Civica \u8d1f\u8d23 \u6811\u6728/\u6797\u4e1a"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "role": "\u5f00\u53d1\u6210\u672c/\u9690\u542b\u78b3",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Linesight \u8d1f\u8d23 \u5f00\u53d1\u6210\u672c/\u9690\u542b\u78b3"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "role": "BCA\u4e0e\u65e0\u969c\u788d",
+            "companyName": "MBC Group",
+            "category": "Access",
+            "description": "MBC Group \u8d1f\u8d23 BCA\u4e0e\u65e0\u969c\u788d"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u751f\u7269\u591a\u6837\u6027/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0/\u5e9f\u7269",
+            "companyName": "SLR",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "SLR \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0/\u5e9f\u7269"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "role": "\u4ea4\u901a\u8bc4\u4f30",
+            "companyName": "Ason Group",
+            "category": "Traffic",
+            "description": "Ason Group \u8d1f\u8d23 \u4ea4\u901a\u8bc4\u4f30"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
-            "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7",
+            "companyName": "Artefact",
+            "category": "Heritage",
+            "description": "Artefact \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
+            "role": "\u5730\u4e0b\u6c34/\u5ca9\u571f",
+            "companyName": "PSM",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "PSM \u8d1f\u8d23 \u5730\u4e0b\u6c34/\u5ca9\u571f"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
+            "role": "\u5371\u9669\u54c1/\u98ce\u9669\u4e0e\u5371\u5bb3/\u5371\u9669\u6750\u6599",
+            "companyName": "RiskCon",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "RiskCon \u8d1f\u8d23 \u5371\u9669\u54c1/\u98ce\u9669\u4e0e\u5371\u5bb3/\u5371\u9669\u6750\u6599"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u571f\u6728/\u9632\u6d2a",
+            "companyName": "TTW",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "TTW \u8d1f\u8d23 \u571f\u6728/\u9632\u6d2a"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
+            "role": "\u6d88\u9632\u7b56\u7565",
+            "companyName": "Core Engineering Group",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Core Engineering Group \u8d1f\u8d23 \u6d88\u9632\u7b56\u7565"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "City of Ryde Council",
+            "role": "\u6c61\u67d3\u573a\u5730\u8c03\u67e5",
+            "companyName": "AECOM",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "AECOM \u8d1f\u8d23 \u6c61\u67d3\u573a\u5730\u8c03\u67e5"
       }
 ],
     appendices: [
@@ -7857,131 +7719,149 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$270 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'EMKC Cubed',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Apollo Place Data Centre at 1 Sirius Road / 1 Apollo Place, Lane Cove West with proposed capacity of 45MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/apollo-place-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 45MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "EMKC Cubed",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001Clause 4.6\u53d8\u66f4",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by EMKC Cubed"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001Clause 4.6\u53d8\u66f4"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5f00\u53d1\u6210\u672c\u62a5\u544a",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Linesight \u8d1f\u8d23 \u5f00\u53d1\u6210\u672c\u62a5\u544a"
+      },
+      {
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox Architecture",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox Architecture \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "BCA/Section J/\u6027\u80fd\u65b9\u6848/\u65e0\u969c\u788d/ESD/\u9690\u542b\u78b3",
+            "companyName": "Jensen Hughes",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "Jensen Hughes \u8d1f\u8d23 BCA/Section J/\u6027\u80fd\u65b9\u6848/\u65e0\u969c\u788d/ESD/\u9690\u542b\u78b3"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u89c6\u89c9\u4e0e\u666f\u89c2",
+            "companyName": "Geoscapes",
+            "category": "Environmental",
+            "description": "Geoscapes \u8d1f\u8d23 \u89c6\u89c9\u4e0e\u666f\u89c2"
+      },
+      {
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "TTPA",
+            "category": "Traffic",
+            "description": "TTPA \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
+      },
+      {
+            "role": "\u6811\u6728/\u6797\u4e1a",
+            "companyName": "Tree Survey",
+            "category": "Environmental",
+            "description": "Tree Survey \u8d1f\u8d23 \u6811\u6728/\u6797\u4e1a"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027",
+            "companyName": "Land Eco Consulting",
+            "category": "Environmental",
+            "description": "Land Eco Consulting \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar",
+            "category": "Environmental",
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "Renzo Tonin & Associates",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "Renzo Tonin & Associates \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "\u5ca9\u571f",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u5ca9\u571f"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u5730\u4e0b\u6c34/\u76d0\u5206/\u9178\u6027\u786b\u9178\u76d0\u571f/\u6c61\u67d3\u4fee\u590d",
+            "companyName": "Senversa",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "Senversa \u8d1f\u8d23 \u5730\u4e0b\u6c34/\u76d0\u5206/\u9178\u6027\u786b\u9178\u76d0\u571f/\u6c61\u67d3\u4fee\u590d"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u7efc\u5408\u6c34\u5faa\u73af/\u571f\u6728/\u57fa\u7840\u8bbe\u65bd",
+            "companyName": "Van Der Meer Consulting",
+            "category": "Engineering",
+            "description": "Van Der Meer Consulting \u8d1f\u8d23 \u7efc\u5408\u6c34\u5faa\u73af/\u571f\u6728/\u57fa\u7840\u8bbe\u65bd"
+      },
+      {
+            "role": "\u9632\u6d2a",
+            "companyName": "GRC Hydro",
+            "category": "Engineering",
+            "description": "GRC Hydro \u8d1f\u8d23 \u9632\u6d2a"
+      },
+      {
+            "role": "\u98ce\u9669\u7b5b\u67e5/\u5e9f\u7269/\u5371\u9669\u6750\u6599",
+            "companyName": "SLR Consulting",
+            "category": "Engineering",
+            "description": "SLR Consulting \u8d1f\u8d23 \u98ce\u9669\u7b5b\u67e5/\u5e9f\u7269/\u5371\u9669\u6750\u6599"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7",
+            "companyName": "Biosis",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "description": "Biosis \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7"
       },
       {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "NSW Rural Fire Service",
+            "role": "\u8003\u53e4/\u5386\u53f2\u8003\u53e4",
+            "companyName": "Sustainable Heritage",
+            "category": "Heritage",
+            "description": "Sustainable Heritage \u8d1f\u8d23 \u8003\u53e4/\u5386\u53f2\u8003\u53e4"
+      },
+      {
+            "role": "\u9057\u4ea7\u5f71\u54cd\u58f0\u660e",
+            "companyName": "Heritage 21",
+            "category": "Heritage",
+            "description": "Heritage 21 \u8d1f\u8d23 \u9057\u4ea7\u5f71\u54cd\u58f0\u660e"
+      },
+      {
+            "role": "\u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "HillPDA",
             "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+            "description": "HillPDA \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
+            "role": "\u4e1b\u6797\u706b\u707e\u8bc4\u4f30",
+            "companyName": "Travers Bushfire & Ecology",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Travers Bushfire & Ecology \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Lane Cove Council",
+            "role": "\u793e\u533a\u53c2\u4e0e",
+            "companyName": "Astrolabe",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Astrolabe \u8d1f\u8d23 \u793e\u533a\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
+            "role": "\u6d88\u9632\u5de5\u7a0b",
+            "companyName": "Scientific Fire Services",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Scientific Fire Services \u8d1f\u8d23 \u6d88\u9632\u5de5\u7a0b"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW National Parks and Wildlife Service",
+            "role": "\u51b7\u5374\u7cfb\u7edf\u6280\u672f\u8bf4\u660e",
+            "companyName": "ARUP",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "ARUP \u8d1f\u8d23 \u51b7\u5374\u7cfb\u7edf\u6280\u672f\u8bf4\u660e"
       }
 ],
     appendices: [
@@ -8848,95 +8728,35 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$3672 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for NEXTDC S7 Data Centre, Eastern Creek at 1 Kangaroo Avenue, Eastern Creek with proposed capacity of 612MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s7-data-centre-eastern-creek',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 612MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a\u3001\u521d\u6b65\u89c6\u89c9\u5efa\u8bae",
+            "companyName": "Urbis (Urbis Ltd)",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Urbis (Urbis Ltd) \u8d1f\u8d23 \u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a\u3001\u521d\u6b65\u89c6\u89c9\u5efa\u8bae"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
-            "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Architectus (Architectus Australia Pty Ltd)",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Architectus (Architectus Australia Pty Ltd) \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "role": "\u9178\u6027\u786b\u9178\u76d0\u571f\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "Prensa (Prensa Pty Ltd)",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Prensa (Prensa Pty Ltd) \u8d1f\u8d23 \u9178\u6027\u786b\u9178\u76d0\u571f\u98ce\u9669\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Rural Fire Service",
+            "role": "\u4e13\u4e1a\u54a8\u8be2\u987e\u95ee",
+            "companyName": "*(EIS \u4e13\u4e1a\u56e2\u961f\u5c1a\u672a\u5168\u90e8\u4efb\u547d)*",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "description": "*(EIS \u4e13\u4e1a\u56e2\u961f\u5c1a\u672a\u5168\u90e8\u4efb\u547d)* \u8d1f\u8d23 \u4e13\u4e1a\u54a8\u8be2\u987e\u95ee"
       }
 ],
     appendices: [
@@ -9163,53 +8983,29 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$480 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Goodman Property Services',
     description: "State Significant Development for Mod 3 - Lanceley Place Data Centre - Fire access at Artarmon with proposed capacity of 80MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mod-3-lanceley-place-data-centre-fire-access-and-switchroom',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 80MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a\u7f16\u5236\uff08\u7531\u7533\u8bf7\u4eba\u5185\u90e8\u7f16\u5236\uff0c\u65e0\u5916\u90e8\u89c4\u5212\u987e\u95ee\uff09",
+            "companyName": "Goodman Property Services (Aust) Pty Ltd",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Goodman Property Services (Aust) Pty Ltd \u8d1f\u8d23 \u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a\u7f16\u5236\uff08\u7531\u7533\u8bf7\u4eba\u5185\u90e8\u7f16\u5236\uff0c\u65e0\u5916\u90e8\u89c4\u5212\u987e\u95ee\uff09"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1\uff08\u83b7\u6279\u56fe\u7eb8\u300cPrepared By HDR\u300d\uff09",
+            "companyName": "HDR",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1\uff08\u83b7\u6279\u56fe\u7eb8\u300cPrepared By HDR\u300d\uff09"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Willoughby City Council",
+            "role": "\u4e13\u4e1a\u54a8\u8be2\u987e\u95ee",
+            "companyName": "\uff08\u672c\u6b21\u4e3a\u6781\u5c0f\u578b\u5efa\u7b51\u4fee\u6539\uff1a\u5f00\u5173\u5ba4\u52a0\u9ad8\u3001\u6d88\u9632\u8f66\u901a\u9053\u6062\u590d\uff0c\u672a\u65b0\u589e\u4e13\u9879\u6280\u672f\u987e\u95ee\uff09",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "description": "\uff08\u672c\u6b21\u4e3a\u6781\u5c0f\u578b\u5efa\u7b51\u4fee\u6539\uff1a\u5f00\u5173\u5ba4\u52a0\u9ad8\u3001\u6d88\u9632\u8f66\u901a\u9053\u6062\u590d\uff0c\u672a\u65b0\u589e\u4e13\u9879\u6280\u672f\u987e\u95ee\uff09 \u8d1f\u8d23 \u4e13\u4e1a\u54a8\u8be2\u987e\u95ee"
       }
 ],
     appendices: [
@@ -9284,161 +9080,131 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$1020 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Urbis',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Julius Avenue Data Centre at 6-8 Julius Avenue, North Ryde with proposed capacity of 170MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/julius-avenue-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 170MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Urbis"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox Architecture",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox Architecture \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "\u9020\u4ef7\u8bc4\u4f30/NABERS\u9690\u542b\u78b3\u8868",
+            "companyName": "RLB (Rider Levett Bucknall)",
+            "category": "Engineering",
+            "description": "RLB (Rider Levett Bucknall) \u8d1f\u8d23 \u9020\u4ef7\u8bc4\u4f30/NABERS\u9690\u542b\u78b3\u8868"
+      },
+      {
+            "role": "\u6d4b\u91cf",
+            "companyName": "Beveridge Williams",
+            "category": "Engineering",
+            "description": "Beveridge Williams \u8d1f\u8d23 \u6d4b\u91cf"
+      },
+      {
+            "role": "BCA\uff08\u5efa\u7b51\u89c4\u8303\uff09\u8bc4\u4f30",
+            "companyName": "BM+G",
+            "category": "Architectural",
+            "description": "BM+G \u8d1f\u8d23 BCA\uff08\u5efa\u7b51\u89c4\u8303\uff09\u8bc4\u4f30"
+      },
+      {
+            "role": "\u65e0\u969c\u788d\u901a\u884c\u8bc4\u4f30",
+            "companyName": "Obvius Access",
+            "category": "Access",
+            "description": "Obvius Access \u8d1f\u8d23 \u65e0\u969c\u788d\u901a\u884c\u8bc4\u4f30"
+      },
+      {
+            "role": "\u89c6\u89c9\u4e0e\u666f\u89c2\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Geoscapes",
+            "category": "Environmental",
+            "description": "Geoscapes \u8d1f\u8d23 \u89c6\u89c9\u4e0e\u666f\u89c2\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30/\u65bd\u5de5\u4ea4\u901a\u7ba1\u7406/\u7eff\u8272\u51fa\u884c",
+            "companyName": "PTC",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "PTC \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30/\u65bd\u5de5\u4ea4\u901a\u7ba1\u7406/\u7eff\u8272\u51fa\u884c"
       },
       {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "NSW Rural Fire Service",
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Arcadia",
+            "category": "Architectural",
+            "description": "Arcadia \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "ESD\u53ef\u6301\u7eed\u8bbe\u8ba1\uff1b\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "ARUP",
+            "category": "Architectural",
+            "description": "ARUP \u8d1f\u8d23 ESD\u53ef\u6301\u7eed\u8bbe\u8ba1\uff1b\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
+      },
+      {
+            "role": "\u751f\u6001/\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30\uff08BDAR\uff09",
+            "companyName": "SLR Consulting",
+            "category": "Environmental",
+            "description": "SLR Consulting \u8d1f\u8d23 \u751f\u6001/\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30\uff08BDAR\uff09"
+      },
+      {
+            "role": "\u5907\u7528\u7535\u6e90\u6280\u672f\u8bf4\u660e",
+            "companyName": "IGS",
             "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+            "description": "IGS \u8d1f\u8d23 \u5907\u7528\u7535\u6e90\u6280\u672f\u8bf4\u660e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar",
+            "category": "Environmental",
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW National Parks and Wildlife Service",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "DCCEEW Energy",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "City of Ryde Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Willoughby City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Jemena",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "\u5ca9\u571f/\u5730\u4e0b\u6c34/\u8be6\u7ec6\u573a\u5730\u8c03\u67e5",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u5ca9\u571f/\u5730\u4e0b\u6c34/\u8be6\u7ec6\u573a\u5730\u8c03\u67e5"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "role": "\u571f\u6728/\u6c34\u7ba1\u7406/\u6d2a\u6c34\u8bc4\u4f30/\u57fa\u7840\u8bbe\u65bd",
+            "companyName": "TTW",
+            "category": "Engineering",
+            "description": "TTW \u8d1f\u8d23 \u571f\u6728/\u6c34\u7ba1\u7406/\u6d2a\u6c34\u8bc4\u4f30/\u57fa\u7840\u8bbe\u65bd"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u521d\u6b65\u98ce\u9669\u7b5b\u67e5",
+            "companyName": "OMNII",
+            "category": "Engineering",
+            "description": "OMNII \u8d1f\u8d23 \u521d\u6b65\u98ce\u9669\u7b5b\u67e5"
+      },
+      {
+            "role": "\u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "WasteCheck",
+            "category": "Engineering",
+            "description": "WasteCheck \u8d1f\u8d23 \u5e9f\u5f03\u7269\u7ba1\u7406"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\u4e0e\u5386\u53f2\u9057\u4ea7\u5c3d\u804c\u8c03\u67e5",
+            "companyName": "GML Heritage",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "description": "GML Heritage \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\u4e0e\u5386\u53f2\u9057\u4ea7\u5c3d\u804c\u8c03\u67e5"
+      },
+      {
+            "role": "\u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30/\u516c\u4f17\u53c2\u4e0e",
+            "companyName": "Willowtree Communications",
+            "category": "Engineering",
+            "description": "Willowtree Communications \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30/\u516c\u4f17\u53c2\u4e0e"
+      },
+      {
+            "role": "\u4e1b\u6797\u706b\u707e\u8bc4\u4f30",
+            "companyName": "BHS (Bushfire Hazard Solutions)",
+            "category": "Engineering",
+            "description": "BHS (Bushfire Hazard Solutions) \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u8bc4\u4f30"
       }
 ],
     appendices: [
@@ -10593,53 +10359,17 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$240 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Willowtree Planning',
+    planningConsultant: 'Arup',
     description: "State Significant Development for Modification 1 - Substation layout changes at 43-61 Turner Road, Gregory Hills with proposed capacity of 40MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-substation-layout-changes',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 40MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Willowtree Planning",
+            "role": "\u552f\u4e00\u987e\u95ee\uff0c\u7f16\u5236\u4fee\u6539\u62a5\u544a\uff08\u5bf9\u53d8\u7535\u7ad9\u5185\u90e8\u5e03\u5c40\u7684\u5fae\u8c03\uff0c\u6cbf\u7528\u6bcd\u9879\u76ee 43-61 Turner Road \u7684\u8bc4\u4f30\uff0c\u672a\u65b0\u589e\u4e13\u9879\u987e\u95ee\uff09",
+            "companyName": "Arup Australia Pty Ltd",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Willowtree Planning"
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Facility masterplan & facade design"
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "description": "Arup Australia Pty Ltd \u8d1f\u8d23 \u552f\u4e00\u987e\u95ee\uff0c\u7f16\u5236\u4fee\u6539\u62a5\u544a\uff08\u5bf9\u53d8\u7535\u7ad9\u5185\u90e8\u5e03\u5c40\u7684\u5fae\u8c03\uff0c\u6cbf\u7528\u6bcd\u9879\u76ee 43-61 Turner Road \u7684\u8bc4\u4f30\uff0c\u672a\u65b0\u589e\u4e13\u9879\u987e\u95ee\uff09"
       }
 ],
     appendices: [
@@ -10690,137 +10420,119 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$3024 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Tract Consultants',
+    planningConsultant: 'Patch Planning',
     description: "State Significant Development for Marsden Park Data Centre at 105/113 Hollinsworth Road, Marsden Park with proposed capacity of 504MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/marsden-park-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 504MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Tract Consultants",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
+            "companyName": "Patch Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Tract Consultants"
+            "description": "Patch Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "role": "\u6d4b\u91cf",
+            "companyName": "Land Partners",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Land Partners \u8d1f\u8d23 \u6d4b\u91cf"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "EJE (EJE Architecture)",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "EJE (EJE Architecture) \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u666f\u89c2\u603b\u4f53\u89c4\u5212\uff1b\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Terras Landscape Architects",
+            "category": "Planning",
+            "description": "Terras Landscape Architects \u8d1f\u8d23 \u666f\u89c2\u603b\u4f53\u89c4\u5212\uff1b\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u571f\u6728/\u6c61\u67d3/ESD/\u6e29\u5ba4\u6c14\u4f53/\u5730\u4e0b\u6c34/\u57fa\u7840\u8bbe\u65bd/\u7efc\u5408\u6c34\u7ba1\u7406/\u8fd0\u8425\u671f\u566a\u58f0\u4e0e\u632f\u52a8/\u4ea4\u901a\u8bc4\u4f30",
+            "companyName": "Stantec",
+            "category": "Traffic",
+            "description": "Stantec \u8d1f\u8d23 \u571f\u6728/\u6c61\u67d3/ESD/\u6e29\u5ba4\u6c14\u4f53/\u5730\u4e0b\u6c34/\u57fa\u7840\u8bbe\u65bd/\u7efc\u5408\u6c34\u7ba1\u7406/\u8fd0\u8425\u671f\u566a\u58f0\u4e0e\u632f\u52a8/\u4ea4\u901a\u8bc4\u4f30"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u6811\u6728\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Travers (Bushfire & Ecology)",
+            "category": "Environmental",
+            "description": "Travers (Bushfire & Ecology) \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u6811\u6728\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u65e0\u969c\u788d\uff1bBCA",
+            "companyName": "MBC",
+            "category": "Access",
+            "description": "MBC \u8d1f\u8d23 \u65e0\u969c\u788d\uff1bBCA"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Todoroski (Air Sciences)",
+            "category": "Environmental",
+            "description": "Todoroski (Air Sciences) \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027BDAR\u8c41\u514d\u7533\u8bf7",
+            "companyName": "Abel Ecology",
+            "category": "Environmental",
+            "description": "Abel Ecology \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027BDAR\u8c41\u514d\u7533\u8bf7"
+      },
+      {
+            "role": "\u4e1b\u6797\u706b\u707e\u8bc4\u4f30",
+            "companyName": "Bushfire Hazard Solutions",
+            "category": "Engineering",
+            "description": "Bushfire Hazard Solutions \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u8bc4\u4f30"
+      },
+      {
+            "role": "\u516c\u4f17\u53c2\u4e0e\uff1b\u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Astrolabe Group",
+            "category": "Engineering",
+            "description": "Astrolabe Group \u8d1f\u8d23 \u516c\u4f17\u53c2\u4e0e\uff1b\u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u9020\u4ef7\u8bc4\u4f30",
+            "companyName": "Rider Levett Bucknall",
+            "category": "Engineering",
+            "description": "Rider Levett Bucknall \u8d1f\u8d23 \u9020\u4ef7\u8bc4\u4f30"
+      },
+      {
+            "role": "\u5386\u53f2\u8003\u53e4\u8bc4\u4f30\uff1b\u9057\u4ea7\u5f71\u54cd\u58f0\u660e",
+            "companyName": "Biosis",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "description": "Biosis \u8d1f\u8d23 \u5386\u53f2\u8003\u53e4\u8bc4\u4f30\uff1b\u9057\u4ea7\u5f71\u54cd\u58f0\u660e"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "NSW Rural Fire Service",
+            "role": "\u5ca9\u571f\u8bc4\u4f30",
+            "companyName": "JK Geotechnics",
             "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+            "description": "JK Geotechnics \u8d1f\u8d23 \u5ca9\u571f\u8bc4\u4f30"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u521d\u6b65\u5371\u5bb3\u4e0e\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "Vector",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Vector \u8d1f\u8d23 \u521d\u6b65\u5371\u5bb3\u4e0e\u98ce\u9669\u8bc4\u4f30"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u65bd\u5de5\u671f\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "Northrop",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "Northrop \u8d1f\u8d23 \u65bd\u5de5\u671f\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
+            "role": "\u4f9b\u6c34\u538b\u529b\u4e0e\u6d41\u91cf\u58f0\u660e",
             "companyName": "Sydney Water",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Sydney Water \u8d1f\u8d23 \u4f9b\u6c34\u538b\u529b\u4e0e\u6d41\u91cf\u58f0\u660e"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
+            "role": "\u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "JBS&G",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Blacktown City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Biodiversity, Conservation and Science",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "JBS&G \u8d1f\u8d23 \u5e9f\u5f03\u7269\u7ba1\u7406"
       }
 ],
     appendices: [
@@ -12015,113 +11727,89 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$210 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Willowtree Planning',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for 1-5 Khartoum Road Data Centre at Macquarie Park with proposed capacity of 35MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/1-5-khartoum-road-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 35MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Willowtree Planning",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Willowtree Planning"
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e",
             "companyName": "Urbis",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Urbis \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox (Architects)",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox (Architects) \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "role": "\u9020\u4ef7\u8bc4\u4f30",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Linesight \u8d1f\u8d23 \u9020\u4ef7\u8bc4\u4f30"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Arcadia",
+            "category": "Architectural",
+            "description": "Arcadia \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u57fa\u7840\u8bbe\u65bd/\u6c34\u7ba1\u7406/ESD/\u5371\u5bb3\u4e0e\u98ce\u9669/\u73af\u5883\u98ce\u8bc4\u4f30/\u6e29\u5ba4\u6c14\u4f53\u4e0eNABERS",
+            "companyName": "ARUP",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "ARUP \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u57fa\u7840\u8bbe\u65bd/\u6c34\u7ba1\u7406/ESD/\u5371\u5bb3\u4e0e\u98ce\u9669/\u73af\u5883\u98ce\u8bc4\u4f30/\u6e29\u5ba4\u6c14\u4f53\u4e0eNABERS"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "\u8be6\u7ec6\u573a\u5730\u8c03\u67e5/\u5ca9\u571f",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u8be6\u7ec6\u573a\u5730\u8c03\u67e5/\u5ca9\u571f"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u6811\u6728\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Birds Tree Consultancy",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Birds Tree Consultancy \u8d1f\u8d23 \u6811\u6728\u5f71\u54cd\u8bc4\u4f30"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "role": "BCA\u8bc4\u4f30",
+            "companyName": "Mckenzie (Group)",
+            "category": "Access",
+            "description": "Mckenzie (Group) \u8d1f\u8d23 BCA\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "City of Ryde Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "DDA\u65e0\u969c\u788d\u8bc4\u4f30",
+            "companyName": "Jensen Hughes",
+            "category": "Access",
+            "description": "Jensen Hughes \u8d1f\u8d23 DDA\u65e0\u969c\u788d\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "CBRK",
+            "category": "Traffic",
+            "description": "CBRK \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
       },
       {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "Fire and Rescue NSW",
+            "role": "\u8fd0\u8425\u53ca\u65bd\u5de5/\u62c6\u9664\u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "Elephants Foot",
             "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
+            "description": "Elephants Foot \u8d1f\u8d23 \u8fd0\u8425\u53ca\u65bd\u5de5/\u62c6\u9664\u5e9f\u5f03\u7269\u7ba1\u7406"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u6d2a\u6c34\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "Northrop",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Northrop \u8d1f\u8d23 \u6d2a\u6c34\u98ce\u9669\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
+            "role": "\u6d4b\u91cf",
+            "companyName": "LTS",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "LTS \u8d1f\u8d23 \u6d4b\u91cf"
       }
 ],
     appendices: [
@@ -12924,7 +12612,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$360 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Mecone Planning',
+    planningConsultant: 'ESR Developments',
     description: "State Significant Development for Waterloo Road Data Centre (ESR Developments) at 44-50 Waterloo Road, Macquarie Park with proposed capacity of 60MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/waterloo-road-data-centre-esr-developments',
     lastUpdated: '2026-07-20',
@@ -12932,15 +12620,9 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     consultants: [
       {
             "role": "Town Planner & EIS Lead",
-            "companyName": "Mecone Planning",
+            "companyName": "ESR Developments",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Mecone Planning"
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Statutory planning and EIS lead by ESR Developments"
       },
       {
             "role": "Architectural Design",
@@ -12959,6 +12641,12 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "companyName": "SLR Consulting",
             "category": "Acoustic",
             "description": "Noise propagation modelling"
+      },
+      {
+            "role": "Civil & Water Engineer",
+            "companyName": "Jacobs Engineering",
+            "category": "Engineering",
+            "description": "Civil works & stormwater quality"
       },
       {
             "role": "Lead State Authority",
@@ -12999,119 +12687,107 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$480 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for Lanceley Place Data Centre, Artarmon at 2-8 Lanceley Place, Artarmon with proposed capacity of 80MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/lanceley-place-data-centre-artarmon',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 80MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u89c6\u89c9\u5f71\u54cd\uff1bClause 4.6\uff1b\u516c\u4f17\u53c2\u4e0e",
             "companyName": "Urbis",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Urbis \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u89c6\u89c9\u5f71\u54cd\uff1bClause 4.6\uff1b\u516c\u4f17\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1/\u51c0\u96f6\u58f0\u660e/ESD/\u57fa\u7840\u8bbe\u65bd\u4e0e\u5206\u671f",
+            "companyName": "HDR",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1/\u51c0\u96f6\u58f0\u660e/ESD/\u57fa\u7840\u8bbe\u65bd\u4e0e\u5206\u671f"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "\u6d4b\u91cf",
+            "companyName": "LTS",
+            "category": "Engineering",
+            "description": "LTS \u8d1f\u8d23 \u6d4b\u91cf"
+      },
+      {
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Cola Studios",
+            "category": "Architectural",
+            "description": "Cola Studios \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u6811\u6728\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Civica",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "Civica \u8d1f\u8d23 \u6811\u6728\u5f71\u54cd\u8bc4\u4f30"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "role": "\u9020\u4ef7\u8bc4\u4f30/\u9690\u542b\u78b3\u6750\u6599\u62a5\u544a",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Linesight \u8d1f\u8d23 \u9020\u4ef7\u8bc4\u4f30/\u9690\u542b\u78b3\u6750\u6599\u62a5\u544a"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "role": "BCA\uff1b\u65e0\u969c\u788d",
+            "companyName": "MBC Group",
+            "category": "Access",
+            "description": "MBC Group \u8d1f\u8d23 BCA\uff1b\u65e0\u969c\u788d"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u751f\u7269\u591a\u6837\u6027BDAR\u8c41\u514d/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "SLR",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "SLR \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027BDAR\u8c41\u514d/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u5e9f\u5f03\u7269\u7ba1\u7406"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "role": "\u4ea4\u901a\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Ason Group",
+            "category": "Traffic",
+            "description": "Ason Group \u8d1f\u8d23 \u4ea4\u901a\u5f71\u54cd\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Lane Cove Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09",
+            "companyName": "Artefact",
+            "category": "Heritage",
+            "description": "Artefact \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
+            "role": "\u5730\u4e0b\u6c34\u4e0e\u5730\u8d28\u6c34\u6761\u4ef6\u8bc4\u4f30",
+            "companyName": "PSM",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "PSM \u8d1f\u8d23 \u5730\u4e0b\u6c34\u4e0e\u5730\u8d28\u6c34\u6761\u4ef6\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
+            "role": "\u5371\u9669\u54c1\u62a5\u544a\uff08\u521d\u6b65\u5371\u5bb3\u5206\u6790\uff09",
+            "companyName": "Riskcon",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Riskcon \u8d1f\u8d23 \u5371\u9669\u54c1\u62a5\u544a\uff08\u521d\u6b65\u5371\u5bb3\u5206\u6790\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
+            "role": "\u6570\u636e\u7f3a\u53e3\u8c03\u67e5",
+            "companyName": "Senversa",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Senversa \u8d1f\u8d23 \u6570\u636e\u7f3a\u53e3\u8c03\u67e5"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
+            "role": "\u571f\u6728/\u6c34\u7ba1\u7406/\u6d2a\u6c34\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "TTW",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "TTW \u8d1f\u8d23 \u571f\u6728/\u6c34\u7ba1\u7406/\u6d2a\u6c34\u98ce\u9669\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Willoughby City Council",
+            "role": "\u5371\u9669\u6750\u6599\u8c03\u67e5",
+            "companyName": "Work Science",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Work Science \u8d1f\u8d23 \u5371\u9669\u6750\u6599\u8c03\u67e5"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
+            "role": "\u6d88\u9632\u5b89\u5168\u7b56\u7565",
+            "companyName": "Core Engineering",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Core Engineering \u8d1f\u8d23 \u6d88\u9632\u5b89\u5168\u7b56\u7565"
       }
 ],
     appendices: [
@@ -13914,131 +13590,89 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$900 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for NEXTDC S5 Data Centre and Innovation Hub at 269 Lane Cove Road, Macquarie Park with proposed capacity of 150MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s5-data-centre-and-innovation-hub',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 150MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e",
             "companyName": "Urbis",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Urbis \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1/\u6d4b\u91cf",
+            "companyName": "HDR Architects",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR Architects \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1/\u6d4b\u91cf"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
+            "role": "\u9020\u4ef7\u8bc4\u4f30/\u9690\u542b\u78b3\u8868",
+            "companyName": "WT Partnership",
+            "category": "Engineering",
+            "description": "WT Partnership \u8d1f\u8d23 \u9020\u4ef7\u8bc4\u4f30/\u9690\u542b\u78b3\u8868"
+      },
+      {
+            "role": "BCA\u8bc4\u4f30",
+            "companyName": "McKenzie Group",
+            "category": "Access",
+            "description": "McKenzie Group \u8d1f\u8d23 BCA\u8bc4\u4f30"
+      },
+      {
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Arcadia",
+            "category": "Architectural",
+            "description": "Arcadia \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u4ea4\u901a\u8bc4\u4f30/\u7eff\u8272\u51fa\u884c/\u65bd\u5de5\u4ea4\u901a\u7ba1\u7406",
+            "companyName": "TTPP",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "TTPP \u8d1f\u8d23 \u4ea4\u901a\u8bc4\u4f30/\u7eff\u8272\u51fa\u884c/\u65bd\u5de5\u4ea4\u901a\u7ba1\u7406"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "ESD/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u5371\u5bb3\u4e0e\u98ce\u9669/\u57fa\u7840\u8bbe\u65bd/\u5907\u7528\u7535\u6e90/\u6e29\u5ba4\u6c14\u4f53",
+            "companyName": "ARUP",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "ARUP \u8d1f\u8d23 ESD/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u5371\u5bb3\u4e0e\u98ce\u9669/\u57fa\u7840\u8bbe\u65bd/\u5907\u7528\u7535\u6e90/\u6e29\u5ba4\u6c14\u4f53"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u6d2a\u6c34\u98ce\u9669/\u571f\u6728\u5de5\u7a0b/\u571f\u6728\u56fe\u7eb8",
+            "companyName": "TTW",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "TTW \u8d1f\u8d23 \u6d2a\u6c34\u98ce\u9669/\u571f\u6728\u5de5\u7a0b/\u571f\u6728\u56fe\u7eb8"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u521d\u6b65\u573a\u5730\u8c03\u67e5/\u5ca9\u571f\u8c03\u67e5",
+            "companyName": "JK Geotechnics",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "JK Geotechnics \u8d1f\u8d23 \u521d\u6b65\u573a\u5730\u8c03\u67e5/\u5ca9\u571f\u8c03\u67e5"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "City of Ryde Council",
+            "role": "\u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "Encycle",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Encycle \u8d1f\u8d23 \u5e9f\u5f03\u7269\u7ba1\u7406"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u6811\u6728\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "CPS Planning",
+            "category": "Environmental",
+            "description": "CPS Planning \u8d1f\u8d23 \u6811\u6728\u5f71\u54cd\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u65e0\u969c\u788d\u901a\u884c\u5ba1\u67e5",
+            "companyName": "MGAC",
+            "category": "Access",
+            "description": "MGAC \u8d1f\u8d23 \u65e0\u969c\u788d\u901a\u884c\u5ba1\u67e5"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
+            "role": "\u751f\u6001/\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30\uff08BDAR\uff09",
             "companyName": "Eco Logical Australia",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Eco Logical Australia \u8d1f\u8d23 \u751f\u6001/\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30\uff08BDAR\uff09"
       }
 ],
     appendices: [
@@ -15161,119 +14795,107 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$540 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for Project Mars Data Centre at 12 Mars Road, Lane Cove West with proposed capacity of 90MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-mars-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 90MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1bClause 4.6",
             "companyName": "Urbis",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Urbis \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1bClause 4.6"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1/ESD/NABERS/\u51c0\u96f6/\u57fa\u7840\u8bbe\u65bd/\u57ce\u5e02\u70ed\u5c9b",
+            "companyName": "HDR",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1/ESD/NABERS/\u51c0\u96f6/\u57fa\u7840\u8bbe\u65bd/\u57ce\u5e02\u70ed\u5c9b"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
+            "role": "\u9020\u4ef7/\u9690\u542b\u78b3\u8868",
+            "companyName": "Linesight",
+            "category": "Engineering",
+            "description": "Linesight \u8d1f\u8d23 \u9020\u4ef7/\u9690\u542b\u78b3\u8868"
+      },
+      {
+            "role": "\u6d4b\u91cf",
+            "companyName": "LPS",
+            "category": "Engineering",
+            "description": "LPS \u8d1f\u8d23 \u6d4b\u91cf"
+      },
+      {
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Oculus",
+            "category": "Architectural",
+            "description": "Oculus \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "BCA\uff1b\u65e0\u969c\u788d",
+            "companyName": "MBC Group",
+            "category": "Access",
+            "description": "MBC Group \u8d1f\u8d23 BCA\uff1b\u65e0\u969c\u788d"
+      },
+      {
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "Ason Group",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "Ason Group \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
+            "role": "\u751f\u7269\u591a\u6837\u6027BDAR/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u5e9f\u5f03\u7269\u7ba1\u7406",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "SLR Consulting \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027BDAR/\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u5e9f\u5f03\u7269\u7ba1\u7406"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u5730\u8d28\u6c34\u6761\u4ef6/\u76d0\u5206\u7ba1\u7406/\u5730\u4e0b\u6c34\u76d1\u6d4b/\u5ca9\u571f\u8bc4\u4f30",
+            "companyName": "PSM",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "PSM \u8d1f\u8d23 \u5730\u8d28\u6c34\u6761\u4ef6/\u76d0\u5206\u7ba1\u7406/\u5730\u4e0b\u6c34\u76d1\u6d4b/\u5ca9\u571f\u8bc4\u4f30"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u7efc\u5408\u6c34\u7ba1\u7406/\u571f\u6728\u5de5\u7a0b/\u6d2a\u6c34\u5f71\u54cd\u98ce\u9669\u8bc4\u4f30",
+            "companyName": "BG&E Engineering",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "BG&E Engineering \u8d1f\u8d23 \u7efc\u5408\u6c34\u7ba1\u7406/\u571f\u6728\u5de5\u7a0b/\u6d2a\u6c34\u5f71\u54cd\u98ce\u9669\u8bc4\u4f30"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u521d\u6b65\u53ca\u8be6\u7ec6\u573a\u5730\u8c03\u67e5/\u4fee\u590d\u884c\u52a8\u8ba1\u5212",
+            "companyName": "Senversa",
+            "category": "Engineering",
+            "description": "Senversa \u8d1f\u8d23 \u521d\u6b65\u53ca\u8be6\u7ec6\u573a\u5730\u8c03\u67e5/\u4fee\u590d\u884c\u52a8\u8ba1\u5212"
+      },
+      {
+            "role": "\u5371\u9669\u6750\u6599/\u5371\u9669\u54c1/\u97e7\u6027\u4e0e\u5371\u5bb3SEPP/\u7ba1\u9053\u5371\u5bb3\u5206\u6790",
+            "companyName": "RiskCon",
+            "category": "Engineering",
+            "description": "RiskCon \u8d1f\u8d23 \u5371\u9669\u6750\u6599/\u5371\u9669\u54c1/\u97e7\u6027\u4e0e\u5371\u5bb3SEPP/\u7ba1\u9053\u5371\u5bb3\u5206\u6790"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09",
+            "companyName": "Artefact",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "description": "Artefact \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u6811\u6728\u8bc4\u4f30",
+            "companyName": "Civica",
+            "category": "Environmental",
+            "description": "Civica \u8d1f\u8d23 \u6811\u6728\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u6d88\u9632\u5b89\u5168\u7b56\u7565",
+            "companyName": "Core Engineering Group",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Core Engineering Group \u8d1f\u8d23 \u6d88\u9632\u5b89\u5168\u7b56\u7565"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "Connecting with Country\uff08\u539f\u4f4f\u6c11\u8054\u7ed3\uff09\u62a5\u544a",
+            "companyName": "TIKAEQ",
+            "category": "Heritage",
+            "description": "TIKAEQ \u8d1f\u8d23 Connecting with Country\uff08\u539f\u4f4f\u6c11\u8054\u7ed3\uff09\u62a5\u544a"
       }
 ],
     appendices: [
@@ -15804,95 +15426,167 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$720 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'EMKC Cubed',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for 51 Huntingwood Drive Data Centre at 51 Huntingwood Drive, Huntingwood with proposed capacity of 120MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/51-huntingwood-drive-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 120MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "EMKC Cubed",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by EMKC Cubed"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "role": "\u5de5\u6599\u6d4b\u91cf\uff08QS\uff09",
+            "companyName": "Linesight",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Linesight \u8d1f\u8d23 \u5de5\u6599\u6d4b\u91cf\uff08QS\uff09"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
+            "role": "\u6d4b\u91cf",
+            "companyName": "S.P. Pty Ltd",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "S.P. Pty Ltd \u8d1f\u8d23 \u6d4b\u91cf"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox Architecture",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox Architecture \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "\u666f\u89c2\uff1b\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Geoscapes",
+            "category": "Environmental",
+            "description": "Geoscapes \u8d1f\u8d23 \u666f\u89c2\uff1b\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u571f\u6728/\u7efc\u5408\u6c34\u5faa\u73af\u7ba1\u7406/\u57fa\u7840\u8bbe\u65bd\u4e0e\u670d\u52a1",
+            "companyName": "Van Der Meer",
+            "category": "Engineering",
+            "description": "Van Der Meer \u8d1f\u8d23 \u571f\u6728/\u7efc\u5408\u6c34\u5faa\u73af\u7ba1\u7406/\u57fa\u7840\u8bbe\u65bd\u4e0e\u670d\u52a1"
+      },
+      {
+            "role": "\u5ca9\u571f\u5de5\u7a0b",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u5ca9\u571f\u5de5\u7a0b"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "\u9178\u6027\u786b\u9178\u76d0\u571f/\u76d0\u5206\u8bc4\u4f30\u4e0e\u7ba1\u7406",
+            "companyName": "EP Risk",
+            "category": "Engineering",
+            "description": "EP Risk \u8d1f\u8d23 \u9178\u6027\u786b\u9178\u76d0\u571f/\u76d0\u5206\u8bc4\u4f30\u4e0e\u7ba1\u7406"
+      },
+      {
+            "role": "\u6c61\u67d3\u8c03\u67e5/\u4fee\u590d\u884c\u52a8\u8ba1\u5212",
+            "companyName": "Senversa",
+            "category": "Engineering",
+            "description": "Senversa \u8d1f\u8d23 \u6c61\u67d3\u8c03\u67e5/\u4fee\u590d\u884c\u52a8\u8ba1\u5212"
+      },
+      {
+            "role": "\u5371\u9669\u6750\u6599\uff08HAZMAT\uff09\u8c03\u67e5",
+            "companyName": "EHO Consulting",
+            "category": "Engineering",
+            "description": "EHO Consulting \u8d1f\u8d23 \u5371\u9669\u6750\u6599\uff08HAZMAT\uff09\u8c03\u67e5"
+      },
+      {
+            "role": "\u4ea4\u901a\u4e0e\u505c\u8f66\u8bc4\u4f30/\u65bd\u5de5\u4ea4\u901a\u7ba1\u7406/\u7eff\u8272\u51fa\u884c",
+            "companyName": "Impact Traffic Engineering",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "Impact Traffic Engineering \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u505c\u8f66\u8bc4\u4f30/\u65bd\u5de5\u4ea4\u901a\u7ba1\u7406/\u7eff\u8272\u51fa\u884c"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "\u6811\u6728\u5f71\u54cd\u8bc4\u4f30\u4e0e\u4fdd\u62a4",
+            "companyName": "Tree Survey",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "Tree Survey \u8d1f\u8d23 \u6811\u6728\u5f71\u54cd\u8bc4\u4f30\u4e0e\u4fdd\u62a4"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "role": "\u751f\u6001/\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30\uff08BDAR\uff09",
+            "companyName": "Travers Bushfire & Ecology",
+            "category": "Environmental",
+            "description": "Travers Bushfire & Ecology \u8d1f\u8d23 \u751f\u6001/\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30\uff08BDAR\uff09"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "role": "\u6c34\u751f\u4e0e\u6cb3\u5cb8\u751f\u6001\u8bc4\u4f30",
+            "companyName": "Habitat Innovation & Management",
+            "category": "Environmental",
+            "description": "Habitat Innovation & Management \u8d1f\u8d23 \u6c34\u751f\u4e0e\u6cb3\u5cb8\u751f\u6001\u8bc4\u4f30"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar",
+            "category": "Environmental",
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u58f0\u5b66\uff08\u566a\u58f0\uff09\u8bc4\u4f30",
+            "companyName": "Pulse White Noise Acoustics (PWNA)",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "Pulse White Noise Acoustics (PWNA) \u8d1f\u8d23 \u58f0\u5b66\uff08\u566a\u58f0\uff09\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u9057\u4ea7\u5f71\u54cd\u58f0\u660e",
+            "companyName": "Heritage 21",
+            "category": "Heritage",
+            "description": "Heritage 21 \u8d1f\u8d23 \u9057\u4ea7\u5f71\u54cd\u58f0\u660e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u8003\u53e4\u62a5\u544a/\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09",
+            "companyName": "Biosis",
+            "category": "Heritage",
+            "description": "Biosis \u8d1f\u8d23 \u8003\u53e4\u62a5\u544a/\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
+            "role": "ESD\u53ef\u6301\u7eed\u8bbe\u8ba1",
+            "companyName": "Efficient Living",
+            "category": "Architectural",
+            "description": "Efficient Living \u8d1f\u8d23 ESD\u53ef\u6301\u7eed\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "Salt",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Salt \u8d1f\u8d23 \u5e9f\u5f03\u7269\u7ba1\u7406"
+      },
+      {
+            "role": "\u97e7\u6027\u4e0e\u5371\u5bb3SEPP\u8bc4\u4f30",
+            "companyName": "SLR",
+            "category": "Engineering",
+            "description": "SLR \u8d1f\u8d23 \u97e7\u6027\u4e0e\u5371\u5bb3SEPP\u8bc4\u4f30"
+      },
+      {
+            "role": "BCA",
+            "companyName": "MBC Group",
+            "category": "Access",
+            "description": "MBC Group \u8d1f\u8d23 BCA"
+      },
+      {
+            "role": "\u65e0\u969c\u788d\u8bbe\u8ba1\u5ba1\u67e5",
+            "companyName": "Mckenzie Group",
+            "category": "Architectural",
+            "description": "Mckenzie Group \u8d1f\u8d23 \u65e0\u969c\u788d\u8bbe\u8ba1\u5ba1\u67e5"
+      },
+      {
+            "role": "\u6d88\u9632\u5de5\u7a0b",
+            "companyName": "Innova Fire Safety Specialists",
+            "category": "Engineering",
+            "description": "Innova Fire Safety Specialists \u8d1f\u8d23 \u6d88\u9632\u5de5\u7a0b"
+      },
+      {
+            "role": "\u516c\u4f17\u53c2\u4e0e",
+            "companyName": "Astrolabe Group",
+            "category": "Engineering",
+            "description": "Astrolabe Group \u8d1f\u8d23 \u516c\u4f17\u53c2\u4e0e"
+      },
+      {
+            "role": "\u793e\u4f1a\u7ecf\u6d4e\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "HillPDA",
+            "category": "Engineering",
+            "description": "HillPDA \u8d1f\u8d23 \u793e\u4f1a\u7ecf\u6d4e\u5f71\u54cd\u8bc4\u4f30"
       }
 ],
     appendices: [
@@ -16583,53 +16277,23 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$840 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Mars Road Data Centre at 3-4 Apollo Place / 87-91 Mars Road with proposed capacity of 140MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mars-road-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 140MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u89c4\u5212\u987e\u95ee\uff08\u63d0\u4ea4 SEARs \u7533\u8bf7\uff0cTheo Klok \u9ad8\u7ea7\u89c4\u5212\u5e08\uff09",
+            "companyName": "Willowtree Planning (NSW) Pty Ltd",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Willowtree Planning (NSW) Pty Ltd \u8d1f\u8d23 \u89c4\u5212\u987e\u95ee\uff08\u63d0\u4ea4 SEARs \u7533\u8bf7\uff0cTheo Klok \u9ad8\u7ea7\u89c4\u5212\u5e08\uff09"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
+            "role": "\u4e13\u4e1a\u54a8\u8be2\u987e\u95ee",
+            "companyName": "\uff08\u65e9\u671f\u9636\u6bb5\uff1a\u4ec5\u6709\u5df2\u7b7e\u53d1\u7684 SEARs \u53ca\u521d\u6b65\u5efa\u7b51\u56fe/\u4f53\u91cf\u56fe/\u6750\u6599\u8868\uff1b\u5c1a\u672a\u62ab\u9732\u4e13\u9879\u6280\u672f\u987e\u95ee\u56e2\u961f\u3002\u6ce8\u610f\uff1a\u6b64\u9879\u76ee\u4e0d\u540c\u4e8e NSW-024\u300cProject Mars\u300d\uff09",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "description": "\uff08\u65e9\u671f\u9636\u6bb5\uff1a\u4ec5\u6709\u5df2\u7b7e\u53d1\u7684 SEARs \u53ca\u521d\u6b65\u5efa\u7b51\u56fe/\u4f53\u91cf\u56fe/\u6750\u6599\u8868\uff1b\u5c1a\u672a\u62ab\u9732\u4e13\u9879\u6280\u672f\u987e\u95ee\u56e2\u961f\u3002\u6ce8\u610f\uff1a\u6b64\u9879\u76ee\u4e0d\u540c\u4e8e NSW-024\u300cProject Mars\u300d\uff09 \u8d1f\u8d23 \u4e13\u4e1a\u54a8\u8be2\u987e\u95ee"
       }
 ],
     appendices: [
@@ -16712,137 +16376,35 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$240 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Willowtree Planning',
+    planningConsultant: 'Arup',
     description: "State Significant Development for 43-61 Turner Road Data Centre at Gregory Hills with proposed capacity of 40MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/43-61-turner-road-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 40MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Willowtree Planning",
+            "role": "EIS\u603b\u987e\u95ee\u53ca\u5927\u90e8\u5206\u4e13\u9879\u8bc4\u4f30\uff1a\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u793e\u4f1a\u5f71\u54cd/\u4ea4\u901a\u4e0e\u8fd0\u8f93/ESD/\u57fa\u7840\u8bbe\u65bd/\u89c6\u89c9/\u5730\u8868\u6c34\u4e0e\u6d2a\u6c34\u7b49",
+            "companyName": "Arup Pty Ltd",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Willowtree Planning"
+            "description": "Arup Pty Ltd \u8d1f\u8d23 EIS\u603b\u987e\u95ee\u53ca\u5927\u90e8\u5206\u4e13\u9879\u8bc4\u4f30\uff1a\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u793e\u4f1a\u5f71\u54cd/\u4ea4\u901a\u4e0e\u8fd0\u8f93/ESD/\u57fa\u7840\u8bbe\u65bd/\u89c6\u89c9/\u5730\u8868\u6c34\u4e0e\u6d2a\u6c34\u7b49"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u751f\u6001/\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30",
+            "companyName": "Niche",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Niche \u8d1f\u8d23 \u751f\u6001/\u751f\u7269\u591a\u6837\u6027\u8bc4\u4f30"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u4e1b\u6797\u706b\u707e\u8bc4\u4f30",
+            "companyName": "BFCS (Bushfire Compliance Services)",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "BFCS (Bushfire Compliance Services) \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u8bc4\u4f30"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09",
+            "companyName": "Artefact Heritage and Environment",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Camden Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Rural Fire Service",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "description": "Artefact Heritage and Environment \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09"
       }
 ],
     appendices: [
@@ -17413,77 +16975,41 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$480 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for Modification 2 - Lanceley Place Data Centre at Artarmon with proposed capacity of 80MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-2-lanceley-place-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 80MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "Mod 2 \u4fee\u6539\u62a5\u544a\u603b\u89c4\u5212\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30",
             "companyName": "Urbis",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Urbis \u8d1f\u8d23 Mod 2 \u4fee\u6539\u62a5\u544a\u603b\u89c4\u5212\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1\uff08Mod 2 \u56fe\u7eb8\uff09",
+            "companyName": "HDR",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1\uff08Mod 2 \u56fe\u7eb8\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Willoughby City Council",
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30\uff1b\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30",
+            "companyName": "SLR Consulting Australia",
+            "category": "Acoustic",
+            "description": "SLR Consulting Australia \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30\uff1b\u566a\u58f0\u4e0e\u632f\u52a8\u8bc4\u4f30"
+      },
+      {
+            "role": "\u5371\u9669\u54c1\u8bc4\u4f30\uff1b\u98ce\u9669\u4e0e\u5371\u5bb3\uff08SEPP-RH\uff09\u8bc4\u4f30",
+            "companyName": "Riskcon Engineering",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Riskcon Engineering \u8d1f\u8d23 \u5371\u9669\u54c1\u8bc4\u4f30\uff1b\u98ce\u9669\u4e0e\u5371\u5bb3\uff08SEPP-RH\uff09\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
+            "role": "\u6d88\u9632\u5b89\u5168\u6982\u5ff5\u7b56\u7565",
+            "companyName": "CORE Engineering Group",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "description": "CORE Engineering Group \u8d1f\u8d23 \u6d88\u9632\u5b89\u5168\u6982\u5ff5\u7b56\u7565"
       }
 ],
     appendices: [
@@ -17766,47 +17292,29 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$1470 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Urbis',
+    planningConsultant: 'Colliers / Ethos Urban',
     description: "State Significant Development for 90 Aldington Road Data Centre at 74-88 Aldington Road, Kemps Creek with proposed capacity of 245MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/90-aldington-road-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 245MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
+            "role": "\u89c4\u5212\u987e\u95ee\uff08\u7f16\u5236 Scoping Summary Table \u9644\u5f55 B\uff09",
+            "companyName": "Colliers Urban Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Urbis"
+            "description": "Colliers Urban Planning \u8d1f\u8d23 \u89c4\u5212\u987e\u95ee\uff08\u7f16\u5236 Scoping Summary Table \u9644\u5f55 B\uff09"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "role": "\u89c4\u5212\u987e\u95ee\uff08SEARs \u7533\u8bf7\u8868\u4e3b\u8981\u8054\u7cfb\u4eba Ella Yale\uff09",
+            "companyName": "Ethos Urban",
+            "category": "Planning",
+            "description": "Ethos Urban \u8d1f\u8d23 \u89c4\u5212\u987e\u95ee\uff08SEARs \u7533\u8bf7\u8868\u4e3b\u8981\u8054\u7cfb\u4eba Ella Yale\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
+            "role": "\u4e13\u4e1a\u54a8\u8be2\u987e\u95ee",
+            "companyName": "\uff08\u65e9\u671f\u9636\u6bb5\uff1a\u4ec5\u6709\u5df2\u7b7e\u53d1 SEARs\u3001\u521d\u6b65\u5efa\u7b51\u56fe\u4e0e\u8303\u56f4\u754c\u5b9a\u8868\uff1b\u5c1a\u672a\u62ab\u9732\u4e13\u9879\u6280\u672f\u987e\u95ee\u56e2\u961f\u3002\u7533\u8bf7\u4eba\u4e3a Fife Land 3 Trust / FFE Capital\uff09",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "description": "\uff08\u65e9\u671f\u9636\u6bb5\uff1a\u4ec5\u6709\u5df2\u7b7e\u53d1 SEARs\u3001\u521d\u6b65\u5efa\u7b51\u56fe\u4e0e\u8303\u56f4\u754c\u5b9a\u8868\uff1b\u5c1a\u672a\u62ab\u9732\u4e13\u9879\u6280\u672f\u987e\u95ee\u56e2\u961f\u3002\u7533\u8bf7\u4eba\u4e3a Fife Land 3 Trust / FFE Capital\uff09 \u8d1f\u8d23 \u4e13\u4e1a\u54a8\u8be2\u987e\u95ee"
       }
 ],
     appendices: [
@@ -17889,137 +17397,107 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$1392 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for NEXTDC S4 Data Centre Horsley Park Phase 1 at 16 Johnston Crescent, Horsley Park with proposed capacity of 232MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-horsley-park',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 232MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e",
             "companyName": "Urbis",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Urbis \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1/\u6d4b\u91cf",
+            "companyName": "HDR Architects",
+            "category": "Architectural",
+            "description": "HDR Architects \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1/\u6d4b\u91cf"
+      },
+      {
+            "role": "\u9020\u4ef7\u8bc4\u4f30/\u9690\u542b\u78b3\u8868",
+            "companyName": "WT Partnership",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "WT Partnership \u8d1f\u8d23 \u9020\u4ef7\u8bc4\u4f30/\u9690\u542b\u78b3\u8868"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "BCA\u8bc4\u4f30",
+            "companyName": "McKenzie Group",
+            "category": "Access",
+            "description": "McKenzie Group \u8d1f\u8d23 BCA\u8bc4\u4f30"
+      },
+      {
+            "role": "\u666f\u89c2\u8bbe\u8ba1",
+            "companyName": "Site Image",
+            "category": "Architectural",
+            "description": "Site Image \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u4ea4\u901a\u8bc4\u4f30/\u6d2a\u6c34\u98ce\u9669/\u571f\u6728\u5de5\u7a0b/\u7eff\u8272\u51fa\u884c/\u65bd\u5de5\u4ea4\u901a\u7ba1\u7406",
+            "companyName": "TTW",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "TTW \u8d1f\u8d23 \u4ea4\u901a\u8bc4\u4f30/\u6d2a\u6c34\u98ce\u9669/\u571f\u6728\u5de5\u7a0b/\u7eff\u8272\u51fa\u884c/\u65bd\u5de5\u4ea4\u901a\u7ba1\u7406"
       },
       {
-            "role": "Air Quality Specialist",
+            "role": "ESD/\u7a7a\u6c14\u8d28\u91cf(\u4e0eNorthstar)/\u566a\u58f0\u4e0e\u632f\u52a8/\u5907\u7528\u7535\u6e90/\u521d\u6b65\u5371\u5bb3/\u57fa\u7840\u8bbe\u65bd",
             "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "Aurecon \u8d1f\u8d23 ESD/\u7a7a\u6c14\u8d28\u91cf(\u4e0eNorthstar)/\u566a\u58f0\u4e0e\u632f\u52a8/\u5907\u7528\u7535\u6e90/\u521d\u6b65\u5371\u5bb3/\u57fa\u7840\u8bbe\u65bd"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
-            "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "NSW Rural Fire Service",
-            "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30\uff08\u4e0e Aurecon\uff09",
+            "companyName": "Northstar",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Northstar \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30\uff08\u4e0e Aurecon\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
+            "role": "\u6c61\u67d3\u4e0e\u4fee\u590d\u72b6\u6001/\u5730\u8868\u6c34\u4e0e\u5730\u4e0b\u6c34\u6761\u4ef6/\u65f1\u5730\u76d0\u5206\u4e0e\u9178\u6027\u786b\u9178\u76d0\u571f\u8bc4\u4f30",
+            "companyName": "JK Environments",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "JK Environments \u8d1f\u8d23 \u6c61\u67d3\u4e0e\u4fee\u590d\u72b6\u6001/\u5730\u8868\u6c34\u4e0e\u5730\u4e0b\u6c34\u6761\u4ef6/\u65f1\u5730\u76d0\u5206\u4e0e\u9178\u6027\u786b\u9178\u76d0\u571f\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
+            "role": "\u5ca9\u571f\u8bc4\u4f30",
+            "companyName": "JK Geotechnics",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "JK Geotechnics \u8d1f\u8d23 \u5ca9\u571f\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
+            "role": "\u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "Encycle",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Encycle \u8d1f\u8d23 \u5e9f\u5f03\u7269\u7ba1\u7406"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u4e1b\u6797\u706b\u707e\u9632\u62a4\u8bc4\u4f30",
+            "companyName": "ABPP",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "ABPP \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u9632\u62a4\u8bc4\u4f30"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "role": "\u65e0\u969c\u788d\u901a\u884c\u5ba1\u67e5",
+            "companyName": "MGAC",
+            "category": "Access",
+            "description": "MGAC \u8d1f\u8d23 \u65e0\u969c\u788d\u901a\u884c\u5ba1\u67e5"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u751f\u7269\u591a\u6837\u6027BDAR\u8c41\u514d\u7533\u8bf7",
+            "companyName": "Narla Environmental",
+            "category": "Environmental",
+            "description": "Narla Environmental \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027BDAR\u8c41\u514d\u7533\u8bf7"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u5bfc\u5411\u4e0e\u6807\u8bc6\u89c4\u5212",
+            "companyName": "Diadem",
+            "category": "Planning",
+            "description": "Diadem \u8d1f\u8d23 \u5bfc\u5411\u4e0e\u6807\u8bc6\u89c4\u5212"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u6811\u6728\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "CPS Planning",
+            "category": "Environmental",
+            "description": "CPS Planning \u8d1f\u8d23 \u6811\u6728\u5f71\u54cd\u8bc4\u4f30"
       }
 ],
     appendices: [
@@ -19126,95 +18604,35 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$600 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'EMKC Cubed',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Modification 1 51 Huntingwood Drive - Reduced Scale at Huntingwood with proposed capacity of 100MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-51-huntingwood-drive-data-centre-reduced-scale',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 100MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "EMKC Cubed",
+            "role": "\u603b\u89c4\u5212/\u4fee\u6539\u7533\u8bf7\u987e\u95ee",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by EMKC Cubed"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/\u4fee\u6539\u7533\u8bf7\u987e\u95ee"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox Architecture",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Greenbox Architecture \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u566a\u58f0/\u58f0\u5b66\u590d\u6838",
+            "companyName": "PWNA",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "PWNA \u8d1f\u8d23 \u566a\u58f0/\u58f0\u5b66\u590d\u6838"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Blacktown City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "Geoscapes",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "description": "Geoscapes \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30"
       }
 ],
     appendices: [
@@ -19617,125 +19035,89 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$576 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'SJB Planning',
+    planningConsultant: 'Patch Planning',
     description: "State Significant Development for Honeman Close Data Centre at 6 Honeman Close, Huntingwood with proposed capacity of 96MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/honeman-close-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 96MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "SJB Planning",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
+            "companyName": "Patch Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by SJB Planning"
+            "description": "Patch Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u7533\u8bf7\u4eba\uff1bESD\u3001BCA\u4e0e\u65e0\u969c\u788d\u3001\u5efa\u7b51\u673a\u7535\u57fa\u7840\u8bbe\u65bd",
+            "companyName": "Lehr/LCI",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Lehr/LCI \u8d1f\u8d23 \u7533\u8bf7\u4eba\uff1bESD\u3001BCA\u4e0e\u65e0\u969c\u788d\u3001\u5efa\u7b51\u673a\u7535\u57fa\u7840\u8bbe\u65bd"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "\u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30",
+            "companyName": "The Transport Planning Partnership (TPP/TTPP)",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "The Transport Planning Partnership (TPP/TTPP) \u8d1f\u8d23 \u4ea4\u901a\u4e0e\u8fd0\u8f93\u8bc4\u4f30"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8/\u58f0\u5b66\u8bc4\u4f30",
+            "companyName": "PWNA",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "PWNA \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8/\u58f0\u5b66\u8bc4\u4f30"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30",
+            "companyName": "Northstar Air Quality",
+            "category": "Environmental",
+            "description": "Northstar Air Quality \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf\u8bc4\u4f30"
+      },
+      {
+            "role": "\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "DEM (Aust)",
+            "category": "Environmental",
+            "description": "DEM (Aust) \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u571f\u6728\u4e0e\u96e8\u6c34\u5de5\u7a0b",
+            "companyName": "ACOR Consultants",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "ACOR Consultants \u8d1f\u8d23 \u571f\u6728\u4e0e\u96e8\u6c34\u5de5\u7a0b"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u751f\u7269\u591a\u6837\u6027 (BDAR)",
+            "companyName": "ERM",
+            "category": "Environmental",
+            "description": "ERM \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027 (BDAR)"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11 (ACHAR) \u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7 (SoHI)",
+            "companyName": "EMM Consulting",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "description": "EMM Consulting \u8d1f\u8d23 \u539f\u4f4f\u6c11 (ACHAR) \u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7 (SoHI)"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u6c61\u67d3\u573a\u5730\u8c03\u67e5/\u5ca9\u571f/\u6c34\u9053/\u6c34\u6587\u5730\u8d28",
+            "companyName": "Martens & Associates",
+            "category": "Engineering",
+            "description": "Martens & Associates \u8d1f\u8d23 \u6c61\u67d3\u573a\u5730\u8c03\u67e5/\u5ca9\u571f/\u6c34\u9053/\u6c34\u6587\u5730\u8d28"
+      },
+      {
+            "role": "\u793e\u4f1a\u7ecf\u6d4e\u8bc4\u4f30 (SEIA)",
+            "companyName": "Ethos Urban",
+            "category": "Engineering",
+            "description": "Ethos Urban \u8d1f\u8d23 \u793e\u4f1a\u7ecf\u6d4e\u8bc4\u4f30 (SEIA)"
+      },
+      {
+            "role": "\u6811\u6728/\u690d\u683d (arboriculture)",
+            "companyName": "Urban Tree Management",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Urban Tree Management \u8d1f\u8d23 \u6811\u6728/\u690d\u683d (arboriculture)"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u4e1b\u6797\u706b\u707e\u8bc4\u4f30",
+            "companyName": "Building Code & Bushfire Hazard Solutions",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Bushfire Safety Consultant",
-            "companyName": "NSW Rural Fire Service",
-            "category": "Engineering",
-            "description": "Official Bushfire Safety Consultant identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Blacktown City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Biodiversity, Conservation and Science",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Building Code & Bushfire Hazard Solutions \u8d1f\u8d23 \u4e1b\u6797\u706b\u707e\u8bc4\u4f30"
       }
 ],
     appendices: [
@@ -20594,125 +19976,113 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$300 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Mecone Planning',
+    planningConsultant: 'Patch Planning',
     description: "State Significant Development for DigiCo SYD1 Data Centre Expansion at 392-422 Harris Street, Ultimo with proposed capacity of 50MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/digico-syd1-data-centre-expansion',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 50MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Mecone Planning",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u54a8\u8be2\u6210\u679c\u62a5\u544a",
+            "companyName": "Patch Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Mecone Planning"
+            "description": "Patch Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u54a8\u8be2\u6210\u679c\u62a5\u544a"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "ESD + \u516c\u7528\u8bbe\u65bd\u62a5\u544a",
+            "companyName": "LCI (Lehr)",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "LCI (Lehr) \u8d1f\u8d23 ESD + \u516c\u7528\u8bbe\u65bd\u62a5\u544a"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "\u4ea4\u901a\u8bc4\u4f30 (TIA + CTMP)",
+            "companyName": "PTC",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "PTC \u8d1f\u8d23 \u4ea4\u901a\u8bc4\u4f30 (TIA + CTMP)"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8 (NVIA)",
+            "companyName": "PWNA (Pulse White Noise Acoustics)",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "PWNA (Pulse White Noise Acoustics) \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8 (NVIA)"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "role": "\u73af\u5883\u98ce\u5f71\u54cd+\u98ce\u6d1e\u7814\u7a76+\u53cd\u5149\u7729\u5149\u8bc4\u4f30",
+            "companyName": "SLR Consulting",
+            "category": "Environmental",
+            "description": "SLR Consulting \u8d1f\u8d23 \u73af\u5883\u98ce\u5f71\u54cd+\u98ce\u6d1e\u7814\u7a76+\u53cd\u5149\u7729\u5149\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u666f\u89c2\u56fe\u7eb8+\u65e5\u7167\u5206\u6790",
+            "companyName": "DEM",
+            "category": "Environmental",
+            "description": "DEM \u8d1f\u8d23 \u666f\u89c2\u56fe\u7eb8+\u65e5\u7167\u5206\u6790"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u539f\u4f4f\u6c11 (ACHAR)+\u5386\u53f2\u9057\u4ea7\u58f0\u660e+\u5386\u53f2\u8003\u53e4\u8bc4\u4f30",
+            "companyName": "City Plan Heritage (CPH)",
+            "category": "Heritage",
+            "description": "City Plan Heritage (CPH) \u8d1f\u8d23 \u539f\u4f4f\u6c11 (ACHAR)+\u5386\u53f2\u9057\u4ea7\u58f0\u660e+\u5386\u53f2\u8003\u53e4\u8bc4\u4f30"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
+            "role": "\u7ed3\u6784\u5de5\u7a0b",
+            "companyName": "Robert Bird Group",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Robert Bird Group \u8d1f\u8d23 \u7ed3\u6784\u5de5\u7a0b"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
+            "role": "\u8fd0\u8425\u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "APC Waste Consultants",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "APC Waste Consultants \u8d1f\u8d23 \u8fd0\u8425\u5e9f\u5f03\u7269\u7ba1\u7406"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "City of Sydney Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u901a\u8fbe\u80fd\u529b + BCA \u80fd\u529b\u58f0\u660e",
+            "companyName": "MBC Group",
+            "category": "Access",
+            "description": "MBC Group \u8d1f\u8d23 \u901a\u8fbe\u80fd\u529b + BCA \u80fd\u529b\u58f0\u660e"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
+            "role": "\u65e5\u7167\u62a5\u544a",
+            "companyName": "Walsh Analysis",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Walsh Analysis \u8d1f\u8d23 \u65e5\u7167\u62a5\u544a"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u6811\u6728\u4fdd\u62a4\u8ba1\u5212",
+            "companyName": "Raintree Consulting",
+            "category": "Environmental",
+            "description": "Raintree Consulting \u8d1f\u8d23 \u6811\u6728\u4fdd\u62a4\u8ba1\u5212"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u96e8\u6c34 + \u6d2a\u6c34\u98ce\u9669",
+            "companyName": "BG&E",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "BG&E \u8d1f\u8d23 \u96e8\u6c34 + \u6d2a\u6c34\u98ce\u9669"
+      },
+      {
+            "role": "\u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "The Planning Studio (TPS)",
+            "category": "Engineering",
+            "description": "The Planning Studio (TPS) \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u521d\u6b65\u573a\u5730\u8c03\u67e5\uff08\u6c61\u67d3\uff09",
+            "companyName": "SMEC",
+            "category": "Engineering",
+            "description": "SMEC \u8d1f\u8d23 \u521d\u6b65\u573a\u5730\u8c03\u67e5\uff08\u6c61\u67d3\uff09"
+      },
+      {
+            "role": "\u5371\u9669\u54c1/\u5371\u5bb3 SEPP \u8bc4\u4f30",
+            "companyName": "Riskcon Engineering",
+            "category": "Engineering",
+            "description": "Riskcon Engineering \u8d1f\u8d23 \u5371\u9669\u54c1/\u5371\u5bb3 SEPP \u8bc4\u4f30"
+      },
+      {
+            "role": "\"Connecting with Country\" \u6846\u67b6",
+            "companyName": "Ngurra Advisory",
+            "category": "Engineering",
+            "description": "Ngurra Advisory \u8d1f\u8d23 \"Connecting with Country\" \u6846\u67b6"
       }
 ],
     appendices: [
@@ -21587,131 +20957,89 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$540 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Mecone',
     description: "State Significant Development for Project Duke Data Centre at 2 / 10-22 Kent Road, Mascot with proposed capacity of 90MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-duke-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 90MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u793e\u4f1a\u5f71\u54cd (SIA)/\u53c2\u4e0e\u62a5\u544a",
+            "companyName": "Mecone Group",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Mecone Group \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u793e\u4f1a\u5f71\u54cd (SIA)/\u53c2\u4e0e\u62a5\u544a"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "ESD + \u57fa\u7840\u8bbe\u65bd (IDMSP)/\u51b7\u5374\u65b9\u6848/\u57fa\u7840\u8bbe\u65bd\u9700\u6c42",
+            "companyName": "ARUP",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "ARUP \u8d1f\u8d23 ESD + \u57fa\u7840\u8bbe\u65bd (IDMSP)/\u51b7\u5374\u65b9\u6848/\u57fa\u7840\u8bbe\u65bd\u9700\u6c42"
       },
       {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
+            "role": "\u7a7a\u6c14\u8d28\u91cf (AQIA) + \u566a\u58f0\u4e0e\u632f\u52a8 (NVIA) + BDAR\u8c41\u514d",
             "companyName": "SLR Consulting",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "SLR Consulting \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf (AQIA) + \u566a\u58f0\u4e0e\u632f\u52a8 (NVIA) + BDAR\u8c41\u514d"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
+            "role": "\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 (VIA)",
+            "companyName": "Urbis",
+            "category": "Environmental",
+            "description": "Urbis \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 (VIA)"
+      },
+      {
+            "role": "\u4ea4\u901a (TIA) + CTMP + \u7eff\u8272\u51fa\u884c\u8ba1\u5212",
+            "companyName": "Ason Group",
+            "category": "Traffic",
+            "description": "Ason Group \u8d1f\u8d23 \u4ea4\u901a (TIA) + CTMP + \u7eff\u8272\u51fa\u884c\u8ba1\u5212"
+      },
+      {
+            "role": "\u571f\u6728\u5de5\u7a0b + \u6d2a\u6c34\u5f71\u54cd (FIRA)",
+            "companyName": "TTW (Taylor Thomson Whitting)",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "TTW (Taylor Thomson Whitting) \u8d1f\u8d23 \u571f\u6728\u5de5\u7a0b + \u6d2a\u6c34\u5f71\u54cd (FIRA)"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u5371\u5bb3\u4e0e\u98ce\u9669 + \u5371\u9669\u54c1",
+            "companyName": "Riskcon",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "Riskcon \u8d1f\u8d23 \u5371\u5bb3\u4e0e\u98ce\u9669 + \u5371\u9669\u54c1"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "BCA + \u65e0\u969c\u788d",
+            "companyName": "MBC Group",
+            "category": "Access",
+            "description": "MBC Group \u8d1f\u8d23 BCA + \u65e0\u969c\u788d"
+      },
+      {
+            "role": "\u6d88\u9632\u6982\u5ff5\u7b56\u7565",
+            "companyName": "Core Engineering Group",
+            "category": "Engineering",
+            "description": "Core Engineering Group \u8d1f\u8d23 \u6d88\u9632\u6982\u5ff5\u7b56\u7565"
+      },
+      {
+            "role": "\u666f\u89c2\u8bbe\u8ba1\u4e0e\u56fe\u7eb8",
+            "companyName": "Geoscape",
+            "category": "Architectural",
+            "description": "Geoscape \u8d1f\u8d23 \u666f\u89c2\u8bbe\u8ba1\u4e0e\u56fe\u7eb8"
+      },
+      {
+            "role": "\u6811\u6728\u5f71\u54cd\u8bc4\u4f30 (AIA)",
+            "companyName": "Civica",
+            "category": "Environmental",
+            "description": "Civica \u8d1f\u8d23 \u6811\u6728\u5f71\u54cd\u8bc4\u4f30 (AIA)"
+      },
+      {
+            "role": "\u5ca9\u571f\u5de5\u7a0b\u8c03\u67e5",
+            "companyName": "PSM",
+            "category": "Engineering",
+            "description": "PSM \u8d1f\u8d23 \u5ca9\u571f\u5de5\u7a0b\u8c03\u67e5"
+      },
+      {
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 (ACHAR)",
+            "companyName": "Artefact",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Civil Aviation Safety Authority",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Bayside Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Artefact \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 (ACHAR)"
       }
 ],
     appendices: [
@@ -22770,77 +22098,47 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$480 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Urbis',
     description: "State Significant Development for Modification 1 Lanceley Place Data Centre at Artarmon with proposed capacity of 80MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-lanceley-place-data-centre-artarmon',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 80MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "\u603b\u89c4\u5212/\u4fee\u6539\u987e\u95ee + \u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 (VIA)",
             "companyName": "Urbis",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Urbis \u8d1f\u8d23 \u603b\u89c4\u5212/\u4fee\u6539\u987e\u95ee + \u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 (VIA)"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1 + ESD + \u57fa\u7840\u8bbe\u65bd\u4ea4\u4ed8\u7ba1\u7406\u4e0e\u5206\u671f\u8ba1\u5212",
+            "companyName": "HDR",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1 + ESD + \u57fa\u7840\u8bbe\u65bd\u4ea4\u4ed8\u7ba1\u7406\u4e0e\u5206\u671f\u8ba1\u5212"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
+            "role": "\u566a\u58f0\u5f71\u54cd",
+            "companyName": "SLR",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "SLR \u8d1f\u8d23 \u566a\u58f0\u5f71\u54cd"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u666f\u89c2\u62a5\u544a\u4e0e\u56fe\u7eb8",
+            "companyName": "Arcadia",
+            "category": "Environmental",
+            "description": "Arcadia \u8d1f\u8d23 \u666f\u89c2\u62a5\u544a\u4e0e\u56fe\u7eb8"
+      },
+      {
+            "role": "\u6d2a\u6c34\u98ce\u9669 + \u571f\u6728\u8bbe\u8ba1",
+            "companyName": "van der Meer Consulting",
+            "category": "Architectural",
+            "description": "van der Meer Consulting \u8d1f\u8d23 \u6d2a\u6c34\u98ce\u9669 + \u571f\u6728\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u5de5\u7a0b\uff08\u5f15\u7528\uff09",
+            "companyName": "TTW (NSW)",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Willoughby City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "description": "TTW (NSW) \u8d1f\u8d23 \u5de5\u7a0b\uff08\u5f15\u7528\uff09"
       }
 ],
     appendices: [
@@ -23171,47 +22469,29 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$228 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Urbis',
+    planningConsultant: 'Beam Planning',
     description: "State Significant Development for 22 O'Riordan Street, Alexandria - Data Centre at 22 O'Riordan Street, Alexandria with proposed capacity of 38MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/22-oriordan-street-alexandria-data-centre',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 38MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
+            "role": "\u89c4\u5212\u987e\u95ee\uff08SEARs \u7533\u8bf7\u7f16\u5236\uff1bChris Forrester \u8463\u4e8b\u3001Sarah Castro \u9ad8\u7ea7\u89c4\u5212\u5e08\uff09",
+            "companyName": "Beam Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Urbis"
+            "description": "Beam Planning \u8d1f\u8d23 \u89c4\u5212\u987e\u95ee\uff08SEARs \u7533\u8bf7\u7f16\u5236\uff1bChris Forrester \u8463\u4e8b\u3001Sarah Castro \u9ad8\u7ea7\u89c4\u5212\u5e08\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
+            "role": "\u4e13\u4e1a\u54a8\u8be2\u987e\u95ee",
+            "companyName": "\u63d0\u6848\u4eba\uff1aMarkham Real Estate Partners (Green Square) / M9 Property Trust",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "\u63d0\u6848\u4eba\uff1aMarkham Real Estate Partners (Green Square) / M9 Property Trust \u8d1f\u8d23 \u4e13\u4e1a\u54a8\u8be2\u987e\u95ee"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
+            "role": "\u4e13\u4e1a\u54a8\u8be2\u987e\u95ee",
+            "companyName": "\uff08\u8be5\u9879\u76ee\u5904\u4e8e SEARs \u8303\u56f4\u754c\u5b9a\u9636\u6bb5\uff0c\u5c1a\u672a\u516c\u5f00\u5217\u660e\u4e13\u9879\u6280\u672f\u5b50\u987e\u95ee\uff09",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Facility masterplan & facade design"
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
+            "description": "\uff08\u8be5\u9879\u76ee\u5904\u4e8e SEARs \u8303\u56f4\u754c\u5b9a\u9636\u6bb5\uff0c\u5c1a\u672a\u516c\u5f00\u5217\u660e\u4e13\u9879\u6280\u672f\u5b50\u987e\u95ee\uff09 \u8d1f\u8d23 \u4e13\u4e1a\u54a8\u8be2\u987e\u95ee"
       }
 ],
     appendices: [
@@ -23262,65 +22542,35 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$960 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Cundall / Ethos Urban',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Modification 1 Tree Removal Correction at 3 Davis Road, Wetherill Park with proposed capacity of 160MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-tree-removal-correction',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 160MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Cundall / Ethos Urban",
+            "role": "\u603b\u89c4\u5212/\u4fee\u6539 + \u63d0\u4ea4\u56de\u5e94\u62a5\u544a",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Cundall / Ethos Urban"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/\u4fee\u6539 + \u63d0\u4ea4\u56de\u5e94\u62a5\u544a"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Gensler Australia",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "Gensler Australia \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Arboricultural Consultant",
-            "companyName": "NSW Conservation Programs, Heritage and Regulation",
+            "role": "\u666f\u89c2\u56fe\u7eb8 + \u666f\u89c2\u8bbe\u8ba1\u62a5\u544a",
+            "companyName": "Arcadia",
+            "category": "Architectural",
+            "description": "Arcadia \u8d1f\u8d23 \u666f\u89c2\u56fe\u7eb8 + \u666f\u89c2\u8bbe\u8ba1\u62a5\u544a"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027 (BDAR)",
+            "companyName": "Narla Environmental",
             "category": "Environmental",
-            "description": "Official Arboricultural Consultant identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "description": "Narla Environmental \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027 (BDAR)"
       }
 ],
     appendices: [
@@ -23467,125 +22717,77 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$390 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Insite Planning',
+    planningConsultant: 'Patch Planning',
     description: "State Significant Development for Grand Avenue Data Centre Expansion, Rosehill at 8 Grand Avenue, Rosehill with proposed capacity of 65MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/grand-avenue-data-centre-expansion-rosehill',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 65MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Insite Planning",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u54a8\u8be2\u6210\u679c\u62a5\u544a",
+            "companyName": "Patch Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Insite Planning"
+            "description": "Patch Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u54a8\u8be2\u6210\u679c\u62a5\u544a"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "\u4ea4\u901a (TIA)/CTMP/\u7eff\u8272\u51fa\u884c + \u566a\u58f0\u4e0e\u632f\u52a8 (NVIA) + ESD + \u57fa\u7840\u8bbe\u65bd\u4e0e\u516c\u7528\u8bbe\u65bd",
+            "companyName": "Arup",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "Arup \u8d1f\u8d23 \u4ea4\u901a (TIA)/CTMP/\u7eff\u8272\u51fa\u884c + \u566a\u58f0\u4e0e\u632f\u52a8 (NVIA) + ESD + \u57fa\u7840\u8bbe\u65bd\u4e0e\u516c\u7528\u8bbe\u65bd"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "\u666f\u89c2\u5efa\u7b51",
+            "companyName": "iScape Landscape Architecture",
+            "category": "Architectural",
+            "description": "iScape Landscape Architecture \u8d1f\u8d23 \u666f\u89c2\u5efa\u7b51"
+      },
+      {
+            "role": "\u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "Greenbox Architecture",
+            "category": "Architectural",
+            "description": "Greenbox Architecture \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027 (BDAR\u8c41\u514d)",
+            "companyName": "ecoplanning",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "ecoplanning \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027 (BDAR\u8c41\u514d)"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "role": "\u7efc\u5408\u6c34\u7ba1\u7406\u8ba1\u5212",
+            "companyName": "van der Meer Consulting",
+            "category": "Engineering",
+            "description": "van der Meer Consulting \u8d1f\u8d23 \u7efc\u5408\u6c34\u7ba1\u7406\u8ba1\u5212"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "\u65e0\u969c\u788d",
+            "companyName": "Obvius Access Consultants",
+            "category": "Access",
+            "description": "Obvius Access Consultants \u8d1f\u8d23 \u65e0\u969c\u788d"
+      },
+      {
+            "role": "\u793e\u4f1a\u5f71\u54cd (SIA)",
+            "companyName": "The Planning Studio (TPS)",
+            "category": "Engineering",
+            "description": "The Planning Studio (TPS) \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd (SIA)"
+      },
+      {
+            "role": "BCA",
+            "companyName": "Steve Watson and Partners",
+            "category": "Access",
+            "description": "Steve Watson and Partners \u8d1f\u8d23 BCA"
+      },
+      {
+            "role": "\u5ca9\u571f\u5de5\u7a0b",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u5ca9\u571f\u5de5\u7a0b"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 (ACHAR)",
             "companyName": "Artefact Heritage",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Biodiversity, Conservation and Science",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "City of Parramatta Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Transport for NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Artefact Heritage \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 (ACHAR)"
       }
 ],
     appendices: [
@@ -24297,12 +23499,6 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "description": "Statutory planning and EIS lead by Urbis"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
             "role": "Architectural Design",
             "companyName": "HDR / Greenbox Architecture",
             "category": "Architectural",
@@ -24319,6 +23515,12 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
             "companyName": "SLR Consulting",
             "category": "Acoustic",
             "description": "Noise propagation modelling"
+      },
+      {
+            "role": "Civil & Water Engineer",
+            "companyName": "Jacobs Engineering",
+            "category": "Engineering",
+            "description": "Civil works & stormwater quality"
       },
       {
             "role": "Lead State Authority",
@@ -24351,95 +23553,47 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$510 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Modification 1 Talavera Road Expansion MOD 1 at 17-23 Talavera Road, Macquarie Park with proposed capacity of 85MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-talavera-road-data-centre-campus-expansion-mod-1',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 85MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
+            "role": "\u603b\u89c4\u5212/\u4fee\u6539\u987e\u95ee",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/\u4fee\u6539\u987e\u95ee"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "\u5efa\u7b51\u8bbe\u8ba1 + \u53ef\u6301\u7eed\u6027\u58f0\u660e + \u6e29\u5ba4\u6c14\u4f53\u58f0\u660e",
+            "companyName": "HDR",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "HDR \u8d1f\u8d23 \u5efa\u7b51\u8bbe\u8ba1 + \u53ef\u6301\u7eed\u6027\u58f0\u660e + \u6e29\u5ba4\u6c14\u4f53\u58f0\u660e"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 (VIA)",
+            "companyName": "Geoscapes",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "Geoscapes \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 (VIA)"
       },
       {
-            "role": "Acoustic Specialist",
+            "role": "\u5e9f\u5f03\u7269\u7ba1\u7406 + \u7a7a\u6c14\u8d28\u91cf (AQIA)",
             "companyName": "SLR Consulting",
+            "category": "Environmental",
+            "description": "SLR Consulting \u8d1f\u8d23 \u5e9f\u5f03\u7269\u7ba1\u7406 + \u7a7a\u6c14\u8d28\u91cf (AQIA)"
+      },
+      {
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8 (NVIA)",
+            "companyName": "Renzo Tonin",
             "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "description": "Renzo Tonin \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8 (NVIA)"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "City of Ryde Council",
+            "role": "\u6d88\u9632\u5b89\u5168\u7b56\u7565",
+            "companyName": "Innova Fire Safety Specialists",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Biodiversity, Conservation and Science",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Ausgrid",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
+            "description": "Innova Fire Safety Specialists \u8d1f\u8d23 \u6d88\u9632\u5b89\u5168\u7b56\u7565"
       }
 ],
     appendices: [
@@ -24834,131 +23988,77 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$960 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Cundall / Ethos Urban',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Davis Road Data Centre (Cundall) at 3 Davis Road, Wetherill Park with proposed capacity of 160MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/davis-road-data-centre-cundall',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 160MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Cundall / Ethos Urban",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
+            "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Cundall / Ethos Urban"
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
+            "role": "\u591a\u4e13\u4e1a\uff08\u7533\u8bf7\u4eba\uff09\uff1a\u7a7a\u6c14\u8d28\u91cf (AQIA)\u3001\u566a\u58f0\u4e0e\u632f\u52a8 (NVIA)\u3001\u4ea4\u901a\u6280\u672f\u62a5\u544a\u3001ESD\u3001CTMP\uff08\u81ea\u6709\u56e2\u961f\uff09",
+            "companyName": "Cundall",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "Cundall \u8d1f\u8d23 \u591a\u4e13\u4e1a\uff08\u7533\u8bf7\u4eba\uff09\uff1a\u7a7a\u6c14\u8d28\u91cf (AQIA)\u3001\u566a\u58f0\u4e0e\u632f\u52a8 (NVIA)\u3001\u4ea4\u901a\u6280\u672f\u62a5\u544a\u3001ESD\u3001CTMP\uff08\u81ea\u6709\u56e2\u961f\uff09"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u4ea4\u901a\u8c03\u67e5\u5b50\u987e\u95ee",
+            "companyName": "Sustainable Transport Surveys (SALT3)",
+            "category": "Traffic",
+            "description": "Sustainable Transport Surveys (SALT3) \u8d1f\u8d23 \u4ea4\u901a\u8c03\u67e5\u5b50\u987e\u95ee"
+      },
+      {
+            "role": "\u751f\u7269\u591a\u6837\u6027 (BDAR)",
+            "companyName": "Narla Environmental",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Narla Environmental \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027 (BDAR)"
       },
       {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Geotechnical & Soil Specialist",
+            "role": "\u5ca9\u571f + \u5730\u4e0b\u6c34",
             "companyName": "Douglas Partners",
             "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "description": "Douglas Partners \u8d1f\u8d23 \u5ca9\u571f + \u5730\u4e0b\u6c34"
       },
       {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
+            "role": "\u5371\u5bb3/\u98ce\u9669",
+            "companyName": "Sherpa Consulting",
             "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
+            "description": "Sherpa Consulting \u8d1f\u8d23 \u5371\u5bb3/\u98ce\u9669"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fairfield City Council",
+            "role": "\u6280\u672f\u6295\u5165\uff08\u5f15\u7528\uff09",
+            "companyName": "Arcadis",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Arcadis \u8d1f\u8d23 \u6280\u672f\u6295\u5165\uff08\u5f15\u7528\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Jemena",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Biodiversity, Conservation and Science",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "ESD & Sustainability Consultant",
-            "companyName": "Cundall",
+            "role": "\u89c6\u89c9\u5f71\u54cd (VIA) + \u666f\u89c2",
+            "companyName": "Arcadia (Arcadia Design Group)",
             "category": "Environmental",
-            "description": "Official ESD & Sustainability Consultant identified in SSDA lodgement."
+            "description": "Arcadia (Arcadia Design Group) \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd (VIA) + \u666f\u89c2"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7",
+            "companyName": "Austral Archaeology",
+            "category": "Heritage",
+            "description": "Austral Archaeology \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
+            "role": "\u5de5\u6599\u6d4b\u91cf\uff08\u9020\u4ef7\uff09",
+            "companyName": "Turner & Townsend",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Turner & Townsend \u8d1f\u8d23 \u5de5\u6599\u6d4b\u91cf\uff08\u9020\u4ef7\uff09"
+      },
+      {
+            "role": "\u65e0\u969c\u788d",
+            "companyName": "Obvius Access",
+            "category": "Access",
+            "description": "Obvius Access \u8d1f\u8d23 \u65e0\u969c\u788d"
       }
 ],
     appendices: [
@@ -25657,101 +24757,29 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$210 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Urbis',
+    planningConsultant: 'Arup',
     description: "State Significant Development for Project Echidna Data Centre Eastern Creek at 10 Eastern Creek Drive, Eastern Creek with proposed capacity of 35MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-centre-eastern-creek',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 35MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
+            "role": "EIS\u603b\u987e\u95ee + \u566a\u58f0\u4e0e\u632f\u52a8 + \u4ea4\u901a\u4e0e\u8fd0\u8f93 + \u7a7a\u6c14\u8d28\u91cf + \u5ca9\u571f + \u793e\u4f1a\u5f71\u54cd + \u96e8\u6c34\u4e0e\u6d2a\u6c34 + ESD/\u6e29\u5ba4\u6c14\u4f53 + \u57fa\u7840\u8bbe\u65bd\uff08\u591a\u4e13\u4e1a\u4e3b\u5bfc\uff09",
+            "companyName": "Arup Australia",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Urbis"
+            "description": "Arup Australia \u8d1f\u8d23 EIS\u603b\u987e\u95ee + \u566a\u58f0\u4e0e\u632f\u52a8 + \u4ea4\u901a\u4e0e\u8fd0\u8f93 + \u7a7a\u6c14\u8d28\u91cf + \u5ca9\u571f + \u793e\u4f1a\u5f71\u54cd + \u96e8\u6c34\u4e0e\u6d2a\u6c34 + ESD/\u6e29\u5ba4\u6c14\u4f53 + \u57fa\u7840\u8bbe\u65bd\uff08\u591a\u4e13\u4e1a\u4e3b\u5bfc\uff09"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Blacktown City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
-            "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
+            "role": "\u666f\u89c2",
+            "companyName": "Arcadia Design Group",
             "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
+            "description": "Arcadia Design Group \u8d1f\u8d23 \u666f\u89c2"
+      },
+      {
+            "role": "\u89c6\u89c9\u5f71\u54cd (VIA) + \u5efa\u7b51\u8bbe\u8ba1",
+            "companyName": "GENTON",
+            "category": "Architectural",
+            "description": "GENTON \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd (VIA) + \u5efa\u7b51\u8bbe\u8ba1"
       }
 ],
     appendices: [
@@ -26346,131 +25374,83 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$510 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Ethos Urban',
+    planningConsultant: 'Willowtree Planning',
     description: "State Significant Development for Talavera Road Data Centre Campus Expansion at 17-23 Talavera Road, Macquarie Park with proposed capacity of 85MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/talavera-road-data-centre-campus-expansion',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 85MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Ethos Urban",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Ethos Urban"
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
             "companyName": "Willowtree Planning",
             "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
+            "description": "Willowtree Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee"
       },
       {
-            "role": "Technical Specialist",
+            "role": "\u57fa\u7840\u8bbe\u65bd\u62a5\u544a + \u5efa\u7b51\u8bbe\u8ba1",
             "companyName": "HDR",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "category": "Architectural",
+            "description": "HDR \u8d1f\u8d23 \u57fa\u7840\u8bbe\u65bd\u62a5\u544a + \u5efa\u7b51\u8bbe\u8ba1"
       },
       {
-            "role": "Technical Specialist",
+            "role": "\u4ea4\u901a\u5f71\u54cd\u8bc4\u4f30",
+            "companyName": "The Transport Planning Partnership (TPP)",
+            "category": "Traffic",
+            "description": "The Transport Planning Partnership (TPP) \u8d1f\u8d23 \u4ea4\u901a\u5f71\u54cd\u8bc4\u4f30"
+      },
+      {
+            "role": "\u566a\u58f0\u4e0e\u632f\u52a8",
+            "companyName": "Renzo Tonin",
+            "category": "Acoustic",
+            "description": "Renzo Tonin \u8d1f\u8d23 \u566a\u58f0\u4e0e\u632f\u52a8"
+      },
+      {
+            "role": "\u793e\u4f1a\u5f71\u54cd (SIA)",
+            "companyName": "Astrolabe Group",
+            "category": "Engineering",
+            "description": "Astrolabe Group \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd (SIA)"
+      },
+      {
+            "role": "\u89c6\u89c9\u5f71\u54cd + \u666f\u89c2",
+            "companyName": "Geoscapes (Geoscapes Landscape Architecture)",
+            "category": "Environmental",
+            "description": "Geoscapes (Geoscapes Landscape Architecture) \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd + \u666f\u89c2"
+      },
+      {
+            "role": "\u6d88\u9632\u5b89\u5168\u7b56\u7565",
+            "companyName": "Innova Fire Safety Specialists",
+            "category": "Engineering",
+            "description": "Innova Fire Safety Specialists \u8d1f\u8d23 \u6d88\u9632\u5b89\u5168\u7b56\u7565"
+      },
+      {
+            "role": "\u7a7a\u6c14\u8d28\u91cf (AQIA) + \u5e9f\u5f03\u7269\u7ba1\u7406",
+            "companyName": "SLR Consulting",
+            "category": "Environmental",
+            "description": "SLR Consulting \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf (AQIA) + \u5e9f\u5f03\u7269\u7ba1\u7406"
+      },
+      {
+            "role": "\u6d2a\u6c34\u7814\u7a76 + \u571f\u6728",
+            "companyName": "Northrop",
+            "category": "Engineering",
+            "description": "Northrop \u8d1f\u8d23 \u6d2a\u6c34\u7814\u7a76 + \u571f\u6728"
+      },
+      {
+            "role": "\u5de5\u6599\u6d4b\u91cf\uff08\u9020\u4ef7\uff09",
             "companyName": "Linesight",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Linesight \u8d1f\u8d23 \u5de5\u6599\u6d4b\u91cf\uff08\u9020\u4ef7\uff09"
       },
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
+            "role": "\u8be6\u7ec6\u573a\u5730\u8c03\u67e5\uff08\u6c61\u67d3\uff09",
+            "companyName": "ERM Services",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "ERM Services \u8d1f\u8d23 \u8be6\u7ec6\u573a\u5730\u8c03\u67e5\uff08\u6c61\u67d3\uff09"
       },
       {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Official Civil & Water Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Air Quality Specialist",
-            "companyName": "Aurecon",
-            "category": "Environmental",
-            "description": "Official Air Quality Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "Transport for NSW",
-            "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
-      },
-      {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
-            "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
-            "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
+            "role": "\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7",
+            "companyName": "Artefact",
             "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "City of Ryde Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Independent Planning Commission NSW",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "Artefact \u8d1f\u8d23 \u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7"
       }
 ],
     appendices: [
@@ -27297,113 +26277,77 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     investmentAmountAud: '$270 Million',
     mainContractor: 'Multiplex / Built / FDC',
     architect: 'HDR / Greenbox Architecture / Architectus',
-    planningConsultant: 'Planning Future',
+    planningConsultant: 'Patch Planning',
     description: "State Significant Development for Station Road Data Centre Expansion at 57 Station Road, Seven Hills with proposed capacity of 45MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/station-road-data-centre-expansion',
     lastUpdated: '2026-07-20',
     keyRisks: ["Transgrid / Local High-Voltage Grid 45MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
     consultants: [
       {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Planning Future",
+            "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
+            "companyName": "Patch Planning",
             "category": "Planning",
-            "description": "Statutory planning and EIS lead by Planning Future"
+            "description": "Patch Planning \u8d1f\u8d23 \u603b\u89c4\u5212/EIS\u603b\u987e\u95ee"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Department of Planning, Housing and Infrastructure",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Official Town Planner & EIS Lead identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
+            "role": "ESD + \u901a\u8fbe\u4e0e\u9002\u5e94\u6027 + \u5efa\u7b51\u673a\u7535\u57fa\u7840\u8bbe\u65bd",
+            "companyName": "LCI (Lehr)",
             "category": "Architectural",
-            "description": "Official Architectural Design identified in SSDA lodgement."
+            "description": "LCI (Lehr) \u8d1f\u8d23 ESD + \u901a\u8fbe\u4e0e\u9002\u5e94\u6027 + \u5efa\u7b51\u673a\u7535\u57fa\u7840\u8bbe\u65bd"
       },
       {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Official Acoustic Specialist identified in SSDA lodgement."
+            "role": "\u6c61\u67d3\u571f\u5730/\u5ca9\u571f",
+            "companyName": "Martens",
+            "category": "Engineering",
+            "description": "Martens \u8d1f\u8d23 \u6c61\u67d3\u571f\u5730/\u5ca9\u571f"
       },
       {
-            "role": "Heritage Specialist",
-            "companyName": "Artefact Heritage",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "role": "\u793e\u4f1a\u5f71\u54cd",
+            "companyName": "Astrolabe Group",
+            "category": "Engineering",
+            "description": "Astrolabe Group \u8d1f\u8d23 \u793e\u4f1a\u5f71\u54cd"
       },
       {
-            "role": "Biodiversity Specialist",
-            "companyName": "Eco Logical Australia",
+            "role": "\u751f\u7269\u591a\u6837\u6027 + \u539f\u4f4f\u6c11 (ACHAR)",
+            "companyName": "Biosis",
             "category": "Environmental",
-            "description": "Official Biodiversity Specialist identified in SSDA lodgement."
+            "description": "Biosis \u8d1f\u8d23 \u751f\u7269\u591a\u6837\u6027 + \u539f\u4f4f\u6c11 (ACHAR)"
       },
       {
-            "role": "Geotechnical & Soil Specialist",
-            "companyName": "Douglas Partners",
-            "category": "Engineering",
-            "description": "Official Geotechnical & Soil Specialist identified in SSDA lodgement."
+            "role": "\u666f\u89c2",
+            "companyName": "Studio IZ",
+            "category": "Environmental",
+            "description": "Studio IZ \u8d1f\u8d23 \u666f\u89c2"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Blacktown City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
+            "role": "\u4ea4\u901a",
+            "companyName": "TTPP (The Transport Planning Partnership)",
             "category": "Traffic",
-            "description": "Official Traffic Engineer identified in SSDA lodgement."
+            "description": "TTPP (The Transport Planning Partnership) \u8d1f\u8d23 \u4ea4\u901a"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Fire and Rescue NSW",
+            "role": "\u7efc\u5408\u6c34\u7ba1\u7406",
+            "companyName": "ACOR",
             "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "description": "ACOR \u8d1f\u8d23 \u7efc\u5408\u6c34\u7ba1\u7406"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "Sydney Water",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u58f0\u5b66/\u566a\u58f0",
+            "companyName": "PWNA",
+            "category": "Acoustic",
+            "description": "PWNA \u8d1f\u8d23 \u58f0\u5b66/\u566a\u58f0"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW EPA",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
+            "role": "\u89c6\u89c9\u5f71\u54cd (VIA)",
+            "companyName": "Moir Landscape Architects",
+            "category": "Environmental",
+            "description": "Moir Landscape Architects \u8d1f\u8d23 \u89c6\u89c9\u5f71\u54cd (VIA)"
       },
       {
-            "role": "Technical Specialist",
-            "companyName": "NSW Water (DCCEEW)",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Technical Specialist",
-            "companyName": "Penrith City Council",
-            "category": "Engineering",
-            "description": "Official Technical Specialist identified in SSDA lodgement."
-      },
-      {
-            "role": "Heritage Specialist",
-            "companyName": "Heritage NSW",
-            "category": "Heritage",
-            "description": "Official Heritage Specialist identified in SSDA lodgement."
+            "role": "\u7a7a\u6c14\u8d28\u91cf (AQIA)",
+            "companyName": "Benbow Environmental",
+            "category": "Environmental",
+            "description": "Benbow Environmental \u8d1f\u8d23 \u7a7a\u6c14\u8d28\u91cf (AQIA)"
       }
 ],
     appendices: [
