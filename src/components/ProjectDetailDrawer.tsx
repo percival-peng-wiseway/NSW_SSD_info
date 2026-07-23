@@ -104,12 +104,12 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
         </div>
 
         {/* Tab Navigation */}
-        <div className={`flex border-b px-6 gap-2 ${
+        <div className={`flex border-b px-3 sm:px-6 gap-1 sm:gap-2 overflow-x-auto whitespace-nowrap scrollbar-none ${
           isDarkMode ? 'border-slate-800 bg-slate-950/60' : 'border-slate-200 bg-slate-50'
         }`}>
           <button
             onClick={() => setActiveTab('overview')}
-            className={`py-3.5 px-4 text-sm font-semibold border-b-2 transition-all flex items-center gap-2 ${
+            className={`py-3 px-3 sm:px-4 text-xs sm:text-sm font-semibold border-b-2 transition-all flex items-center gap-1.5 shrink-0 ${
               activeTab === 'overview'
                 ? 'border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-500/10'
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
@@ -119,7 +119,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
           </button>
           <button
             onClick={() => setActiveTab('consultants')}
-            className={`py-3.5 px-4 text-sm font-semibold border-b-2 transition-all flex items-center gap-2 ${
+            className={`py-3 px-3 sm:px-4 text-xs sm:text-sm font-semibold border-b-2 transition-all flex items-center gap-1.5 shrink-0 ${
               activeTab === 'consultants'
                 ? 'border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-500/10'
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
@@ -129,23 +129,23 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
           </button>
           <button
             onClick={() => setActiveTab('appendices')}
-            className={`py-3.5 px-4 text-sm font-semibold border-b-2 transition-all flex items-center gap-2 ${
+            className={`py-3 px-3 sm:px-4 text-xs sm:text-sm font-semibold border-b-2 transition-all flex items-center gap-1.5 shrink-0 ${
               activeTab === 'appendices'
                 ? 'border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-500/10'
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
             }`}
           >
-            <FileText className="w-4 h-4" /> {lang === 'zh' ? `附件与归档资源 (${project.appendices.length})` : `Attachments & Resources (${project.appendices.length})`}
+            <FileText className="w-4 h-4" /> {lang === 'zh' ? `附件与归档资源 (${project.appendices.length})` : `Attachments (${project.appendices.length})`}
           </button>
           <button
             onClick={() => setActiveTab('risks')}
-            className={`py-3.5 px-4 text-sm font-semibold border-b-2 transition-all flex items-center gap-2 ${
+            className={`py-3 px-3 sm:px-4 text-xs sm:text-sm font-semibold border-b-2 transition-all flex items-center gap-1.5 shrink-0 ${
               activeTab === 'risks'
                 ? 'border-blue-600 text-blue-600 dark:text-blue-400 bg-blue-500/10'
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
             }`}
           >
-            <ShieldAlert className="w-4 h-4" /> {lang === 'zh' ? '评估要点与风险' : 'Key Risks'}
+            <ShieldAlert className="w-4 h-4 text-amber-500" /> {lang === 'zh' ? '评估要点与风险' : 'Key Risks'}
           </button>
         </div>
 
