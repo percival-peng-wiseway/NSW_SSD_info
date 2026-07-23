@@ -545,6 +545,18 @@ export function App() {
 
       </main>
 
+      {/* Page Footer */}
+      <footer className={`py-8 text-center text-xs border-t transition-colors ${
+        isDarkMode ? 'border-slate-800/80 text-slate-500' : 'border-slate-200 text-slate-400'
+      }`}>
+        <div className="flex items-center justify-center gap-1.5 font-medium tracking-wide">
+          <span>Powered by</span>
+          <span className="font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">
+            Wiseway.ai
+          </span>
+        </div>
+      </footer>
+
       {/* Floating Bottom Comparison Action Bar */}
       {comparedProjects.length > 0 && (
         <div className={`fixed bottom-6 left-1/2 -translate-x-1/2 z-40 p-4 rounded-2xl shadow-2xl border flex items-center gap-4 transition-all animate-in fade-in slide-in-from-bottom-5 ${
