@@ -6,9 +6,15 @@ interface Props {
   projects: MajorProject[];
   onSelectProject: (project: MajorProject) => void;
   isDarkMode?: boolean;
+  lang?: 'zh' | 'en';
 }
 
-export const ConsultantMatrix: React.FC<Props> = ({ projects, onSelectProject, isDarkMode = false }) => {
+export const ConsultantMatrix: React.FC<Props> = ({ 
+  projects, 
+  onSelectProject, 
+  isDarkMode = false,
+  lang = 'zh'
+}) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
@@ -37,7 +43,7 @@ export const ConsultantMatrix: React.FC<Props> = ({ projects, onSelectProject, i
 
   const allConsultants = Array.from(consultantMap.values());
 
-  const categories = ['All', 'Planning', 'Architectural', 'Engineering', 'Environmental', 'Acoustic', 'Traffic', 'Main Contractor'];
+  const categories = ['All', 'Planning', 'Architectural', 'Engineering', 'Environmental', 'Acoustic', 'Traffic', 'Heritage', 'Access', 'Main Contractor'];
 
   const filteredConsultants = allConsultants.filter(c => {
     const matchesSearch = c.companyName.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -54,11 +60,9 @@ export const ConsultantMatrix: React.FC<Props> = ({ projects, onSelectProject, i
       }`}>
         <div>
           <h2 className={`text-lg font-bold flex items-center gap-2 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-            <Building2 className="w-5 h-5 text-blue-600 dark:text-blue-400" /> 参建咨询与合作机构名录库
+            <Building2 className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+            {lang === 'zh' ? '参建咨询与合作机构' : 'Consultants & Partner Firms'}
           </h2>
-          <p className={`text-xs mt-1 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-            汇总 43 个重大项目中所涉及的城市规划、建筑设计、交通工程、声学评估及总包单位名录
-          </p>
         </div>
 
         <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
@@ -71,7 +75,9 @@ export const ConsultantMatrix: React.FC<Props> = ({ projects, onSelectProject, i
             }`}
           >
             {categories.map(cat => (
-              <option key={cat} value={cat}>{cat === 'All' ? '所有领域 (All Category)' : cat}</option>
+              <option key={cat} value={cat}>
+                {cat === 'All' ? (lang === 'zh' ? '所有领域 (All Category)' : 'All Categories') : cat}
+              </option>
             ))}
           </select>
 
@@ -80,7 +86,7 @@ export const ConsultantMatrix: React.FC<Props> = ({ projects, onSelectProject, i
             <Search className={`w-4 h-4 absolute left-3 top-2.5 ${isDarkMode ? 'text-slate-500' : 'text-slate-400'}`} />
             <input
               type="text"
-              placeholder="搜索咨询公司名称..."
+              placeholder={lang === 'zh' ? '搜索咨询公司名称...' : 'Search firm name...'}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className={`w-full rounded-xl pl-9 pr-4 py-2 text-xs focus:outline-none focus:border-blue-500 ${
@@ -105,7 +111,7 @@ export const ConsultantMatrix: React.FC<Props> = ({ projects, onSelectProject, i
                   {c.category}
                 </span>
                 <span className={`text-xs font-mono ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                  参与 {c.projects.length} 个 SSD 项目
+                  {lang === 'zh' ? `参与 ${c.projects.length} 个 SSD 项目` : `Involved in ${c.projects.length} SSD Projects`}
                 </span>
               </div>
 
@@ -114,28 +120,27 @@ export const ConsultantMatrix: React.FC<Props> = ({ projects, onSelectProject, i
               </h3>
 
               <div className={`text-xs mb-3 ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`}>
-                主要职责领域: {c.roles.join(', ')}
+                {lang === 'zh' ? '主要职责领域: ' : 'Responsibilities: '}{c.roles.join(', ')}
               </div>
 
               <div className={`space-y-1.5 border-t pt-3 ${isDarkMode ? 'border-slate-800/80' : 'border-slate-100'}`}>
-                <div className={`text-[11px] font-medium ${isDarkMode ? 'text-slate-500' : 'text-slate-400'}`}>参与的项目列表:</div>
-                {c.projects.slice(0, 3).map(p => (
-                  <div 
-                    key={p.id}
-                    onClick={() => onSelectProject(p)}
-                    className={`text-xs hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer flex items-center justify-between p-1.5 rounded transition-colors ${
-                      isDarkMode ? 'text-slate-300 hover:bg-slate-800/50' : 'text-slate-700 hover:bg-slate-100'
-                    }`}
-                  >
-                    <span className="truncate pr-2">{p.name}</span>
-                    <ArrowRight className="w-3 h-3 shrink-0 text-slate-400" />
-                  </div>
-                ))}
-                {c.projects.length > 3 && (
-                  <div className={`text-[11px] italic pl-1 ${isDarkMode ? 'text-slate-500' : 'text-slate-400'}`}>
-                    及其它 {c.projects.length - 3} 个项目...
-                  </div>
-                )}
+                <div className={`text-[11px] font-semibold ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
+                  {lang === 'zh' ? '参与项目名录:' : 'Involved Projects:'}
+                </div>
+                <div className="space-y-1 max-h-32 overflow-y-auto">
+                  {c.projects.map(p => (
+                    <button
+                      key={p.id}
+                      onClick={() => onSelectProject(p)}
+                      className={`w-full text-left text-xs p-1.5 rounded-lg flex items-center justify-between transition-colors group ${
+                        isDarkMode ? 'hover:bg-slate-800 text-slate-300' : 'hover:bg-slate-100 text-slate-700'
+                      }`}
+                    >
+                      <span className="truncate pr-2 font-medium">{p.name}</span>
+                      <ArrowRight className="w-3 h-3 text-slate-400 group-hover:text-blue-500 shrink-0" />
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Large media & PDF static documents
+public/documents/
+all_assessments_scraped.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

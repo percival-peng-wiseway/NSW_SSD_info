@@ -8,9 +8,17 @@ interface Props {
   isCompared?: boolean;
   onToggleCompare?: (project: MajorProject) => void;
   isDarkMode?: boolean;
+  lang?: 'zh' | 'en';
 }
 
-export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, onToggleCompare, isDarkMode = false }) => {
+export const ProjectCard: React.FC<Props> = ({ 
+  project, 
+  onSelect, 
+  isCompared, 
+  onToggleCompare, 
+  isDarkMode = false,
+  lang = 'zh'
+}) => {
   const getStageColor = (stage: string) => {
     switch (stage) {
       case 'Approved':
@@ -88,7 +96,7 @@ export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, on
                 title="加入项目横向对比"
               >
                 <SlidersHorizontal className="w-3 h-3" />
-                <span>{isCompared ? '已加入对比' : '加入对比'}</span>
+                <span>{isCompared ? (lang === 'zh' ? '已加入对比' : 'Compared') : (lang === 'zh' ? '加入对比' : 'Compare')}</span>
               </button>
             )}
           </div>
@@ -127,15 +135,15 @@ export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, on
         }`}>
           <div>
             <div className={`flex items-center gap-1 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-              <Zap className="w-3 h-3 text-amber-500" /> 规划容量
+              <Zap className="w-3 h-3 text-amber-500" /> {lang === 'zh' ? '规划容量' : 'Capacity'}
             </div>
             <div className={`font-semibold mt-0.5 ${isDarkMode ? 'text-slate-200' : 'text-slate-900'}`}>
-              {project.capacityMW ? `${project.capacityMW} MW` : '待评估'}
+              {project.capacityMW ? `${project.capacityMW} MW` : (lang === 'zh' ? '待评估' : 'TBD')}
             </div>
           </div>
           <div>
             <div className={`flex items-center gap-1 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-              <Building2 className="w-3 h-3 text-blue-500" /> 申请开发商
+              <Building2 className="w-3 h-3 text-blue-500" /> {lang === 'zh' ? '申请开发商' : 'Applicant'}
             </div>
             <div className={`font-semibold mt-0.5 truncate ${isDarkMode ? 'text-slate-200' : 'text-slate-900'}`} title={project.applicant}>
               {project.applicant}
@@ -146,7 +154,7 @@ export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, on
         {/* Key Consultants Pills */}
         <div className="space-y-1.5 mb-4">
           <div className={`text-[11px] flex items-center gap-1 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-            <Users className="w-3 h-3 text-indigo-500" /> 关键合作/咨询团队:
+            <Users className="w-3 h-3 text-indigo-500" /> {lang === 'zh' ? '关键合作/咨询团队:' : 'Key Consultants:'}
           </div>
           <div className="flex flex-wrap gap-1.5">
             {project.consultants.slice(0, 3).map((c, idx) => (
@@ -165,7 +173,7 @@ export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, on
               <span className={`text-[11px] px-1.5 py-0.5 rounded border ${
                 isDarkMode ? 'bg-slate-800/40 text-slate-500 border-slate-800' : 'bg-slate-100 text-slate-500 border-slate-200'
               }`}>
-                +{project.consultants.length - 3} 机构
+                +{project.consultants.length - 3} {lang === 'zh' ? '机构' : 'more'}
               </span>
             )}
           </div>
@@ -177,7 +185,7 @@ export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, on
         isDarkMode ? 'border-slate-800/80' : 'border-slate-100'
       }`}>
         <div className={`flex items-center gap-1 text-[11px] ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-          <FileText className="w-3.5 h-3.5 text-cyan-600 dark:text-cyan-400" /> 附录数: {project.appendices.length} 份
+          <FileText className="w-3.5 h-3.5 text-cyan-600 dark:text-cyan-400" /> {lang === 'zh' ? `附录数: ${project.appendices.length} 份` : `Attachments: ${project.appendices.length}`}
         </div>
 
         <button
@@ -188,7 +196,7 @@ export const ProjectCard: React.FC<Props> = ({ project, onSelect, isCompared, on
               : 'bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white border-blue-200 hover:border-blue-600'
           }`}
         >
-          查看完整附录与咨询团队
+          {lang === 'zh' ? '拆解详情' : 'View Details'}
           <ExternalLink className="w-3.5 h-3.5" />
         </button>
       </div>

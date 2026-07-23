@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "check:assessments": "node scripts/check-official-assessments.mjs",
+    "sync:assessments": "node scripts/check-official-assessments.mjs --write && node scripts/sync-assessment-data.mjs",
+    "sync:consultants": "node scripts/sync-consultant-teams.mjs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "oxlint",

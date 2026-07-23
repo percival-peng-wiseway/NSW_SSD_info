@@ -6,9 +6,15 @@ interface Props {
   project: MajorProject | null;
   onClose: () => void;
   isDarkMode?: boolean;
+  lang?: 'zh' | 'en';
 }
 
-export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkMode = false }) => {
+export const ProjectDetailDrawer: React.FC<Props> = ({ 
+  project, 
+  onClose, 
+  isDarkMode = false,
+  lang = 'zh'
+}) => {
   const [activeTab, setActiveTab] = useState<'overview' | 'consultants' | 'appendices' | 'risks'>('overview');
   
   // Track open/collapsed categories in TAB 3
@@ -61,18 +67,28 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                 {project.stage}
               </span>
             </div>
-            <h2 className={`text-2xl font-bold leading-tight ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-              {project.name}
-            </h2>
+            <div className="flex flex-wrap items-center gap-3">
+              <h2 className={`text-2xl font-bold leading-tight ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
+                {project.name}
+              </h2>
+              <a
+                href={project.officialUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-lg bg-blue-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition-colors hover:bg-blue-500"
+              >
+                {lang === 'zh' ? '官方文档' : 'Official page'} <ExternalLink className="h-3.5 w-3.5" />
+              </a>
+            </div>
             <div className={`flex items-center gap-4 text-xs mt-2 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
               <span className="flex items-center gap-1">
                 <MapPin className="w-3.5 h-3.5 text-slate-400" /> {project.lga}
               </span>
               <span className="flex items-center gap-1">
-                <Zap className="w-3.5 h-3.5 text-amber-500" /> 容量: {project.capacityMW ? `${project.capacityMW} MW` : '待定'}
+                <Zap className="w-3.5 h-3.5 text-amber-500" /> {lang === 'zh' ? '容量' : 'Capacity'}: {project.capacityMW ? `${project.capacityMW} MW` : 'TBD'}
               </span>
               <span className="flex items-center gap-1">
-                <Building2 className="w-3.5 h-3.5 text-blue-500" /> 申请人: {project.applicant}
+                <Building2 className="w-3.5 h-3.5 text-blue-500" /> {lang === 'zh' ? '申请人' : 'Applicant'}: {project.applicant}
               </span>
             </div>
           </div>
@@ -99,7 +115,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
             }`}
           >
-            <Layers className="w-4 h-4" /> 项目概况 (Overview)
+            <Layers className="w-4 h-4" /> {lang === 'zh' ? '项目概况 (Overview)' : 'Overview & Specs'}
           </button>
           <button
             onClick={() => setActiveTab('consultants')}
@@ -109,7 +125,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
             }`}
           >
-            <Users className="w-4 h-4" /> 合作与咨询团队 ({project.consultants.length})
+            <Users className="w-4 h-4" /> {lang === 'zh' ? `合作与咨询团队 (${project.consultants.length})` : `Consultants (${project.consultants.length})`}
           </button>
           <button
             onClick={() => setActiveTab('appendices')}
@@ -119,7 +135,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
             }`}
           >
-            <FileText className="w-4 h-4" /> Attachments & Resources ({project.appendices.length})
+            <FileText className="w-4 h-4" /> {lang === 'zh' ? `附件与归档资源 (${project.appendices.length})` : `Attachments & Resources (${project.appendices.length})`}
           </button>
           <button
             onClick={() => setActiveTab('risks')}
@@ -129,7 +145,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                 : isDarkMode ? 'border-transparent text-slate-400 hover:text-slate-200' : 'border-transparent text-slate-600 hover:text-slate-900'
             }`}
           >
-            <ShieldAlert className="w-4 h-4" /> 评估要点与风险 ({project.keyRisks.length})
+            <ShieldAlert className="w-4 h-4" /> {lang === 'zh' ? '评估要点与风险' : 'Key Risks'}
           </button>
         </div>
 
@@ -139,13 +155,13 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
           {/* TAB 1: OVERVIEW */}
           {activeTab === 'overview' && (
             <div className="space-y-6">
-              {/* Description */}
-              <div className={`border rounded-xl p-5 ${
-                isDarkMode ? 'bg-slate-950/40 border-slate-800' : 'bg-slate-50 border-slate-200'
+              {/* Executive Summary */}
+              <div className={`p-4 rounded-xl border ${
+                isDarkMode ? 'bg-slate-950/60 border-slate-800' : 'bg-slate-50 border-slate-200'
               }`}>
-                <h3 className={`text-sm font-bold uppercase tracking-wider mb-2 ${
-                  isDarkMode ? 'text-slate-300' : 'text-slate-700'
-                }`}>项目描述 (Project Description)</h3>
+                <h3 className={`text-sm font-bold mb-2 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
+                  {lang === 'zh' ? '项目简介与概述' : 'Project Summary'}
+                </h3>
                 <p className={`text-sm leading-relaxed ${
                   isDarkMode ? 'text-slate-300' : 'text-slate-700'
                 }`}>{project.description}</p>
@@ -158,23 +174,23 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                 }`}>
                   <h4 className={`text-xs font-bold uppercase tracking-wider ${
                     isDarkMode ? 'text-slate-400' : 'text-slate-500'
-                  }`}>开发主体与金额</h4>
+                  }`}>{lang === 'zh' ? '开发主体与金额' : 'DEVELOPER & INVESTMENT'}</h4>
                   <div className="space-y-2 text-xs">
                     <div className={`flex justify-between py-1 border-b ${isDarkMode ? 'border-slate-800' : 'border-slate-200'}`}>
-                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>申请开发商</span>
+                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>{lang === 'zh' ? '申请开发商' : 'Applicant Developer'}</span>
                       <span className={`font-semibold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>{project.applicant}</span>
                     </div>
                     <div className={`flex justify-between py-1 border-b ${isDarkMode ? 'border-slate-800' : 'border-slate-200'}`}>
-                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>估计投资额</span>
-                      <span className="font-semibold text-emerald-600 dark:text-emerald-400">{project.investmentAmountAud || '未披露'}</span>
+                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>{lang === 'zh' ? '估计投资额' : 'Estimated Investment'}</span>
+                      <span className="font-semibold text-emerald-600 dark:text-emerald-400">{project.investmentAmountAud || (lang === 'zh' ? '未披露' : 'Undisclosed')}</span>
                     </div>
                     <div className={`flex justify-between py-1 border-b ${isDarkMode ? 'border-slate-800' : 'border-slate-200'}`}>
-                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>总包/施工单位</span>
-                      <span className="font-semibold text-blue-600 dark:text-blue-400">{project.mainContractor || '招标中'}</span>
+                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>{lang === 'zh' ? '总包/施工单位' : 'Main Contractor'}</span>
+                      <span className="font-semibold text-blue-600 dark:text-blue-400">{project.mainContractor || (lang === 'zh' ? '招标中' : 'Tendering')}</span>
                     </div>
                     <div className={`flex justify-between py-1 border-b ${isDarkMode ? 'border-slate-800' : 'border-slate-200'}`}>
-                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>设计事务所</span>
-                      <span className="font-semibold text-purple-600 dark:text-purple-400">{project.architect || '待定'}</span>
+                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>{lang === 'zh' ? '设计事务所' : 'Architectural Firm'}</span>
+                      <span className="font-semibold text-purple-600 dark:text-purple-400">{project.architect || (lang === 'zh' ? '待定' : 'TBD')}</span>
                     </div>
                   </div>
                 </div>
@@ -184,44 +200,28 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                 }`}>
                   <h4 className={`text-xs font-bold uppercase tracking-wider ${
                     isDarkMode ? 'text-slate-400' : 'text-slate-500'
-                  }`}>地理与规划参数</h4>
+                  }`}>{lang === 'zh' ? '地理与规划参数' : 'LOCATION & PLANNING'}</h4>
                   <div className="space-y-2 text-xs">
                     <div className={`flex justify-between py-1 border-b ${isDarkMode ? 'border-slate-800' : 'border-slate-200'}`}>
-                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>所属 LGA 议会</span>
+                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>{lang === 'zh' ? '所属 LGA 议会' : 'LGA Council Region'}</span>
                       <span className={`font-semibold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>{project.lga}</span>
                     </div>
                     <div className={`flex justify-between py-1 border-b ${isDarkMode ? 'border-slate-800' : 'border-slate-200'}`}>
-                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>项目地址</span>
+                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>{lang === 'zh' ? '项目地址' : 'Project Address'}</span>
                       <span className={`font-semibold truncate max-w-[200px] ${isDarkMode ? 'text-slate-300' : 'text-slate-700'}`} title={project.address}>{project.address}</span>
                     </div>
                     <div className={`flex justify-between py-1 border-b ${isDarkMode ? 'border-slate-800' : 'border-slate-200'}`}>
-                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>系统规划阶段</span>
+                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>{lang === 'zh' ? '系统规划阶段' : 'Assessment Stage'}</span>
                       <span className="font-semibold text-amber-600 dark:text-amber-400">{project.stage}</span>
                     </div>
                     <div className={`flex justify-between py-1 border-b ${isDarkMode ? 'border-slate-800' : 'border-slate-200'}`}>
-                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>最后更新日期</span>
+                      <span className={isDarkMode ? 'text-slate-400' : 'text-slate-500'}>{lang === 'zh' ? '最后更新日期' : 'Last Updated'}</span>
                       <span className={`font-mono ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>{project.lastUpdated}</span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Direct Official Link */}
-              <div className={`flex items-center justify-between p-4 rounded-xl border ${
-                isDarkMode ? 'bg-slate-950 border-slate-800' : 'bg-slate-100 border-slate-200'
-              }`}>
-                <div className={`text-xs ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`}>
-                  需要调取 NSW Planning Portal 官方原始节点数据？
-                </div>
-                <a
-                  href={project.officialUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-xs flex items-center gap-2 transition-colors shadow-sm"
-                >
-                  前往 NSW 规划门户主页 <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-              </div>
             </div>
           )}
 
@@ -229,7 +229,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
           {activeTab === 'consultants' && (
             <div className="space-y-4">
               <div className={`text-xs mb-2 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                以下为该项目在 NSW Planning Portal 申报资料中明确参与的咨询公司、工程顾问与总包单位列表：
+                {lang === 'zh' ? '以下为该项目在 NSW Planning Portal 申报资料中明确参与的咨询公司、工程顾问与总包单位列表：' : 'Listed below are all consultant firms, engineering specialists, and main contractors identified in the official SSD lodgement:'}
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -269,7 +269,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                 <span className={`text-xs font-mono px-2 py-0.5 rounded ${
                   isDarkMode ? 'bg-slate-800 text-slate-400' : 'bg-slate-100 text-slate-600'
                 }`}>
-                  共 {project.appendices.length} 份归档文件
+                  {lang === 'zh' ? `共 ${project.appendices.length} 份归档文件` : `Total ${project.appendices.length} official documents`}
                 </span>
               </div>
 
@@ -332,16 +332,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                                     {app.title}
                                   </a>
 
-                                  <span className={`text-[11px] px-2 py-0.5 rounded border shrink-0 ${
-                                    isDarkMode ? 'text-indigo-400 bg-indigo-950/60 border-indigo-800/50' : 'text-indigo-800 bg-indigo-50 border-indigo-200'
-                                  }`}>
-                                    {app.author}
-                                  </span>
                                 </div>
-
-                                <p className={`text-xs leading-relaxed ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`}>
-                                  {app.summary}
-                                </p>
                               </div>
 
                               {/* Official Portal Style View Button - Direct Local PDF View */}
@@ -349,11 +340,9 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
                                 href={app.downloadUrl || project.officialUrl}
                                 target="_blank"
                                 rel="noreferrer"
-                                className="px-4 py-2 bg-[#002664] hover:bg-[#001c4b] text-white rounded font-bold text-xs flex items-center gap-1.5 shrink-0 shadow transition-colors"
-                                title="直接全屏在本地阅读 PDF 文件"
+                                className="px-4 py-1.5 rounded-lg bg-[#002664] hover:bg-[#001a44] text-white text-xs font-bold flex items-center gap-1.5 shrink-0 shadow-sm transition-colors"
                               >
-                                <ExternalLink className="w-3.5 h-3.5" />
-                                View
+                                <ExternalLink className="w-3.5 h-3.5" /> View
                               </a>
                             </div>
                           ))}
@@ -366,33 +355,28 @@ export const ProjectDetailDrawer: React.FC<Props> = ({ project, onClose, isDarkM
             </div>
           )}
 
-          {/* TAB 4: RISKS & FOCUS AREAS */}
+          {/* TAB 4: RISKS */}
           {activeTab === 'risks' && (
             <div className="space-y-4">
-              <div className={`text-xs mb-2 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                NSW 规划评估部门 (DPE) 与环境局针对该项目的重点审查项与关键风险因子：
-              </div>
-
-              <div className="space-y-3">
-                {project.keyRisks.map((risk, idx) => (
-                  <div key={idx} className={`p-4 rounded-xl border flex items-start gap-3 ${
-                    isDarkMode ? 'bg-amber-950/20 border-amber-500/30' : 'bg-amber-50 border-amber-200'
-                  }`}>
-                    <ShieldAlert className="w-5 h-5 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
-                    <div>
-                      <h4 className={`text-sm font-bold mb-1 ${isDarkMode ? 'text-amber-300' : 'text-amber-900'}`}>{risk}</h4>
-                      <p className={`text-xs ${isDarkMode ? 'text-slate-300' : 'text-slate-700'}`}>
-                        该因子需在开发前期完成专项论证（参见附录技术报告），确保满足全州环境防护与防灾要求。
-                      </p>
-                    </div>
-                  </div>
-                ))}
+              <div className={`p-4 rounded-xl border ${
+                isDarkMode ? 'bg-slate-950/60 border-slate-800' : 'bg-slate-50 border-slate-200'
+              }`}>
+                <h3 className={`text-sm font-bold mb-2 flex items-center gap-2 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
+                  <ShieldAlert className="w-4 h-4 text-amber-500" /> {lang === 'zh' ? '关键评估风控要点 (Key Assessment Focus)' : 'Key Assessment Focus & Risks'}
+                </h3>
+                <ul className="space-y-2 text-xs">
+                  {project.keyRisks.map((risk, idx) => (
+                    <li key={idx} className={`flex items-start gap-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-700'}`}>
+                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mt-1.5 shrink-0" />
+                      <span>{risk}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           )}
 
         </div>
-
       </div>
     </div>
   );
