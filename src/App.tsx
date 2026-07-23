@@ -5,6 +5,7 @@ import { ProjectCard } from './components/ProjectCard';
 import { ProjectDetailDrawer } from './components/ProjectDetailDrawer';
 import { ConsultantMatrix } from './components/ConsultantMatrix';
 import { ProjectCompareModal } from './components/ProjectCompareModal';
+import { LiteAgentWidget } from './components/LiteAgentWidget';
 import { 
   Search, Download, LayoutGrid, Table, 
   Users, RefreshCw, SlidersHorizontal, Sun, Moon, X, Globe,
@@ -625,6 +626,14 @@ export function App() {
           lang={lang}
         />
       )}
+
+      {/* NSW SSD Embedded AI Agent Floating Widget */}
+      <LiteAgentWidget
+        projects={filteredProjects}
+        onSelectProject={(p) => setSelectedProject(p)}
+        isDarkMode={isDarkMode}
+        lang={lang}
+      />
 
     </div>
   );
