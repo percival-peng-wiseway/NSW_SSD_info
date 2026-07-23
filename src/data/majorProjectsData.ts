@@ -18,7 +18,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Mamre Road Data Centre Campus at 706-752 Mamre Road, Kemps Creek NSW with proposed capacity of 1000.0MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mamre-road-data-centre-campus',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 1000MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 1000MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Penrith City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 1000MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee (\u542bDCP\u8bc4\u4f30)",
@@ -999,7 +999,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for NEXTDC S4 Data Centre Phase 2, Horsley Park at 6 Johnston Crescent, Horsley Park NSW 2175 with proposed capacity of 134.4MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 134MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 134MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Fairfield City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 134MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a\u3001\u521d\u6b65\u89c6\u89c9\u3001\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7 (ACHAR)",
@@ -1192,7 +1192,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for 51 Huntingwood Drive Data Centre MOD 2 - Design Updates at 51 Huntingwood Drive, Huntingwood with proposed capacity of 120MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/51-huntingwood-drive-data-centre-mod-2-design-updates',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 120MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 120MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 120MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a",
@@ -1423,7 +1423,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for NEXTDC S4 Modification 1 - Design Modifications at 16 Johnston Crescent, Horsley Park with proposed capacity of 232MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-modification-1-design-modifications',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 232MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 232MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Fairfield City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 232MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a",
@@ -1624,7 +1624,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for STACK SYD01 Data Centre, Erskine Park at 78 Lockwood Road, Erskine Park with proposed capacity of 450MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/stack-syd01-data-centre-erskine-park',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 450MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 450MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Penrith City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 450MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\u3001\u793e\u533a\u53c2\u4e0e",
@@ -2745,7 +2745,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for 23-25 Waterloo Road Data Centre at 23-25 Waterloo Road, Macquarie Park with proposed capacity of 70MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/23-25-waterloo-road-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 70MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 70MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 70MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a",
@@ -2828,7 +2828,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Kurri Kurri Data Centre at 145 Bishops Bridge Road, Sawyers Gully with proposed capacity of 540MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/kurri-kurri-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 540MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 540MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Cessnock City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 540MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a",
@@ -2969,7 +2969,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Project Atlas Data Centre Eastern Creek at 10 Roberts Road, Eastern Creek with proposed capacity of 500MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-atlas-data-centre-eastern-creek',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 500MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 500MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 500MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u793e\u533a\u53c2\u4e0e",
@@ -3652,7 +3652,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Road 1 Data Centre at 1-5 Khartoum Road, Macquarie Park with proposed capacity of 34.3MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/road-1-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 34MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 34MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 34MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u539f\u4f4f\u6c11\u53ca\u5386\u53f2\u6587\u5316\u9057\u4ea7\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e",
@@ -4327,7 +4327,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Project Pluto Data Centre at 132 McCredie Road, Guildford West with proposed capacity of 126MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-pluto-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 126MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 126MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Cumberland Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 126MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e",
@@ -5320,7 +5320,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Brookhollow Avenue Data Centre Expansion, Norwest at 3 Brookhollow Avenue, Norwest with proposed capacity of 96MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 96MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 96MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[The Hills Shire Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 96MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u533a\u53c2\u4e0e",
@@ -5825,7 +5825,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Glendenning Road Data Centre at 2 Glendenning Road, Glendenning with proposed capacity of 202.4MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/glendenning-road-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 202MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 202MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 202MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001DCP\u8bc4\u4f30",
@@ -6834,7 +6834,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Project Apollo Data Centre Macquarie Park at 4-10 Talavera Road, Macquarie Park with proposed capacity of 90MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-apollo-data-centre-macquarie-park',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 90MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 90MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 90MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001\u793e\u4f1a\u5f71\u54cd\u3001\u89c6\u89c9\u3001\u793e\u533a\u53c2\u4e0e",
@@ -7723,7 +7723,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Apollo Place Data Centre at 1 Sirius Road / 1 Apollo Place, Lane Cove West with proposed capacity of 45MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/apollo-place-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 45MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 45MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Lane Cove Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 45MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\u3001Clause 4.6\u53d8\u66f4",
@@ -8732,7 +8732,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for NEXTDC S7 Data Centre, Eastern Creek at 1 Kangaroo Avenue, Eastern Creek with proposed capacity of 612MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s7-data-centre-eastern-creek',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 612MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 612MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 612MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u8303\u56f4\u754c\u5b9a\u62a5\u544a\u3001\u521d\u6b65\u89c6\u89c9\u5efa\u8bae",
@@ -8987,7 +8987,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Mod 3 - Lanceley Place Data Centre - Fire access at Artarmon with proposed capacity of 80MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mod-3-lanceley-place-data-centre-fire-access-and-switchroom',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 80MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 80MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Willoughby City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 80MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u4fee\u6539\u62a5\u544a\u7f16\u5236\uff08\u7531\u7533\u8bf7\u4eba\u5185\u90e8\u7f16\u5236\uff0c\u65e0\u5916\u90e8\u89c4\u5212\u987e\u95ee\uff09",
@@ -9084,7 +9084,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Julius Avenue Data Centre at 6-8 Julius Avenue, North Ryde with proposed capacity of 170MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/julius-avenue-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 170MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 170MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 170MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
@@ -10363,7 +10363,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Modification 1 - Substation layout changes at 43-61 Turner Road, Gregory Hills with proposed capacity of 40MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-substation-layout-changes',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 40MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 40MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Camden Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 40MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u552f\u4e00\u987e\u95ee\uff0c\u7f16\u5236\u4fee\u6539\u62a5\u544a\uff08\u5bf9\u53d8\u7535\u7ad9\u5185\u90e8\u5e03\u5c40\u7684\u5fae\u8c03\uff0c\u6cbf\u7528\u6bcd\u9879\u76ee 43-61 Turner Road \u7684\u8bc4\u4f30\uff0c\u672a\u65b0\u589e\u4e13\u9879\u987e\u95ee\uff09",
@@ -10424,7 +10424,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Marsden Park Data Centre at 105/113 Hollinsworth Road, Marsden Park with proposed capacity of 504MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/marsden-park-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 504MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 504MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 504MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
@@ -11731,7 +11731,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for 1-5 Khartoum Road Data Centre at Macquarie Park with proposed capacity of 35MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/1-5-khartoum-road-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 35MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 35MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 35MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e",
@@ -12616,45 +12616,8 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Waterloo Road Data Centre (ESR Developments) at 44-50 Waterloo Road, Macquarie Park with proposed capacity of 60MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/waterloo-road-data-centre-esr-developments',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 60MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
-    consultants: [
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "ESR Developments",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by ESR Developments"
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Facility masterplan & facade design"
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works & stormwater quality"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
-      }
-],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 60MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 60MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
+    consultants: [],
     appendices: [
       {
             "code": "Doc 01",
@@ -12691,7 +12654,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Lanceley Place Data Centre, Artarmon at 2-8 Lanceley Place, Artarmon with proposed capacity of 80MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/lanceley-place-data-centre-artarmon',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 80MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 80MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Willoughby City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 80MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u89c6\u89c9\u5f71\u54cd\uff1bClause 4.6\uff1b\u516c\u4f17\u53c2\u4e0e",
@@ -13594,7 +13557,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for NEXTDC S5 Data Centre and Innovation Hub at 269 Lane Cove Road, Macquarie Park with proposed capacity of 150MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s5-data-centre-and-innovation-hub',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 150MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 150MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 150MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e",
@@ -14799,7 +14762,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Project Mars Data Centre at 12 Mars Road, Lane Cove West with proposed capacity of 90MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-mars-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 90MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 90MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Lane Cove Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 90MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1bClause 4.6",
@@ -15430,7 +15393,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for 51 Huntingwood Drive Data Centre at 51 Huntingwood Drive, Huntingwood with proposed capacity of 120MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/51-huntingwood-drive-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 120MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 120MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 120MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
@@ -16281,7 +16244,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Mars Road Data Centre at 3-4 Apollo Place / 87-91 Mars Road with proposed capacity of 140MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/mars-road-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 140MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 140MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Lane Cove Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 140MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u89c4\u5212\u987e\u95ee\uff08\u63d0\u4ea4 SEARs \u7533\u8bf7\uff0cTheo Klok \u9ad8\u7ea7\u89c4\u5212\u5e08\uff09",
@@ -16380,7 +16343,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for 43-61 Turner Road Data Centre at Gregory Hills with proposed capacity of 40MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/43-61-turner-road-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 40MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 40MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Camden Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 40MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "EIS\u603b\u987e\u95ee\u53ca\u5927\u90e8\u5206\u4e13\u9879\u8bc4\u4f30\uff1a\u7a7a\u6c14\u8d28\u91cf/\u566a\u58f0\u4e0e\u632f\u52a8/\u793e\u4f1a\u5f71\u54cd/\u4ea4\u901a\u4e0e\u8fd0\u8f93/ESD/\u57fa\u7840\u8bbe\u65bd/\u89c6\u89c9/\u5730\u8868\u6c34\u4e0e\u6d2a\u6c34\u7b49",
@@ -16979,7 +16942,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Modification 2 - Lanceley Place Data Centre at Artarmon with proposed capacity of 80MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-2-lanceley-place-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 80MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 80MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Willoughby City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 80MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "Mod 2 \u4fee\u6539\u62a5\u544a\u603b\u89c4\u5212\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30",
@@ -17296,7 +17259,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for 90 Aldington Road Data Centre at 74-88 Aldington Road, Kemps Creek with proposed capacity of 245MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/90-aldington-road-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 245MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 245MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Penrith City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 245MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u89c4\u5212\u987e\u95ee\uff08\u7f16\u5236 Scoping Summary Table \u9644\u5f55 B\uff09",
@@ -17401,7 +17364,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for NEXTDC S4 Data Centre Horsley Park Phase 1 at 16 Johnston Crescent, Horsley Park with proposed capacity of 232MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-horsley-park',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 232MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 232MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Fairfield City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 232MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee\uff1b\u89c6\u89c9\u5f71\u54cd\uff1b\u539f\u4f4f\u6c11\u6587\u5316\u9057\u4ea7\uff08ACHAR\uff09\uff1b\u9057\u4ea7\u5f71\u54cd\uff1b\u793e\u4f1a\u5f71\u54cd\uff1b\u516c\u4f17\u53c2\u4e0e",
@@ -18608,7 +18571,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Modification 1 51 Huntingwood Drive - Reduced Scale at Huntingwood with proposed capacity of 100MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-51-huntingwood-drive-data-centre-reduced-scale',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 100MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 100MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 100MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u4fee\u6539\u7533\u8bf7\u987e\u95ee",
@@ -19039,7 +19002,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Honeman Close Data Centre at 6 Honeman Close, Huntingwood with proposed capacity of 96MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/honeman-close-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 96MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 96MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 96MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
@@ -19980,7 +19943,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for DigiCo SYD1 Data Centre Expansion at 392-422 Harris Street, Ultimo with proposed capacity of 50MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/digico-syd1-data-centre-expansion',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 50MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 50MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Sydney \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 50MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u54a8\u8be2\u6210\u679c\u62a5\u544a",
@@ -20961,7 +20924,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Project Duke Data Centre at 2 / 10-22 Kent Road, Mascot with proposed capacity of 90MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-duke-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 90MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 90MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Bayside Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 90MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u793e\u4f1a\u5f71\u54cd (SIA)/\u53c2\u4e0e\u62a5\u544a",
@@ -22102,7 +22065,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Modification 1 Lanceley Place Data Centre at Artarmon with proposed capacity of 80MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-lanceley-place-data-centre-artarmon',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 80MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 80MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Willoughby City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 80MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u4fee\u6539\u987e\u95ee + \u89c6\u89c9\u5f71\u54cd\u8bc4\u4f30 (VIA)",
@@ -22473,7 +22436,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for 22 O'Riordan Street, Alexandria - Data Centre at 22 O'Riordan Street, Alexandria with proposed capacity of 38MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/22-oriordan-street-alexandria-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 38MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 38MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Sydney \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 38MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u89c4\u5212\u987e\u95ee\uff08SEARs \u7533\u8bf7\u7f16\u5236\uff1bChris Forrester \u8463\u4e8b\u3001Sarah Castro \u9ad8\u7ea7\u89c4\u5212\u5e08\uff09",
@@ -22546,7 +22509,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Modification 1 Tree Removal Correction at 3 Davis Road, Wetherill Park with proposed capacity of 160MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-tree-removal-correction',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 160MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 160MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Fairfield City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 160MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u4fee\u6539 + \u63d0\u4ea4\u56de\u5e94\u62a5\u544a",
@@ -22721,7 +22684,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Grand Avenue Data Centre Expansion, Rosehill at 8 Grand Avenue, Rosehill with proposed capacity of 65MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/grand-avenue-data-centre-expansion-rosehill',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 65MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 65MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Parramatta \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 65MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee + \u54a8\u8be2\u6210\u679c\u62a5\u544a",
@@ -23490,45 +23453,8 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for 52 Turner Road Data Centre at 52 Turner Road, Smeaton Grange with proposed capacity of 40MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/52-turner-road-data-centre',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 40MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
-    consultants: [
-      {
-            "role": "Town Planner & EIS Lead",
-            "companyName": "Urbis",
-            "category": "Planning",
-            "description": "Statutory planning and EIS lead by Urbis"
-      },
-      {
-            "role": "Architectural Design",
-            "companyName": "HDR / Greenbox Architecture",
-            "category": "Architectural",
-            "description": "Facility masterplan & facade design"
-      },
-      {
-            "role": "Traffic Engineer",
-            "companyName": "TTW Engineering",
-            "category": "Traffic",
-            "description": "Traffic & transport impact assessment"
-      },
-      {
-            "role": "Acoustic Specialist",
-            "companyName": "SLR Consulting",
-            "category": "Acoustic",
-            "description": "Noise propagation modelling"
-      },
-      {
-            "role": "Civil & Water Engineer",
-            "companyName": "Jacobs Engineering",
-            "category": "Engineering",
-            "description": "Civil works & stormwater quality"
-      },
-      {
-            "role": "Lead State Authority",
-            "companyName": "NSW Dept of Planning (DPE)",
-            "category": "Planning",
-            "description": "Secretary Environmental Assessment Requirements"
-      }
-],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 40MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Camden Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 40MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
+    consultants: [],
     appendices: [
       {
             "code": "Doc 01",
@@ -23557,7 +23483,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Modification 1 Talavera Road Expansion MOD 1 at 17-23 Talavera Road, Macquarie Park with proposed capacity of 85MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-talavera-road-data-centre-campus-expansion-mod-1',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 85MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 85MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 85MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/\u4fee\u6539\u987e\u95ee",
@@ -23992,7 +23918,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Davis Road Data Centre (Cundall) at 3 Davis Road, Wetherill Park with proposed capacity of 160MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/davis-road-data-centre-cundall',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 160MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls", "Construction Heavy Haulage Access & Traffic Corridor Capacity", "Bushfire Asset Protection Zone (APZ) & Diesel Storage Safety"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 160MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Fairfield City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 160MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
@@ -24761,7 +24687,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Project Echidna Data Centre Eastern Creek at 10 Eastern Creek Drive, Eastern Creek with proposed capacity of 35MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-centre-eastern-creek',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 35MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 35MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 35MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "EIS\u603b\u987e\u95ee + \u566a\u58f0\u4e0e\u632f\u52a8 + \u4ea4\u901a\u4e0e\u8fd0\u8f93 + \u7a7a\u6c14\u8d28\u91cf + \u5ca9\u571f + \u793e\u4f1a\u5f71\u54cd + \u96e8\u6c34\u4e0e\u6d2a\u6c34 + ESD/\u6e29\u5ba4\u6c14\u4f53 + \u57fa\u7840\u8bbe\u65bd\uff08\u591a\u4e13\u4e1a\u4e3b\u5bfc\uff09",
@@ -25378,7 +25304,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Talavera Road Data Centre Campus Expansion at 17-23 Talavera Road, Macquarie Park with proposed capacity of 85MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/talavera-road-data-centre-campus-expansion',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 85MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 85MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[City of Ryde \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 85MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",
@@ -26281,7 +26207,7 @@ export const MAJOR_PROJECTS_DATA: MajorProject[] = [
     description: "State Significant Development for Station Road Data Centre Expansion at 57 Station Road, Seven Hills with proposed capacity of 45MW.",
     officialUrl: 'https://www.planningportal.nsw.gov.au/major-projects/projects/station-road-data-centre-expansion',
     lastUpdated: '2026-07-20',
-    keyRisks: ["Transgrid / Local High-Voltage Grid 45MW Connection Capability", "Acoustic Noise Limits during Backup Emergency Diesel Generator Testing", "Stormwater On-Site Detention (OSD) & WSUD Environmental Controls"],
+    keyRisks: ["[TfNSW \u4ea4\u901a\u5c40\u610f\u89c1] \u91cd\u70b9\u8bc4\u4f30\u91cd\u578b\u7269\u8d44\u4e0e\u8bbe\u5907\u8fd0\u8f93\u901a\u9053 (Haulage Corridor) \u5728 45MW \u89c4\u6a21\u4e0b\u7684\u65bd\u5de5\u4e0e\u8fd0\u8425\u671f\u4ea4\u901a\u5b89\u5168\u3002", "[NSW EPA \u73af\u4fdd\u5c40\u8981\u70b9] \u5e94\u6025\u67f4\u6cb9\u53d1\u7535\u673a\u7ec4 (Emergency Generators) \u5b9a\u671f\u6d4b\u8bd5\u65f6\u7684 Sound Boundary \u566a\u97f3\u53ca NOx \u6c14\u4f53\u6392\u653e\u754c\u9650\u7b26\u5408\u6027\u3002", "[Fire & Rescue / RFS \u6d88\u9632\u9632\u707e] \u5927\u5bb9\u91cf\u67f4\u6cb9\u50a8\u7f50\u5e93\u4e0e UPS \u50a8\u80fd\u7cfb\u7edf\u7684 Asset Protection Zone (APZ) \u9632\u706b\u9694\u79bb\u5e26\u4e0e\u706d\u706b\u5b89\u5168\u89c4\u8303\u3002", "[Blacktown City Council \u5730\u65b9\u8bae\u4f1a\u5ba1\u67e5] \u573a\u5730\u8fb9\u754c\u9000\u754c (Setbacks)\u3001\u96e8\u6c34\u8c03\u84c4\u6c60 (OSD) \u6392\u653e\u6807\u51c6\u53ca\u591c\u95f4\u73af\u5883\u5149/\u98ce\u573a\u5f71\u54cd\u63a7\u5236\u3002", "[DPE \u89c4\u5212\u5c40 SEARs \u5ba1\u67e5] TransGrid \u9ad8\u538b\u7535\u7f51 45MW \u5bb9\u91cf\u63a5\u5165\u51ed\u8bc1\u53ca EIS \u73af\u5883\u5f71\u54cd\u627f\u8bfa\u8868\u6700\u7ec8\u5408\u89c4\u6027\u3002"],
     consultants: [
       {
             "role": "\u603b\u89c4\u5212/EIS\u603b\u987e\u95ee",

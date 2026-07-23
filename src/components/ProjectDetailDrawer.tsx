@@ -361,20 +361,40 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
           {/* TAB 4: RISKS */}
           {activeTab === 'risks' && (
             <div className="space-y-4">
-              <div className={`p-4 rounded-xl border ${
-                isDarkMode ? 'bg-slate-950/60 border-slate-800' : 'bg-slate-50 border-slate-200'
+              <div className={`p-5 rounded-2xl border ${
+                isDarkMode ? 'bg-slate-950/80 border-slate-800' : 'bg-slate-50 border-slate-200'
               }`}>
-                <h3 className={`text-sm font-bold mb-2 flex items-center gap-2 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-                  <ShieldAlert className="w-4 h-4 text-amber-500" /> {lang === 'zh' ? '关键评估风控要点' : 'Key Assessment Focus & Risks'}
+                <h3 className={`text-base sm:text-lg font-bold mb-4 flex items-center gap-2.5 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
+                  <ShieldAlert className="w-5 h-5 text-amber-500" />
+                  {lang === 'zh' ? '关键评估与政府合规风控要点 (基于往来函件)' : 'Key Agency Requirements & Risk Focus'}
                 </h3>
-                <ul className="space-y-2 text-xs">
-                  {project.keyRisks.map((risk, idx) => (
-                    <li key={idx} className={`flex items-start gap-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-700'}`}>
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 mt-1.5 shrink-0" />
-                      <span>{risk}</span>
-                    </li>
-                  ))}
-                </ul>
+                
+                <div className="space-y-3.5">
+                  {project.keyRisks.map((risk, idx) => {
+                    // Extract Tag if present
+                    const tagMatch = risk.match(/^\[(.*?)\]\s*(.*)$/);
+                    const tag = tagMatch ? tagMatch[1] : (lang === 'zh' ? '政府部门审查' : 'Gov Review');
+                    const text = tagMatch ? tagMatch[2] : risk;
+
+                    return (
+                      <div 
+                        key={idx} 
+                        className={`p-4 rounded-xl border flex flex-col sm:flex-row sm:items-center gap-3 transition-all ${
+                          isDarkMode ? 'bg-slate-900/90 border-slate-800' : 'bg-white border-slate-200 shadow-sm'
+                        }`}
+                      >
+                        <span className="inline-flex items-center px-3 py-1 rounded-lg text-xs font-bold font-mono tracking-wide shrink-0 bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">
+                          {tag}
+                        </span>
+                        <p className={`text-sm sm:text-base leading-relaxed font-medium ${
+                          isDarkMode ? 'text-slate-200' : 'text-slate-800'
+                        }`}>
+                          {text}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           )}
