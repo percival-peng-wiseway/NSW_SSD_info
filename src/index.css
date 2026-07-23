@@ -12,6 +12,26 @@
   --font-mono: 'JetBrains Mono', monospace;
 }
 
+/* Lock mobile viewport & prevent accidental zoom/gestures */
+html, body {
+  touch-action: manipulation;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent iOS Safari auto-zoom on input focus */
+input, select, textarea, button {
+  touch-action: manipulation;
+}
+
+@media screen and (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
 body {
   background-color: var(--bg-deep);
   color: #f1f5f9;
