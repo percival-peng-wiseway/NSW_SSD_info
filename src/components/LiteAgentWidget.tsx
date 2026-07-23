@@ -59,18 +59,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
     }
   }, [messages, isOpen]);
 
-  // Preset Prompts without bulb icon
-  const presets = lang === 'zh' ? [
-    'Urbis 在哪些项目里担任总规划？',
-    '容量超过 200MW 的项目有哪些？',
-    'TfNSW 交通局提出了哪些审查意见？',
-    'HDR 和 Greenbox 负责了哪些建筑设计？'
-  ] : [
-    'Which projects were planned by Urbis?',
-    'Show all projects over 200MW capacity',
-    'What are TfNSW traffic requirements?',
-    'Projects designed by HDR or Greenbox?'
-  ];
+
 
   // Export Chat History as TXT File
   const handleExportHistory = () => {
@@ -420,25 +409,6 @@ ${contextSummary}`;
             )}
 
             <div ref={messagesEndRef} />
-          </div>
-
-          {/* Presets / Fast Prompts (Clean text without bulb icons) */}
-          <div className={`px-4 py-2 border-t flex items-center gap-1.5 overflow-x-auto whitespace-nowrap scrollbar-none ${
-            isDarkMode ? 'bg-slate-950/60 border-slate-800/80' : 'bg-slate-50 border-slate-200/80'
-          }`}>
-            {presets.map((prompt, idx) => (
-              <button
-                key={idx}
-                onClick={() => processQuery(prompt)}
-                className={`px-3 py-1 rounded-lg text-[11px] font-medium border shrink-0 transition-all ${
-                  isDarkMode 
-                    ? 'bg-slate-900 border-slate-800 text-slate-300 hover:border-blue-500/50 hover:text-white' 
-                    : 'bg-white border-slate-200 text-slate-700 hover:border-blue-500/50 hover:text-blue-600 shadow-sm'
-                }`}
-              >
-                {prompt}
-              </button>
-            ))}
           </div>
 
           {/* Input Box */}
