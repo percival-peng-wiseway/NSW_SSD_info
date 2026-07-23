@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import type { MajorProject } from '../types';
 import { 
   Bot, X, Send, Sparkles, Key, 
-  Zap, FileText, ChevronRight, RefreshCw
+  Zap, FileText, ChevronRight, RefreshCw, Cpu, CheckCircle2
 } from 'lucide-react';
 
 interface Props {
@@ -19,6 +19,7 @@ interface Message {
   timestamp: string;
   matchedProjects?: MajorProject[];
   sources?: { title: string; url: string }[];
+  modelUsed?: string;
 }
 
 export const LiteAgentWidget: React.FC<Props> = ({
@@ -29,7 +30,12 @@ export const LiteAgentWidget: React.FC<Props> = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [inputQuery, setInputQuery] = useState('');
-  const [apiKey, setApiKey] = useState(() => localStorage.getItem('agent_api_key') || '');
+  
+  // API Key & Model Config State
+  const [apiKey, setApiKey] = useState(() => localStorage.getItem('agent_api_key') || import.meta.env.VITE_AGENT_API_KEY || '');
+  const [selectedProvider, setSelectedProvider] = useState<'deepseek' | 'kimi'>(() => 
+    (localStorage.getItem('agent_provider') as 'deepseek' | 'kimi') || 'deepseek'
+  );
   const [showKeyConfig, setShowKeyConfig] = useState(false);
   const [isThinking, setIsThinking] = useState(false);
 
@@ -39,8 +45,8 @@ export const LiteAgentWidget: React.FC<Props> = ({
       id: 'welcome-1',
       sender: 'agent',
       text: lang === 'zh'
-        ? '您好！我是 **NSW SSD 项目智能问答 Agent**。我可以为您实时解答关于 44 个重大数据中心项目的所有信息，包含 478 项参建咨询商、政府部门往来意见及全量官方文件。请问有什么可以帮您？'
-        : 'Hello! I am your **NSW SSD Intelligence Agent**. Ask me anything about the 44 major data center projects, 478 consultant firms, agency requirements (TfNSW, EPA, FRNSW), or official PDF files!',
+        ? '您好！我是 **NSW SSD 项目内部智能 Agent**。已为您装载 **DeepSeek-V3 / Kimi** 知识库问答引擎。您可以随意询问关于 44 个重大数据中心项目、478 项参建咨询商、政府部门往来意见及 2,855 份官方批复文件！'
+        : 'Hello! I am your internal **NSW SSD Intelligence Agent** powered by DeepSeek-V3 / Kimi. Ask me anything about the 44 major data center projects, 478 consultant firms, or official PDF files!',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -57,7 +63,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
     }
   }, [messages, isOpen]);
 
-  // Preset Prompts for fast click
+  // Preset Prompts
   const presets = lang === 'zh' ? [
     'Urbis 在哪些项目里担任总规划？',
     '容量超过 200MW 的项目有哪些？',
@@ -70,7 +76,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
     'Projects designed by HDR or Greenbox?'
   ];
 
-  // Core Smart RAG & Query Processor
+  // Core Smart RAG & Query Processor (Hybrid API + Smart Knowledge Fallback)
   const processQuery = async (queryText: string) => {
     const userMsg: Message = {
       id: Date.now().toString(),
@@ -83,128 +89,134 @@ export const LiteAgentWidget: React.FC<Props> = ({
     setInputQuery('');
     setIsThinking(true);
 
-    // Simulate Agent Reasoning Delay
-    setTimeout(() => {
-      const q = queryText.toLowerCase().trim();
-      let replyText = '';
-      let matchedProjects: MajorProject[] = [];
-      let sources: { title: string; url: string }[] = [];
+    const q = queryText.toLowerCase().trim();
+    let matchedProjects: MajorProject[] = [];
+    let sources: { title: string; url: string }[] = [];
+    let replyText = '';
+    let usedModelTag = selectedProvider === 'deepseek' ? 'DeepSeek-V3' : 'Kimi Moonshot';
 
-      // 1. Consultant query (e.g., Urbis, Ethos Urban, HDR, Greenbox, TTW, SLR, etc.)
-      const consultantNames = ['urbis', 'ethos', 'hdr', 'greenbox', 'ttw', 'slr', 'jacobs', 'biosis', 'willowtree', 'patch', 'mecone', 'arup', 'linesight', 'douglas'];
-      const foundConsultant = consultantNames.find(c => q.includes(c));
+    // 1. First extract relevant projects from KB for Context RAG
+    const consultantNames = ['urbis', 'ethos', 'hdr', 'greenbox', 'ttw', 'slr', 'jacobs', 'biosis', 'willowtree', 'patch', 'mecone', 'arup', 'linesight', 'douglas'];
+    const foundConsultant = consultantNames.find(c => q.includes(c));
 
+    if (foundConsultant) {
+      matchedProjects = projects.filter(p => 
+        p.consultants.some(c => c.companyName.toLowerCase().includes(foundConsultant)) ||
+        (p.planningConsultant || '').toLowerCase().includes(foundConsultant) ||
+        (p.architect || '').toLowerCase().includes(foundConsultant)
+      );
+    } else if (q.includes('mw') || q.includes('容量') || q.includes('capacity') || q.includes('规模')) {
+      const numbers = q.match(/\d+/g);
+      const threshold = numbers ? parseInt(numbers[0]) : 100;
+      matchedProjects = projects.filter(p => (p.capacityMW || 0) >= threshold);
+    } else {
+      matchedProjects = projects.filter(p => 
+        p.name.toLowerCase().includes(q) ||
+        p.applicationNo.toLowerCase().includes(q) ||
+        p.applicant.toLowerCase().includes(q) ||
+        p.lga.toLowerCase().includes(q) ||
+        p.consultants.some(c => c.companyName.toLowerCase().includes(q) || c.role.toLowerCase().includes(q))
+      );
+    }
+
+    if (matchedProjects.length === 0) {
+      matchedProjects = projects.slice(0, 3);
+    }
+
+    // Collect source document links
+    matchedProjects.slice(0, 3).forEach(p => {
+      if (p.appendices.length > 0) {
+        sources.push({
+          title: `${p.applicationNo} - ${p.appendices[0].title}`,
+          url: p.appendices[0].downloadUrl || p.officialUrl
+        });
+      }
+    });
+
+    // 2. Call LLM API (DeepSeek-V3 or Kimi Moonshot) if API Key is configured
+    if (apiKey && apiKey.trim().length > 5) {
+      try {
+        const endpoint = selectedProvider === 'deepseek'
+          ? 'https://api.deepseek.com/chat/completions'
+          : 'https://api.moonshot.cn/v1/chat/completions';
+
+        const modelName = selectedProvider === 'deepseek' ? 'deepseek-chat' : 'moonshot-v1-8k';
+
+        // Prepare RAG Context
+        const contextSummary = matchedProjects.map(p => `
+- 项目 [${p.applicationNo}] ${p.name} (LGA: ${p.lga}, 容量: ${p.capacityMW}MW, 申请人: ${p.applicant})
+  总规划: ${p.planningConsultant}, 建筑设计: ${p.architect}
+  参建咨询公司: ${p.consultants.map(c => `${c.companyName}(${c.role})`).join(', ')}
+`).join('\n');
+
+        const systemPrompt = `你是一个专业的 NSW 新州数据中心重大项目 Intelligence Agent。请结合给出的项目数据回答用户的问题。语气专业、权威、条理清晰。若提到具体项目，请包含项目申请编号（如 SSD-xxxxx）。
+已知检索相关项目数据：
+${contextSummary}`;
+
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey.trim()}`
+          },
+          body: JSON.stringify({
+            model: modelName,
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: queryText }
+            ],
+            temperature: 0.3
+          })
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          if (data.choices && data.choices[0] && data.choices[0].message) {
+            replyText = data.choices[0].message.content;
+          }
+        }
+      } catch (err) {
+        console.warn('API call fallback to local high-precision KB engine:', err);
+      }
+    }
+
+    // 3. High-precision Local RAG Fallback (if API Key not provided or request failed)
+    if (!replyText) {
+      usedModelTag = 'Structured RAG Engine';
       if (foundConsultant) {
-        matchedProjects = projects.filter(p => 
-          p.consultants.some(c => c.companyName.toLowerCase().includes(foundConsultant)) ||
-          (p.planningConsultant || '').toLowerCase().includes(foundConsultant) ||
-          (p.architect || '').toLowerCase().includes(foundConsultant)
-        );
-
         const companyDisp = foundConsultant.toUpperCase();
-        if (lang === 'zh') {
-          replyText = `根据最新全量数据库，**${companyDisp}** 参与了 **${matchedProjects.length} 个项目** 的咨询与设计工作。以下为您整理的核心项目列表与负责方向：`;
-        } else {
-          replyText = `Based on the latest SSDA database, **${companyDisp}** is engaged in **${matchedProjects.length} major projects**. Here is the summary:`;
-        }
-      } 
-      // 2. Capacity query (e.g. 200MW, 100MW, 500MW)
-      else if (q.includes('mw') || q.includes('容量') || q.includes('capacity') || q.includes('规模')) {
-        const numbers = q.match(/\d+/g);
-        const threshold = numbers ? parseInt(numbers[0]) : 100;
-        
-        matchedProjects = projects.filter(p => (p.capacityMW || 0) >= threshold);
-        matchedProjects.sort((a, b) => (b.capacityMW || 0) - (a.capacityMW || 0));
-
+        replyText = lang === 'zh'
+          ? `根据知识库全量核对，**${companyDisp}** 参与了 **${matchedProjects.length} 个项目** 的咨询与设计工作：`
+          : `According to DB records, **${companyDisp}** is engaged in **${matchedProjects.length} projects**:`;
+      } else if (q.includes('mw') || q.includes('容量') || q.includes('capacity')) {
         const totalCap = matchedProjects.reduce((sum, p) => sum + (p.capacityMW || 0), 0);
-
-        if (lang === 'zh') {
-          replyText = `全库中容量大于等于 **${threshold}MW** 的重大数据中心项目共有 **${matchedProjects.length} 个**，累计拟建总电力容量达到 **${totalCap} MW**：`;
-        } else {
-          replyText = `Found **${matchedProjects.length} projects** with capacity ≥ **${threshold}MW**, representing a combined capacity of **${totalCap} MW**:`;
-        }
+        replyText = lang === 'zh'
+          ? `符合条件的重大项目共有 **${matchedProjects.length} 个**，累计电力容量 **${totalCap} MW**：`
+          : `Retrieved **${matchedProjects.length} projects** with total capacity **${totalCap} MW**:`;
+      } else {
+        replyText = lang === 'zh'
+          ? `为您检索到 **${matchedProjects.length} 个** 相关的重大项目情报与参建团队数据：`
+          : `Retrieved **${matchedProjects.length} relevant projects** from database:`;
       }
-      // 3. Agency requirements (TfNSW, EPA, FRNSW, Fire, Heritage, Water)
-      else if (q.includes('tfnsw') || q.includes('交通局') || q.includes('traffic') || q.includes('epa') || q.includes('环保') || q.includes('fire') || q.includes('消防') || q.includes('heritage') || q.includes('遗产')) {
-        let agencyKey = '政府部门';
-        if (q.includes('tfnsw') || q.includes('交通')) agencyKey = 'TfNSW 交通局';
-        if (q.includes('epa') || q.includes('环保')) agencyKey = 'NSW EPA 环保局';
-        if (q.includes('fire') || q.includes('消防')) agencyKey = 'Fire & Rescue 消防局';
-        if (q.includes('heritage') || q.includes('遗产')) agencyKey = 'Heritage Council 文化遗产局';
+    }
 
-        matchedProjects = projects.filter(p => 
-          p.keyRisks.some(r => r.toLowerCase().includes(q) || (agencyKey !== '政府部门' && r.includes(agencyKey.split(' ')[0])))
-        ).slice(0, 8);
+    const agentMsg: Message = {
+      id: (Date.now() + 1).toString(),
+      sender: 'agent',
+      text: replyText,
+      timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+      matchedProjects: matchedProjects.slice(0, 6),
+      sources: sources.slice(0, 3),
+      modelUsed: usedModelTag
+    };
 
-        if (lang === 'zh') {
-          replyText = `检索到 **${agencyKey}** 提出明确审查意见与要求相关的重点项目：`;
-        } else {
-          replyText = `Retrieved key project assessment focus for **${agencyKey}**:`;
-        }
-      }
-      // 4. LGA / Council Query
-      else if (q.includes('blacktown') || q.includes('fairfield') || q.includes('penrith') || q.includes('ryde') || q.includes('council') || q.includes('议会')) {
-        matchedProjects = projects.filter(p => 
-          p.lga.toLowerCase().includes(q) || p.address.toLowerCase().includes(q)
-        );
-
-        if (lang === 'zh') {
-          replyText = `符合目标区域/议会管辖范围的项目共有 **${matchedProjects.length} 个**：`;
-        } else {
-          replyText = `Found **${matchedProjects.length} projects** under the specified LGA / Council region:`;
-        }
-      }
-      // 5. Default General Search Matcher
-      else {
-        matchedProjects = projects.filter(p => 
-          p.name.toLowerCase().includes(q) ||
-          p.applicationNo.toLowerCase().includes(q) ||
-          p.applicant.toLowerCase().includes(q) ||
-          p.description.toLowerCase().includes(q)
-        );
-
-        if (matchedProjects.length > 0) {
-          if (lang === 'zh') {
-            replyText = `已为您在情报库中检索到 **${matchedProjects.length} 个** 最相关的重大项目信息：`;
-          } else {
-            replyText = `Found **${matchedProjects.length} relevant projects** matching your query:`;
-          }
-        } else {
-          matchedProjects = projects.slice(0, 3);
-          if (lang === 'zh') {
-            replyText = `未能直接精准匹配关键字，但为您推荐数据库中最受关注的重点基础设施项目：`;
-          } else {
-            replyText = `Here are top highlighted infrastructure projects from the database:`;
-          }
-        }
-      }
-
-      // Collect official document links for top matches
-      matchedProjects.slice(0, 4).forEach(p => {
-        if (p.appendices.length > 0) {
-          sources.push({
-            title: `${p.applicationNo} - ${p.appendices[0].title}`,
-            url: p.appendices[0].downloadUrl || p.officialUrl
-          });
-        }
-      });
-
-      const agentMsg: Message = {
-        id: (Date.now() + 1).toString(),
-        sender: 'agent',
-        text: replyText,
-        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-        matchedProjects: matchedProjects.slice(0, 6),
-        sources: sources.slice(0, 3)
-      };
-
-      setMessages(prev => [...prev, agentMsg]);
-      setIsThinking(false);
-    }, 600);
+    setMessages(prev => [...prev, agentMsg]);
+    setIsThinking(false);
   };
 
   const handleSaveApiKey = () => {
     localStorage.setItem('agent_api_key', apiKey);
+    localStorage.setItem('agent_provider', selectedProvider);
     setShowKeyConfig(false);
   };
 
@@ -238,7 +250,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
 
       {/* Floating Chat Drawer Window */}
       {isOpen && (
-        <div className={`fixed bottom-24 right-4 sm:right-6 z-50 w-[92vw] sm:w-[440px] h-[580px] max-h-[80vh] rounded-2xl shadow-2xl border flex flex-col overflow-hidden transition-all animate-in fade-in slide-in-from-bottom-6 ${
+        <div className={`fixed bottom-24 right-4 sm:right-6 z-50 w-[92vw] sm:w-[450px] h-[580px] max-h-[80vh] rounded-2xl shadow-2xl border flex flex-col overflow-hidden transition-all animate-in fade-in slide-in-from-bottom-6 ${
           isDarkMode 
             ? 'bg-slate-900/95 border-slate-800 text-white backdrop-blur-xl' 
             : 'bg-white/95 border-slate-200 text-slate-900 backdrop-blur-xl shadow-2xl shadow-blue-500/10'
@@ -258,11 +270,11 @@ export const LiteAgentWidget: React.FC<Props> = ({
                     {lang === 'zh' ? 'NSW SSD 智能问答 Agent' : 'NSW SSD AI Assistant'}
                   </h3>
                   <span className="px-1.5 py-0.2 text-[10px] font-mono font-bold rounded bg-blue-500/10 text-blue-500 border border-blue-500/20">
-                    Lite RAG
+                    {selectedProvider === 'deepseek' ? 'DeepSeek-V3' : 'Kimi Moonshot'}
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-400 font-medium">
-                  {lang === 'zh' ? '基于 44 个 SSD 项目及 2,855 份批复文件' : 'Powered by 44 SSD Projects & 2,855 Docs'}
+                  {lang === 'zh' ? '已链接 44 个项目、478 项咨询商及全量批复文件' : 'Connected to 44 Projects & 2,855 Docs'}
                 </p>
               </div>
             </div>
@@ -270,12 +282,12 @@ export const LiteAgentWidget: React.FC<Props> = ({
             <div className="flex items-center gap-1.5">
               <button
                 onClick={() => setShowKeyConfig(!showKeyConfig)}
-                className={`p-1.5 rounded-lg border text-xs transition-colors ${
-                  apiKey ? 'text-emerald-500 border-emerald-500/30' : 'text-slate-400 border-slate-700 hover:text-white'
+                className={`p-1.5 rounded-lg border text-xs transition-colors flex items-center gap-1 ${
+                  apiKey ? 'text-emerald-500 border-emerald-500/30 bg-emerald-500/10' : 'text-slate-400 border-slate-700 hover:text-white'
                 }`}
                 title="API Key Configuration"
               >
-                <Key className="w-4 h-4" />
+                <Cpu className="w-4 h-4" />
               </button>
               <button
                 onClick={() => setIsOpen(false)}
@@ -286,36 +298,72 @@ export const LiteAgentWidget: React.FC<Props> = ({
             </div>
           </div>
 
-          {/* API Key Modal Config Overlay */}
+          {/* API Key & Model Config Overlay */}
           {showKeyConfig && (
-            <div className={`p-4 border-b text-xs space-y-2.5 animate-in slide-in-from-top-2 ${
+            <div className={`p-4 border-b text-xs space-y-3 animate-in slide-in-from-top-2 ${
               isDarkMode ? 'bg-slate-950 border-slate-800' : 'bg-slate-100 border-slate-200'
             }`}>
               <div className="flex items-center justify-between">
                 <span className="font-bold flex items-center gap-1.5">
                   <Key className="w-3.5 h-3.5 text-blue-500" />
-                  {lang === 'zh' ? '配置大模型 API Key (可选)' : 'Configure LLM API Key (Optional)'}
+                  {lang === 'zh' ? '大模型引擎设置 (速度与准确率最高推荐)' : 'Model Engine Settings'}
                 </span>
                 <button onClick={() => setShowKeyConfig(false)} className="text-slate-400 hover:text-white">
                   <X className="w-3.5 h-3.5" />
                 </button>
               </div>
-              <input
-                type="password"
-                value={apiKey}
-                onChange={(e) => setApiKey(e.target.value)}
-                placeholder="sk-..."
-                className={`w-full px-3 py-1.5 rounded-lg border font-mono text-xs focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                  isDarkMode ? 'bg-slate-900 border-slate-700 text-white' : 'bg-white border-slate-300 text-slate-900'
-                }`}
-              />
-              <div className="flex items-center justify-between text-[11px] text-slate-400">
-                <span>{lang === 'zh' ? '如不填，默认使用高精度本地结构化知识库' : 'Default uses local high-precision KB if empty.'}</span>
+
+              {/* Provider Selection */}
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setSelectedProvider('deepseek')}
+                  className={`flex-1 py-1.5 px-3 rounded-lg border text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
+                    selectedProvider === 'deepseek'
+                      ? 'bg-blue-600 text-white border-blue-500 shadow-sm'
+                      : isDarkMode ? 'bg-slate-900 border-slate-800 text-slate-400' : 'bg-white border-slate-300 text-slate-700'
+                  }`}
+                >
+                  {selectedProvider === 'deepseek' && <CheckCircle2 className="w-3.5 h-3.5" />}
+                  DeepSeek-V3 (推荐首选)
+                </button>
+
+                <button
+                  onClick={() => setSelectedProvider('kimi')}
+                  className={`flex-1 py-1.5 px-3 rounded-lg border text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
+                    selectedProvider === 'kimi'
+                      ? 'bg-purple-600 text-white border-purple-500 shadow-sm'
+                      : isDarkMode ? 'bg-slate-900 border-slate-800 text-slate-400' : 'bg-white border-slate-300 text-slate-700'
+                  }`}
+                >
+                  {selectedProvider === 'kimi' && <CheckCircle2 className="w-3.5 h-3.5" />}
+                  Kimi (Moonshot)
+                </button>
+              </div>
+
+              <div>
+                <label className="block text-[11px] font-semibold text-slate-400 mb-1">
+                  {selectedProvider === 'deepseek' ? 'DeepSeek API Key (sk-...)' : 'Kimi / Moonshot API Key (sk-...)'}:
+                </label>
+                <input
+                  type="password"
+                  value={apiKey}
+                  onChange={(e) => setApiKey(e.target.value)}
+                  placeholder="sk-..."
+                  className={`w-full px-3 py-1.5 rounded-lg border font-mono text-xs focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+                    isDarkMode ? 'bg-slate-900 border-slate-700 text-white' : 'bg-white border-slate-300 text-slate-900'
+                  }`}
+                />
+              </div>
+
+              <div className="flex items-center justify-between text-[11px]">
+                <span className="text-slate-400">
+                  {apiKey ? '已配置 API Key (直连模型)' : '无 Key 自动切换高精度离线 RAG'}
+                </span>
                 <button
                   onClick={handleSaveApiKey}
-                  className="px-2.5 py-1 rounded bg-blue-600 hover:bg-blue-500 text-white font-bold transition-all"
+                  className="px-3 py-1 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-bold transition-all"
                 >
-                  {lang === 'zh' ? '保存' : 'Save'}
+                  {lang === 'zh' ? '保存配置' : 'Save'}
                 </button>
               </div>
             </div>
@@ -344,6 +392,13 @@ export const LiteAgentWidget: React.FC<Props> = ({
                   <p className="leading-relaxed whitespace-pre-wrap font-medium">
                     {msg.text}
                   </p>
+
+                  {/* Model Tag Badge */}
+                  {msg.modelUsed && (
+                    <div className="text-[10px] text-slate-500 font-mono flex items-center gap-1 pt-1">
+                      <Cpu className="w-3 h-3 text-blue-500" /> Model: {msg.modelUsed}
+                    </div>
+                  )}
 
                   {/* Render Matched Projects Cards */}
                   {msg.matchedProjects && msg.matchedProjects.length > 0 && (
@@ -410,7 +465,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
             {isThinking && (
               <div className="flex items-center gap-2 text-slate-400 italic text-xs pl-2">
                 <RefreshCw className="w-3.5 h-3.5 animate-spin text-blue-500" />
-                <span>{lang === 'zh' ? 'Agent 正在检索全库情报与推演回答...' : 'Agent searching SSDA database...'}</span>
+                <span>{lang === 'zh' ? `Agent (${selectedProvider === 'deepseek' ? 'DeepSeek-V3' : 'Kimi'}) 正在推理推演中...` : 'Agent reasoning...'}</span>
               </div>
             )}
 
