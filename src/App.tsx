@@ -5,7 +5,6 @@ import { ProjectCard } from './components/ProjectCard';
 import { ProjectDetailDrawer } from './components/ProjectDetailDrawer';
 import { ConsultantMatrix } from './components/ConsultantMatrix';
 import { ProjectCompareModal } from './components/ProjectCompareModal';
-import { LiteAgentWidget } from './components/LiteAgentWidget';
 import { 
   Search, Download, LayoutGrid, Table, 
   Users, RefreshCw, SlidersHorizontal, Sun, Moon, X, Globe,
@@ -136,7 +135,7 @@ export function App() {
   const endItemIndex = Math.min(currentPage * itemsPerPage, filteredProjects.length);
 
   return (
-    <div className={`min-h-screen font-sans transition-colors duration-300 pb-20 ${
+    <div className={`min-h-screen w-full max-w-full overflow-x-hidden font-sans transition-colors duration-300 pb-20 ${
       isDarkMode 
         ? 'bg-slate-950 text-slate-100 selection:bg-blue-600 selection:text-white' 
         : 'bg-slate-50 text-slate-900 selection:bg-blue-500 selection:text-white'
@@ -307,7 +306,7 @@ export function App() {
             <select
               value={selectedStage}
               onChange={(e) => setSelectedStage(e.target.value)}
-              className={`rounded-xl px-3 py-1.5 focus:outline-none focus:border-blue-500 ${
+              className={`w-full sm:w-auto max-w-full rounded-xl px-3 py-1.5 focus:outline-none focus:border-blue-500 truncate ${
                 isDarkMode ? 'bg-slate-950 border border-slate-800 text-slate-200' : 'bg-slate-50 border border-slate-200 text-slate-700'
               }`}
             >
@@ -323,7 +322,7 @@ export function App() {
             <select
               value={selectedLga}
               onChange={(e) => setSelectedLga(e.target.value)}
-              className={`rounded-xl px-3 py-1.5 focus:outline-none focus:border-blue-500 ${
+              className={`w-full sm:w-auto max-w-full rounded-xl px-3 py-1.5 focus:outline-none focus:border-blue-500 truncate ${
                 isDarkMode ? 'bg-slate-950 border border-slate-800 text-slate-200' : 'bg-slate-50 border border-slate-200 text-slate-700'
               }`}
             >
@@ -337,7 +336,7 @@ export function App() {
             <select
               value={selectedConsultant}
               onChange={(e) => setSelectedConsultant(e.target.value)}
-              className={`rounded-xl px-3 py-1.5 focus:outline-none focus:border-blue-500 ${
+              className={`w-full sm:w-auto max-w-full rounded-xl px-3 py-1.5 focus:outline-none focus:border-blue-500 truncate ${
                 isDarkMode ? 'bg-slate-950 border border-slate-800 text-slate-200' : 'bg-slate-50 border border-slate-200 text-slate-700'
               }`}
             >
@@ -626,14 +625,6 @@ export function App() {
           lang={lang}
         />
       )}
-
-      {/* NSW SSD Embedded AI Agent Floating Widget */}
-      <LiteAgentWidget
-        projects={filteredProjects}
-        onSelectProject={(p) => setSelectedProject(p)}
-        isDarkMode={isDarkMode}
-        lang={lang}
-      />
 
     </div>
   );
