@@ -59,8 +59,6 @@ export const LiteAgentWidget: React.FC<Props> = ({
     }
   }, [messages, isOpen]);
 
-
-
   // Export Chat History as TXT File
   const handleExportHistory = () => {
     let exportText = `=========================================\n`;
@@ -88,7 +86,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
     URL.revokeObjectURL(url);
   };
 
-  // Core Smart RAG & Query Processor (Clean text without **)
+  // Core Smart RAG & Query Processor (100% Full DB Context + v4-flash Model)
   const processQuery = async (queryText: string) => {
     const userMsg: Message = {
       id: Date.now().toString(),
@@ -102,40 +100,51 @@ export const LiteAgentWidget: React.FC<Props> = ({
     setIsThinking(true);
 
     const q = queryText.toLowerCase().trim();
+    // Normalize query string (remove hyphens to match ssd63168959 and ssd-63168959)
+    const normalizedQ = q.replace(/[-_]/g, '');
+
+    // Extract exact SSD number match if present
+    const ssdMatch = q.match(/ssd[-_]?\d+/i);
+    const ssdQuery = ssdMatch ? ssdMatch[0].replace(/[-_]/g, '').toLowerCase() : (q.match(/\d{6,}/) ? q.match(/\d{6,}/)![0] : '');
+
     let matchedProjects: MajorProject[] = [];
     let sources: { title: string; url: string }[] = [];
     let replyText = '';
 
-    // 1. First extract relevant projects from KB for Context RAG
+    // Exact SSD Number Matching Priority
+    if (ssdQuery) {
+      matchedProjects = projects.filter(p => p.applicationNo.replace(/[-_]/g, '').toLowerCase().includes(ssdQuery));
+    }
+
+    // Consultant / Capacity / Keyword Matching Fallback
     const consultantNames = ['urbis', 'ethos', 'hdr', 'greenbox', 'ttw', 'slr', 'jacobs', 'biosis', 'willowtree', 'patch', 'mecone', 'arup', 'linesight', 'douglas'];
     const foundConsultant = consultantNames.find(c => q.includes(c));
 
-    if (foundConsultant) {
-      matchedProjects = projects.filter(p => 
-        p.consultants.some(c => c.companyName.toLowerCase().includes(foundConsultant)) ||
-        (p.planningConsultant || '').toLowerCase().includes(foundConsultant) ||
-        (p.architect || '').toLowerCase().includes(foundConsultant)
-      );
-    } else if (q.includes('mw') || q.includes('容量') || q.includes('capacity') || q.includes('规模')) {
-      const numbers = q.match(/\d+/g);
-      const threshold = numbers ? parseInt(numbers[0]) : 100;
-      matchedProjects = projects.filter(p => (p.capacityMW || 0) >= threshold);
-    } else {
-      matchedProjects = projects.filter(p => 
-        p.name.toLowerCase().includes(q) ||
-        p.applicationNo.toLowerCase().includes(q) ||
-        p.applicant.toLowerCase().includes(q) ||
-        p.lga.toLowerCase().includes(q) ||
-        p.consultants.some(c => c.companyName.toLowerCase().includes(q) || c.role.toLowerCase().includes(q))
-      );
-    }
-
     if (matchedProjects.length === 0) {
-      matchedProjects = projects.slice(0, 3);
+      if (foundConsultant) {
+        matchedProjects = projects.filter(p => 
+          p.consultants.some(c => c.companyName.toLowerCase().includes(foundConsultant)) ||
+          (p.planningConsultant || '').toLowerCase().includes(foundConsultant) ||
+          (p.architect || '').toLowerCase().includes(foundConsultant)
+        );
+      } else if (q.includes('mw') || q.includes('容量') || q.includes('capacity') || q.includes('规模')) {
+        const numbers = q.match(/\d+/g);
+        const threshold = numbers ? parseInt(numbers[0]) : 100;
+        matchedProjects = projects.filter(p => (p.capacityMW || 0) >= threshold);
+      } else {
+        matchedProjects = projects.filter(p => 
+          p.name.toLowerCase().includes(q) ||
+          p.applicationNo.toLowerCase().includes(q) ||
+          p.applicationNo.replace(/[-_]/g, '').toLowerCase().includes(normalizedQ) ||
+          p.applicant.toLowerCase().includes(q) ||
+          p.lga.toLowerCase().includes(q) ||
+          p.consultants.some(c => c.companyName.toLowerCase().includes(q) || c.role.toLowerCase().includes(q))
+        );
+      }
     }
 
     // Collect source document links
-    matchedProjects.slice(0, 3).forEach(p => {
+    matchedProjects.slice(0, 5).forEach(p => {
       if (p.appendices.length > 0) {
         sources.push({
           title: `${p.applicationNo} - ${p.appendices[0].title}`,
@@ -144,26 +153,26 @@ export const LiteAgentWidget: React.FC<Props> = ({
       }
     });
 
-    // 2. Call LLM API (DeepSeek-V3 or Kimi Moonshot) if API Key is configured
+    // Model Engine Specified by User: v4-flash
+    const targetModel = 'v4-flash';
+
+    // 2. Build FULL 44 Projects Concise Knowledge Base Context
+    const fullDatabaseContext = projects.map((p, idx) => 
+      `${idx + 1}. [${p.applicationNo}] ${p.name} | LGA: ${p.lga} | 拟建容量: ${p.capacityMW}MW | 申请人: ${p.applicant} | 阶段: ${p.stage} | 总规划: ${p.planningConsultant || '未列出'} | 建筑设计: ${p.architect || '未列出'} | 主要参建公司: ${p.consultants.slice(0, 5).map(c => c.companyName).join(', ')}`
+    ).join('\n');
+
     if (apiKey && apiKey.trim().length > 5) {
       try {
         const endpoint = selectedProvider === 'deepseek'
           ? 'https://api.deepseek.com/chat/completions'
           : 'https://api.moonshot.cn/v1/chat/completions';
 
-        const modelName = selectedProvider === 'deepseek' ? 'deepseek-chat' : 'moonshot-v1-8k';
-
-        // Prepare RAG Context
-        const contextSummary = matchedProjects.map(p => `
-- 项目 [${p.applicationNo}] ${p.name} (LGA: ${p.lga}, 容量: ${p.capacityMW}MW, 申请人: ${p.applicant})
-  总规划: ${p.planningConsultant}, 建筑设计: ${p.architect}
-  参建咨询公司: ${p.consultants.map(c => `${c.companyName}(${c.role})`).join(', ')}
-`).join('\n');
-
-        const systemPrompt = `你叫 WiseBot，是一个专业的 NSW 新州数据中心重大项目 Intelligence Agent。请结合给出的项目数据回答用户的问题。
+        const systemPrompt = `你叫 WiseBot，是一个专业的 NSW 新州数据中心重大项目 Intelligence Agent。你手中拥有新州全量 44 个重大数据中心项目数据库。
 输出格式要求：请使用干净清爽的纯文本回答，禁止在输出中包含任何 ** 加粗符号。若提到具体项目，请包含项目申请编号（如 SSD-xxxxx）。
-已知检索相关项目数据：
-${contextSummary}`;
+请结合下面提供的全量 44 个项目数据库解答用户的提问（如果用户询问特定的 SSD 编号如 SSD-63168959，请直接在列表中精准匹配回答）：
+
+全量 44 个项目数据库（知识库）：
+${fullDatabaseContext}`;
 
         const res = await fetch(endpoint, {
           method: 'POST',
@@ -172,12 +181,12 @@ ${contextSummary}`;
             'Authorization': `Bearer ${apiKey.trim()}`
           },
           body: JSON.stringify({
-            model: modelName,
+            model: targetModel,
             messages: [
               { role: 'system', content: systemPrompt },
               { role: 'user', content: queryText }
             ],
-            temperature: 0.3
+            temperature: 0.2
           })
         });
 
@@ -192,9 +201,14 @@ ${contextSummary}`;
       }
     }
 
-    // 3. High-precision Local RAG Fallback (Clean text without **)
+    // 3. High-precision Local RAG Fallback
     if (!replyText) {
-      if (foundConsultant) {
+      if (ssdQuery && matchedProjects.length > 0) {
+        const targetP = matchedProjects[0];
+        replyText = lang === 'zh'
+          ? `已为您查到项目编号 ${targetP.applicationNo}（${targetP.name}）。该项目位于 ${targetP.lga}，申请人为 ${targetP.applicant}，拟建电力容量为 ${targetP.capacityMW}MW，总规划由 ${targetP.planningConsultant} 担任，建筑设计由 ${targetP.architect} 负责。参建机构包含：${targetP.consultants.map(c => c.companyName).join('、')}。`
+          : `Found project ${targetP.applicationNo} (${targetP.name}). Located at ${targetP.lga}, Applicant: ${targetP.applicant}, Capacity: ${targetP.capacityMW}MW. Planned by ${targetP.planningConsultant}. Consultants include: ${targetP.consultants.map(c => c.companyName).join(', ')}.`;
+      } else if (foundConsultant) {
         const companyDisp = foundConsultant.toUpperCase();
         replyText = lang === 'zh'
           ? `根据知识库全量核对，${companyDisp} 参与了 ${matchedProjects.length} 个项目的咨询与设计工作。具体项目清单如下：`
@@ -420,7 +434,7 @@ ${contextSummary}`;
               value={inputQuery}
               onChange={(e) => setInputQuery(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && inputQuery.trim() && processQuery(inputQuery)}
-              placeholder={lang === 'zh' ? '向 WiseBot 提问...' : 'Ask WiseBot...'}
+              placeholder={lang === 'zh' ? '向 WiseBot 提问（如输入 SSD-63168959）...' : 'Ask WiseBot (e.g. SSD-63168959)...'}
               className={`flex-1 px-3.5 py-2 rounded-xl text-xs border focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                 isDarkMode ? 'bg-slate-900 border-slate-800 text-white' : 'bg-slate-100 border-slate-200 text-slate-900'
               }`}
