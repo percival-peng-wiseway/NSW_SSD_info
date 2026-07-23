@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import type { MajorProject } from '../types';
 import { 
-  Bot, X, Send, Sparkles, Key, 
-  Zap, FileText, ChevronRight, RefreshCw, Cpu, CheckCircle2
+  Bot, X, Send, Sparkles, 
+  Zap, FileText, ChevronRight, RefreshCw
 } from 'lucide-react';
 
 interface Props {
@@ -19,7 +19,6 @@ interface Message {
   timestamp: string;
   matchedProjects?: MajorProject[];
   sources?: { title: string; url: string }[];
-  modelUsed?: string;
 }
 
 export const LiteAgentWidget: React.FC<Props> = ({
@@ -31,22 +30,19 @@ export const LiteAgentWidget: React.FC<Props> = ({
   const [isOpen, setIsOpen] = useState(false);
   const [inputQuery, setInputQuery] = useState('');
   
-  // API Key & Model Config State
-  const [apiKey, setApiKey] = useState(() => localStorage.getItem('agent_api_key') || import.meta.env.VITE_AGENT_API_KEY || '');
-  const [selectedProvider, setSelectedProvider] = useState<'deepseek' | 'kimi'>(() => 
-    (localStorage.getItem('agent_provider') as 'deepseek' | 'kimi') || 'deepseek'
-  );
-  const [showKeyConfig, setShowKeyConfig] = useState(false);
+  // Internal API Key & Model Config
+  const apiKey = localStorage.getItem('agent_api_key') || import.meta.env.VITE_AGENT_API_KEY || '';
+  const selectedProvider = (localStorage.getItem('agent_provider') as 'deepseek' | 'kimi') || 'deepseek';
   const [isThinking, setIsThinking] = useState(false);
 
-  // Initial welcome message
+  // Initial welcome message per user's prompt requirement
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 'welcome-1',
       sender: 'agent',
       text: lang === 'zh'
-        ? '您好！我是 **NSW SSD 项目内部智能 Agent**。已为您装载 **DeepSeek-V3 / Kimi** 知识库问答引擎。您可以随意询问关于 44 个重大数据中心项目、478 项参建咨询商、政府部门往来意见及 2,855 份官方批复文件！'
-        : 'Hello! I am your internal **NSW SSD Intelligence Agent** powered by DeepSeek-V3 / Kimi. Ask me anything about the 44 major data center projects, 478 consultant firms, or official PDF files!',
+        ? '我是wisebot 有什么问题可以直接问我哦！'
+        : 'I am wisebot. Feel free to ask me any questions!',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -76,7 +72,7 @@ export const LiteAgentWidget: React.FC<Props> = ({
     'Projects designed by HDR or Greenbox?'
   ];
 
-  // Core Smart RAG & Query Processor (Hybrid API + Smart Knowledge Fallback)
+  // Core Smart RAG & Query Processor (Clean text without **)
   const processQuery = async (queryText: string) => {
     const userMsg: Message = {
       id: Date.now().toString(),
@@ -93,7 +89,6 @@ export const LiteAgentWidget: React.FC<Props> = ({
     let matchedProjects: MajorProject[] = [];
     let sources: { title: string; url: string }[] = [];
     let replyText = '';
-    let usedModelTag = selectedProvider === 'deepseek' ? 'DeepSeek-V3' : 'Kimi Moonshot';
 
     // 1. First extract relevant projects from KB for Context RAG
     const consultantNames = ['urbis', 'ethos', 'hdr', 'greenbox', 'ttw', 'slr', 'jacobs', 'biosis', 'willowtree', 'patch', 'mecone', 'arup', 'linesight', 'douglas'];
@@ -149,7 +144,8 @@ export const LiteAgentWidget: React.FC<Props> = ({
   参建咨询公司: ${p.consultants.map(c => `${c.companyName}(${c.role})`).join(', ')}
 `).join('\n');
 
-        const systemPrompt = `你是一个专业的 NSW 新州数据中心重大项目 Intelligence Agent。请结合给出的项目数据回答用户的问题。语气专业、权威、条理清晰。若提到具体项目，请包含项目申请编号（如 SSD-xxxxx）。
+        const systemPrompt = `你叫 wisebot，是一个专业的 NSW 新州数据中心重大项目 Intelligence Agent。请结合给出的项目数据回答用户的问题。
+输出格式要求：请使用干净清爽的纯文本回答，禁止在输出中包含任何 ** 加粗符号。若提到具体项目，请包含项目申请编号（如 SSD-xxxxx）。
 已知检索相关项目数据：
 ${contextSummary}`;
 
@@ -180,25 +176,27 @@ ${contextSummary}`;
       }
     }
 
-    // 3. High-precision Local RAG Fallback (if API Key not provided or request failed)
+    // 3. High-precision Local RAG Fallback (Clean text without **)
     if (!replyText) {
-      usedModelTag = 'Structured RAG Engine';
       if (foundConsultant) {
         const companyDisp = foundConsultant.toUpperCase();
         replyText = lang === 'zh'
-          ? `根据知识库全量核对，**${companyDisp}** 参与了 **${matchedProjects.length} 个项目** 的咨询与设计工作：`
-          : `According to DB records, **${companyDisp}** is engaged in **${matchedProjects.length} projects**:`;
+          ? `根据知识库全量核对，${companyDisp} 参与了 ${matchedProjects.length} 个项目的咨询与设计工作。具体项目清单如下：`
+          : `According to DB records, ${companyDisp} is engaged in ${matchedProjects.length} projects. Here is the list:`;
       } else if (q.includes('mw') || q.includes('容量') || q.includes('capacity')) {
         const totalCap = matchedProjects.reduce((sum, p) => sum + (p.capacityMW || 0), 0);
         replyText = lang === 'zh'
-          ? `符合条件的重大项目共有 **${matchedProjects.length} 个**，累计电力容量 **${totalCap} MW**：`
-          : `Retrieved **${matchedProjects.length} projects** with total capacity **${totalCap} MW**:`;
+          ? `符合条件的重大项目共有 ${matchedProjects.length} 个，累计电力容量 ${totalCap} MW：`
+          : `Retrieved ${matchedProjects.length} projects with total capacity ${totalCap} MW:`;
       } else {
         replyText = lang === 'zh'
-          ? `为您检索到 **${matchedProjects.length} 个** 相关的重大项目情报与参建团队数据：`
-          : `Retrieved **${matchedProjects.length} relevant projects** from database:`;
+          ? `为您检索到 ${matchedProjects.length} 个相关的重大项目情报与参建团队数据：`
+          : `Retrieved ${matchedProjects.length} relevant projects from database:`;
       }
     }
+
+    // Strictly purge any remaining ** symbols from the reply text
+    replyText = replyText.replace(/\*\*/g, '');
 
     const agentMsg: Message = {
       id: (Date.now() + 1).toString(),
@@ -206,18 +204,11 @@ ${contextSummary}`;
       text: replyText,
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       matchedProjects: matchedProjects.slice(0, 6),
-      sources: sources.slice(0, 3),
-      modelUsed: usedModelTag
+      sources: sources.slice(0, 3)
     };
 
     setMessages(prev => [...prev, agentMsg]);
     setIsThinking(false);
-  };
-
-  const handleSaveApiKey = () => {
-    localStorage.setItem('agent_api_key', apiKey);
-    localStorage.setItem('agent_provider', selectedProvider);
-    setShowKeyConfig(false);
   };
 
   return (
@@ -230,7 +221,7 @@ ${contextSummary}`;
             ? 'bg-slate-800 text-white ring-4 ring-slate-700/50 rotate-90'
             : 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white ring-4 ring-blue-500/30 hover:shadow-blue-500/40 animate-bounce-subtle'
         }`}
-        title="Open NSW SSD AI Agent"
+        title="Open wisebot AI Assistant"
       >
         {isOpen ? (
           <X className="w-6 h-6" />
@@ -242,7 +233,7 @@ ${contextSummary}`;
               <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-emerald-500 rounded-full" />
             </div>
             <span className="font-bold text-xs pr-1 hidden sm:inline tracking-wide">
-              {lang === 'zh' ? 'AI 智能问答' : 'AI Assistant'}
+              wisebot
             </span>
           </>
         )}
@@ -250,13 +241,13 @@ ${contextSummary}`;
 
       {/* Floating Chat Drawer Window */}
       {isOpen && (
-        <div className={`fixed bottom-24 right-4 sm:right-6 z-50 w-[92vw] sm:w-[450px] h-[580px] max-h-[80vh] rounded-2xl shadow-2xl border flex flex-col overflow-hidden transition-all animate-in fade-in slide-in-from-bottom-6 ${
+        <div className={`fixed bottom-24 right-4 sm:right-6 z-50 w-[92vw] sm:w-[440px] h-[580px] max-h-[80vh] rounded-2xl shadow-2xl border flex flex-col overflow-hidden transition-all animate-in fade-in slide-in-from-bottom-6 ${
           isDarkMode 
             ? 'bg-slate-900/95 border-slate-800 text-white backdrop-blur-xl' 
             : 'bg-white/95 border-slate-200 text-slate-900 backdrop-blur-xl shadow-2xl shadow-blue-500/10'
         }`}>
           
-          {/* Header */}
+          {/* Clean Header (No Model Settings Shown) */}
           <div className={`px-4 py-3.5 border-b flex items-center justify-between gap-3 ${
             isDarkMode ? 'bg-slate-950/80 border-slate-800' : 'bg-slate-50 border-slate-200'
           }`}>
@@ -265,109 +256,22 @@ ${contextSummary}`;
                 <Sparkles className="w-4 h-4" />
               </div>
               <div>
-                <div className="flex items-center gap-1.5">
-                  <h3 className="font-bold text-sm leading-tight">
-                    {lang === 'zh' ? 'NSW SSD 智能问答 Agent' : 'NSW SSD AI Assistant'}
-                  </h3>
-                  <span className="px-1.5 py-0.2 text-[10px] font-mono font-bold rounded bg-blue-500/10 text-blue-500 border border-blue-500/20">
-                    {selectedProvider === 'deepseek' ? 'DeepSeek-V3' : 'Kimi Moonshot'}
-                  </span>
-                </div>
+                <h3 className="font-bold text-sm leading-tight">
+                  wisebot
+                </h3>
                 <p className="text-[11px] text-slate-400 font-medium">
-                  {lang === 'zh' ? '已链接 44 个项目、478 项咨询商及全量批复文件' : 'Connected to 44 Projects & 2,855 Docs'}
+                  {lang === 'zh' ? 'NSW 数据中心项目问答助手' : 'NSW SSD AI Assistant'}
                 </p>
               </div>
             </div>
 
-            <div className="flex items-center gap-1.5">
-              <button
-                onClick={() => setShowKeyConfig(!showKeyConfig)}
-                className={`p-1.5 rounded-lg border text-xs transition-colors flex items-center gap-1 ${
-                  apiKey ? 'text-emerald-500 border-emerald-500/30 bg-emerald-500/10' : 'text-slate-400 border-slate-700 hover:text-white'
-                }`}
-                title="API Key Configuration"
-              >
-                <Cpu className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => setIsOpen(false)}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
+            <button
+              onClick={() => setIsOpen(false)}
+              className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+            >
+              <X className="w-4 h-4" />
+            </button>
           </div>
-
-          {/* API Key & Model Config Overlay */}
-          {showKeyConfig && (
-            <div className={`p-4 border-b text-xs space-y-3 animate-in slide-in-from-top-2 ${
-              isDarkMode ? 'bg-slate-950 border-slate-800' : 'bg-slate-100 border-slate-200'
-            }`}>
-              <div className="flex items-center justify-between">
-                <span className="font-bold flex items-center gap-1.5">
-                  <Key className="w-3.5 h-3.5 text-blue-500" />
-                  {lang === 'zh' ? '大模型引擎设置 (速度与准确率最高推荐)' : 'Model Engine Settings'}
-                </span>
-                <button onClick={() => setShowKeyConfig(false)} className="text-slate-400 hover:text-white">
-                  <X className="w-3.5 h-3.5" />
-                </button>
-              </div>
-
-              {/* Provider Selection */}
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => setSelectedProvider('deepseek')}
-                  className={`flex-1 py-1.5 px-3 rounded-lg border text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
-                    selectedProvider === 'deepseek'
-                      ? 'bg-blue-600 text-white border-blue-500 shadow-sm'
-                      : isDarkMode ? 'bg-slate-900 border-slate-800 text-slate-400' : 'bg-white border-slate-300 text-slate-700'
-                  }`}
-                >
-                  {selectedProvider === 'deepseek' && <CheckCircle2 className="w-3.5 h-3.5" />}
-                  DeepSeek-V3 (推荐首选)
-                </button>
-
-                <button
-                  onClick={() => setSelectedProvider('kimi')}
-                  className={`flex-1 py-1.5 px-3 rounded-lg border text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
-                    selectedProvider === 'kimi'
-                      ? 'bg-purple-600 text-white border-purple-500 shadow-sm'
-                      : isDarkMode ? 'bg-slate-900 border-slate-800 text-slate-400' : 'bg-white border-slate-300 text-slate-700'
-                  }`}
-                >
-                  {selectedProvider === 'kimi' && <CheckCircle2 className="w-3.5 h-3.5" />}
-                  Kimi (Moonshot)
-                </button>
-              </div>
-
-              <div>
-                <label className="block text-[11px] font-semibold text-slate-400 mb-1">
-                  {selectedProvider === 'deepseek' ? 'DeepSeek API Key (sk-...)' : 'Kimi / Moonshot API Key (sk-...)'}:
-                </label>
-                <input
-                  type="password"
-                  value={apiKey}
-                  onChange={(e) => setApiKey(e.target.value)}
-                  placeholder="sk-..."
-                  className={`w-full px-3 py-1.5 rounded-lg border font-mono text-xs focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                    isDarkMode ? 'bg-slate-900 border-slate-700 text-white' : 'bg-white border-slate-300 text-slate-900'
-                  }`}
-                />
-              </div>
-
-              <div className="flex items-center justify-between text-[11px]">
-                <span className="text-slate-400">
-                  {apiKey ? '已配置 API Key (直连模型)' : '无 Key 自动切换高精度离线 RAG'}
-                </span>
-                <button
-                  onClick={handleSaveApiKey}
-                  className="px-3 py-1 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-bold transition-all"
-                >
-                  {lang === 'zh' ? '保存配置' : 'Save'}
-                </button>
-              </div>
-            </div>
-          )}
 
           {/* Messages Container */}
           <div className="flex-1 overflow-y-auto p-4 space-y-4 text-xs">
@@ -392,13 +296,6 @@ ${contextSummary}`;
                   <p className="leading-relaxed whitespace-pre-wrap font-medium">
                     {msg.text}
                   </p>
-
-                  {/* Model Tag Badge */}
-                  {msg.modelUsed && (
-                    <div className="text-[10px] text-slate-500 font-mono flex items-center gap-1 pt-1">
-                      <Cpu className="w-3 h-3 text-blue-500" /> Model: {msg.modelUsed}
-                    </div>
-                  )}
 
                   {/* Render Matched Projects Cards */}
                   {msg.matchedProjects && msg.matchedProjects.length > 0 && (
@@ -465,7 +362,7 @@ ${contextSummary}`;
             {isThinking && (
               <div className="flex items-center gap-2 text-slate-400 italic text-xs pl-2">
                 <RefreshCw className="w-3.5 h-3.5 animate-spin text-blue-500" />
-                <span>{lang === 'zh' ? `Agent (${selectedProvider === 'deepseek' ? 'DeepSeek-V3' : 'Kimi'}) 正在推理推演中...` : 'Agent reasoning...'}</span>
+                <span>{lang === 'zh' ? 'wisebot 正在思考推演中...' : 'wisebot reasoning...'}</span>
               </div>
             )}
 
@@ -500,7 +397,7 @@ ${contextSummary}`;
               value={inputQuery}
               onChange={(e) => setInputQuery(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && inputQuery.trim() && processQuery(inputQuery)}
-              placeholder={lang === 'zh' ? '问问 Agent 关于 44 个项目或咨询商...' : 'Ask Agent about projects or consultants...'}
+              placeholder={lang === 'zh' ? '向 wisebot 提问...' : 'Ask wisebot...'}
               className={`flex-1 px-3.5 py-2 rounded-xl text-xs border focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                 isDarkMode ? 'bg-slate-900 border-slate-800 text-white' : 'bg-slate-100 border-slate-200 text-slate-900'
               }`}
