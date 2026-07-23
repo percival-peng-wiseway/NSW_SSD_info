@@ -157,18 +157,24 @@ export const ProjectCard: React.FC<Props> = ({
             <Users className="w-3 h-3 text-indigo-500" /> {lang === 'zh' ? '关键合作/咨询团队:' : 'Key Consultants:'}
           </div>
           <div className="flex flex-wrap gap-1.5">
-            {project.consultants.slice(0, 3).map((c, idx) => (
-              <span 
-                key={idx} 
-                className={`text-[11px] px-2 py-0.5 rounded-md border ${
-                  isDarkMode 
-                    ? 'bg-slate-800/80 text-slate-300 border-slate-700/60' 
-                    : 'bg-slate-100 text-slate-700 border-slate-200'
-                }`}
-              >
-                <strong className={isDarkMode ? 'text-slate-400 font-normal' : 'text-slate-500 font-normal'}>{c.role.split(' ')[0]}:</strong> {c.companyName}
-              </span>
-            ))}
+            {project.consultants.slice(0, 3).map((c, idx) => {
+              const roleLabel = (lang === 'en') 
+                ? (c.role.includes('总规划') ? 'Planner' : c.role.includes('建筑') ? 'Architecture' : c.role.includes('水务') || c.role.includes('供水') ? 'Water' : c.role.split(' ')[0])
+                : (c.role.includes('Town') || c.role.includes('Planning') ? '规划' : c.role.includes('Architectural') ? '建筑' : c.role.includes('Traffic') ? '交通' : c.role.includes('Acoustic') ? '声学' : c.role.includes('Civil') ? '土木' : c.role.split(' ')[0]);
+
+              return (
+                <span 
+                  key={idx} 
+                  className={`text-[11px] px-2 py-0.5 rounded-md border ${
+                    isDarkMode 
+                      ? 'bg-slate-800/80 text-slate-300 border-slate-700/60' 
+                      : 'bg-slate-100 text-slate-700 border-slate-200'
+                  }`}
+                >
+                  <strong className={isDarkMode ? 'text-slate-400 font-normal' : 'text-slate-500 font-normal'}>{roleLabel}:</strong> {c.companyName}
+                </span>
+              );
+            })}
             {project.consultants.length > 3 && (
               <span className={`text-[11px] px-1.5 py-0.5 rounded border ${
                 isDarkMode ? 'bg-slate-800/40 text-slate-500 border-slate-800' : 'bg-slate-100 text-slate-500 border-slate-200'

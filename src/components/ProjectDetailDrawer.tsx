@@ -233,28 +233,31 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {project.consultants.map((c, idx) => (
-                  <div key={idx} className={`p-4 rounded-xl border transition-all ${
-                    isDarkMode ? 'bg-slate-950/60 border-slate-800/80 hover:border-slate-700' : 'bg-white border-slate-200 hover:border-slate-300 shadow-sm'
-                  }`}>
-                    <div className="flex items-center justify-between mb-2">
-                      <span className={`text-xs font-semibold px-2 py-0.5 rounded ${
-                        isDarkMode ? 'bg-blue-950 text-blue-400 border border-blue-800/60' : 'bg-blue-50 text-blue-800 border border-blue-200'
-                      }`}>
-                        {c.role}
-                      </span>
-                      <span className={`text-[11px] font-mono ${isDarkMode ? 'text-slate-500' : 'text-slate-400'}`}>
-                        {c.category}
-                      </span>
+                {project.consultants.map((c, idx) => {
+                  const displayRole = (lang === 'en')
+                    ? (c.role.includes('总规划') ? 'Town Planner & EIS Lead' : c.role.includes('建筑') ? 'Architectural Design' : c.role.includes('供水') || c.role.includes('水务') ? 'Civil & Water Engineer' : c.role)
+                    : (c.role.includes('Town Planner') ? '城市规划与EIS报告' : c.role.includes('Architectural') ? '建筑设计' : c.role.includes('Traffic') ? '交通工程' : c.role.includes('Acoustic') ? '声学与噪音' : c.role.includes('Civil') ? '土木与水务' : c.role);
+
+                  return (
+                    <div key={idx} className={`p-4 rounded-xl border transition-all ${
+                      isDarkMode ? 'bg-slate-950/60 border-slate-800/80 hover:border-slate-700' : 'bg-white border-slate-200 hover:border-slate-300 shadow-sm'
+                    }`}>
+                      <div className="flex items-center justify-between mb-2">
+                        <span className={`text-xs font-semibold px-2 py-0.5 rounded ${
+                          isDarkMode ? 'bg-blue-950 text-blue-400 border border-blue-800/60' : 'bg-blue-50 text-blue-800 border border-blue-200'
+                        }`}>
+                          {displayRole}
+                        </span>
+                        <span className={`text-[11px] font-mono ${isDarkMode ? 'text-slate-500' : 'text-slate-400'}`}>
+                          {c.category}
+                        </span>
+                      </div>
+                      <div className={`text-base font-bold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
+                        {c.companyName}
+                      </div>
                     </div>
-                    <div className={`text-base font-bold mb-1 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-                      {c.companyName}
-                    </div>
-                    <div className={`text-xs leading-relaxed ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`}>
-                      {c.description}
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}
