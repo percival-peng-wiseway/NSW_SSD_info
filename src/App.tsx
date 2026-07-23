@@ -6,7 +6,7 @@ import { ProjectDetailDrawer } from './components/ProjectDetailDrawer';
 import { ConsultantMatrix } from './components/ConsultantMatrix';
 import { ProjectCompareModal } from './components/ProjectCompareModal';
 import { 
-  Building2, Search, Download, LayoutGrid, Table, 
+  Search, Download, LayoutGrid, Table, 
   Users, RefreshCw, SlidersHorizontal, Sun, Moon, X, Globe,
   ChevronLeft, ChevronRight
 } from 'lucide-react';
@@ -164,9 +164,11 @@ export function App() {
           
           {/* Clean Title Only */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-blue-500/20">
-              <Building2 className="w-5 h-5" />
-            </div>
+            <img 
+              src="/wiseway.png" 
+              alt="Wiseway Logo" 
+              className="w-10 h-10 rounded-xl object-contain shadow-sm"
+            />
             <h1 className={`text-xl sm:text-2xl font-bold tracking-tight ${
               isDarkMode ? 'text-white' : 'text-slate-900'
             }`}>
