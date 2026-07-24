@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import type { MajorProject } from '../types';
 import { Building2, Search, ArrowRight } from 'lucide-react';
+import { translateRole } from '../utils/langUtils';
 
 interface Props {
   projects: MajorProject[];
@@ -121,22 +122,7 @@ export const ConsultantMatrix: React.FC<Props> = ({
 
               <div className={`text-xs mb-3 ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`}>
                 {lang === 'zh' ? '主要职责领域: ' : 'Responsibilities: '}
-                {c.roles.map(r => {
-                  if (lang === 'zh') {
-                    if (r.includes('Town Planner')) return '城市规划与EIS报告';
-                    if (r.includes('Architectural')) return '建筑设计';
-                    if (r.includes('Traffic')) return '交通工程';
-                    if (r.includes('Acoustic')) return '声学与噪音';
-                    if (r.includes('Civil')) return '土木与水务工程';
-                    if (r.includes('State Authority')) return '主导审批机构';
-                    return r;
-                  } else {
-                    if (r.includes('总规划')) return 'Town Planner & EIS Lead';
-                    if (r.includes('建筑')) return 'Architectural Design';
-                    if (r.includes('供水') || r.includes('水务')) return 'Civil & Water Engineer';
-                    return r;
-                  }
-                }).join(', ')}
+                {Array.from(new Set(c.roles.map(r => translateRole(r, lang)))).join(', ')}
               </div>
 
               <div className={`space-y-1.5 border-t pt-3 ${isDarkMode ? 'border-slate-800/80' : 'border-slate-100'}`}>

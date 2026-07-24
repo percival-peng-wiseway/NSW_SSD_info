@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import type { MajorProject, AppendixInfo } from '../types';
 import { X, ExternalLink, FileText, Users, Building2, MapPin, Zap, Layers, ChevronDown, ChevronRight } from 'lucide-react';
+import { translateRole } from '../utils/langUtils';
 
 interface Props {
   project: MajorProject | null;
@@ -224,9 +225,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {project.consultants.map((c, idx) => {
-                  const displayRole = (lang === 'en')
-                    ? (c.role.includes('总规划') ? 'Town Planner & EIS Lead' : c.role.includes('建筑') ? 'Architectural Design' : c.role.includes('供水') || c.role.includes('水务') ? 'Civil & Water Engineer' : c.role)
-                    : (c.role.includes('Town Planner') ? '城市规划与EIS报告' : c.role.includes('Architectural') ? '建筑设计' : c.role.includes('Traffic') ? '交通工程' : c.role.includes('Acoustic') ? '声学与噪音' : c.role.includes('Civil') ? '土木与水务' : c.role);
+                  const displayRole = translateRole(c.role, lang);
 
                   return (
                     <div key={idx} className={`p-4 rounded-xl border transition-all ${
@@ -257,7 +256,7 @@ export const ProjectDetailDrawer: React.FC<Props> = ({
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <h3 className={`text-base font-bold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-                  Attachments & Resources
+                  {lang === 'zh' ? '附件与归档资源' : 'Attachments & Resources'}
                 </h3>
                 <span className={`text-xs font-mono px-2 py-0.5 rounded ${
                   isDarkMode ? 'bg-slate-800 text-slate-400' : 'bg-slate-100 text-slate-600'

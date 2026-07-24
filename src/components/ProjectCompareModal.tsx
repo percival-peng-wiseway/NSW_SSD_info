@@ -1,6 +1,7 @@
 import React from 'react';
 import type { MajorProject } from '../types';
 import { X } from 'lucide-react';
+import { translateRole } from '../utils/langUtils';
 
 interface Props {
   comparedProjects: MajorProject[];
@@ -104,7 +105,7 @@ export const ProjectCompareModal: React.FC<Props> = ({
                       <div key={idx} className={`px-2 py-1 rounded flex justify-between ${
                         isDarkMode ? 'bg-slate-900 text-slate-300' : 'bg-white border border-slate-200 text-slate-800'
                       }`}>
-                        <span className={isDarkMode ? 'text-slate-500' : 'text-slate-400'}>{c.role}:</span>
+                        <span className={isDarkMode ? 'text-slate-500' : 'text-slate-400'}>{translateRole(c.role, lang)}:</span>
                         <span className="font-medium">{c.companyName}</span>
                       </div>
                     ))}

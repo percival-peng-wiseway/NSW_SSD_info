@@ -1,6 +1,7 @@
 import React from 'react';
 import type { MajorProject } from '../types';
 import { Building2, MapPin, Zap, ExternalLink, FileText, Users, SlidersHorizontal } from 'lucide-react';
+import { translateRoleShort } from '../utils/langUtils';
 
 interface Props {
   project: MajorProject;
@@ -158,9 +159,7 @@ export const ProjectCard: React.FC<Props> = ({
           </div>
           <div className="flex flex-wrap gap-1.5">
             {project.consultants.slice(0, 3).map((c, idx) => {
-              const roleLabel = (lang === 'en') 
-                ? (c.role.includes('总规划') ? 'Planner' : c.role.includes('建筑') ? 'Architecture' : c.role.includes('水务') || c.role.includes('供水') ? 'Water' : c.role.split(' ')[0])
-                : (c.role.includes('Town') || c.role.includes('Planning') ? '规划' : c.role.includes('Architectural') ? '建筑' : c.role.includes('Traffic') ? '交通' : c.role.includes('Acoustic') ? '声学' : c.role.includes('Civil') ? '土木' : c.role.split(' ')[0]);
+              const roleLabel = translateRoleShort(c.role, lang);
 
               return (
                 <span 
