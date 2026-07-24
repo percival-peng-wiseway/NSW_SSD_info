@@ -1,13 +1,15 @@
 /**
  * Dual-language dictionary mapping utility for SSD project roles and consultant domains.
+ * Guarantees zero leftover Chinese characters in English view (lang === 'en').
  */
 
 export function translateRole(role: string, lang: 'zh' | 'en' = 'zh'): string {
   if (!role) return lang === 'zh' ? '参建顾问' : 'Consultant Firm';
 
-  const r = role.toLowerCase().trim();
+  const rawText = role.trim();
 
   if (lang === 'zh') {
+    const r = rawText.toLowerCase();
     if (r.includes('town') || r.includes('planning') || r.includes('planner')) return '城市规划与EIS报告';
     if (r.includes('architect') || r.includes('architectural')) return '建筑设计';
     if (r.includes('traffic') || r.includes('transport')) return '交通工程与路网';
@@ -25,31 +27,75 @@ export function translateRole(role: string, lang: 'zh' | 'en' = 'zh'): string {
     if (r.includes('landscape')) return '景观建筑设计';
     if (r.includes('access')) return '无障碍设施';
     if (r.includes('state authority')) return '主导审批机构';
-    return role;
+    return rawText;
   }
 
-  // English Translation Dictionary (Comprehensive Coverage)
-  if (r.includes('噪声') || r.includes('声学') || r.includes('acoustic') || r.includes('noise')) return 'Acoustic & Noise Assessment';
-  if (r.includes('交通') || r.includes('路网') || r.includes('车辆') || r.includes('traffic') || r.includes('transport')) return 'Traffic & Transport Planning';
-  if (r.includes('总规划') || r.includes('规划') || r.includes('eis') || r.includes('town planner')) return 'Town Planner & EIS Lead';
-  if (r.includes('建筑') || r.includes('设计') || r.includes('architectural')) return 'Architectural Design';
-  if (r.includes('原住民') || r.includes('文化遗产') || r.includes('aboriginal') || r.includes('achar')) return 'Aboriginal Cultural Heritage (ACHAR)';
-  if (r.includes('历史遗产') || r.includes('heritage')) return 'Historic Heritage Assessment';
-  if (r.includes('生物多样性') || r.includes('生态') || r.includes('bdar') || r.includes('ecology')) return 'Ecology & Biodiversity (BDAR)';
-  if (r.includes('水文') || r.includes('雨水') || r.includes('水务') || r.includes('供水') || r.includes('osd') || r.includes('water')) return 'Hydrology, Water & Stormwater';
-  if (r.includes('土木') || r.includes('结构') || r.includes('地质') || r.includes('岩土') || r.includes('civil') || r.includes('structural')) return 'Civil & Structural Engineering';
-  if (r.includes('经济') || r.includes('社会') || r.includes('sia') || r.includes('economic') || r.includes('social')) return 'Social & Economic Impact (SIA)';
-  if (r.includes('丛林火灾') || r.includes('消防') || r.includes('火灾') || r.includes('bushfire') || r.includes('fire')) return 'Bushfire Protection & Fire Safety';
-  if (r.includes('污染') || r.includes('土壤') || r.includes('废弃物') || r.includes('contamination') || r.includes('waste')) return 'Contamination & Waste Management';
-  if (r.includes('危险品') || r.includes('sepp 33') || r.includes('hazards')) return 'Hazardous Goods & SEPP 33';
-  if (r.includes('施工') || r.includes('总包') || r.includes('contractor') || r.includes('builder')) return 'Main Contractor / Builder';
-  if (r.includes('工费') || r.includes('造价') || r.includes('成本') || r.includes('qs')) return 'Quantity Surveyor & Costing';
-  if (r.includes('景观') || r.includes('绿化') || r.includes('landscape')) return 'Landscape Architecture';
-  if (r.includes('无障碍') || r.includes('access') || r.includes('dda')) return 'Accessibility & DDA';
-  if (r.includes('航空') || r.includes('空域') || r.includes('aviation')) return 'Aviation Clearance';
-  if (r.includes('审批') || r.includes('政府') || r.includes('state authority')) return 'State Authority Approval';
+  // English Mode: Multi-segment tokenization & Deep Sub-phrase Replacement
+  // Split complex mixed strings like "Accessibility & DDA, BCA, 通达能力 + BCA 能力声明" by delimiters
+  const subSegments = rawText.split(/[,/、+]/).map(s => s.trim()).filter(Boolean);
 
-  return role;
+  const translatedSegments = subSegments.map(segment => translateSingleSegmentToEnglish(segment));
+
+  // Remove duplicates and join cleanly
+  const uniqueTranslated = Array.from(new Set(translatedSegments));
+  return uniqueTranslated.join(', ');
+}
+
+function translateSingleSegmentToEnglish(text: string): string {
+  const t = text.trim();
+  const lower = t.toLowerCase();
+
+  // 1. Direct Exact & Phrase Matches
+  if (lower === '测量' || lower === '测绘' || lower === '量地') return 'Quantity Surveying & Land Survey';
+  if (lower.includes('通达能力') || lower.includes('bca') || lower.includes('能力声明') || lower.includes('无障碍')) return 'Building Code & Accessibility (BCA/DDA)';
+  if (lower.includes('视觉影响') || lower.includes('视觉') || lower === 'via') return 'Visual Impact Assessment (VIA)';
+  if (lower.includes('温室气体') || lower.includes('人类健康') || lower.includes('esd') || lower.includes('健康评估')) return 'ESD, Greenhouse Gas & Human Health';
+  if (lower.includes('风力') || lower.includes('微气候') || lower.includes('风环境')) return 'Wind & Microclimate Assessment';
+  if (lower.includes('日照') || lower.includes('阴影')) return 'Sunlight & Shadow Analysis';
+  if (lower.includes('危险品') || lower.includes('危害') || lower.includes('sepp 33')) return 'Preliminary Hazard Analysis (SEPP 33)';
+  if (lower.includes('电磁场') || lower.includes('emf')) return 'Electromagnetic Fields (EMF)';
+  if (lower.includes('航空') || lower.includes('空域')) return 'Aviation Clearance';
+  if (lower.includes('废弃物') || lower.includes('垃圾')) return 'Waste Management Plan';
+  if (lower.includes('污染') || lower.includes('土壤') || lower.includes('地下水')) return 'Contamination & Geotechnical';
+
+  // 2. High-Frequency Keyword Category Mapping
+  if (lower.includes('噪声') || lower.includes('声学') || lower.includes('acoustic') || lower.includes('noise')) return 'Acoustic & Noise Assessment';
+  if (lower.includes('交通') || lower.includes('路网') || lower.includes('车辆') || lower.includes('traffic') || lower.includes('transport')) return 'Traffic & Transport Planning';
+  if (lower.includes('总规划') || lower.includes('规划') || lower.includes('eis') || lower.includes('town planner')) return 'Town Planner & EIS Lead';
+  if (lower.includes('建筑') || lower.includes('设计') || lower.includes('architectural')) return 'Architectural Design';
+  if (lower.includes('原住民') || lower.includes('文化遗产') || lower.includes('aboriginal') || lower.includes('achar')) return 'Aboriginal Cultural Heritage (ACHAR)';
+  if (lower.includes('历史遗产') || lower.includes('heritage')) return 'Historic Heritage Assessment';
+  if (lower.includes('生物多样性') || lower.includes('生态') || lower.includes('bdar') || lower.includes('ecology')) return 'Ecology & Biodiversity (BDAR)';
+  if (lower.includes('水文') || lower.includes('雨水') || lower.includes('水务') || lower.includes('供水') || lower.includes('osd') || lower.includes('water')) return 'Hydrology, Water & Stormwater';
+  if (lower.includes('土木') || lower.includes('结构') || lower.includes('地质') || lower.includes('岩土') || lower.includes('civil') || lower.includes('structural')) return 'Civil & Structural Engineering';
+  if (lower.includes('经济') || lower.includes('社会') || lower.includes('sia') || lower.includes('economic') || lower.includes('social')) return 'Social & Economic Impact (SIA)';
+  if (lower.includes('丛林火灾') || lower.includes('消防') || lower.includes('火灾') || lower.includes('bushfire') || lower.includes('fire')) return 'Bushfire Protection & Fire Safety';
+  if (lower.includes('施工') || lower.includes('总包') || lower.includes('contractor') || lower.includes('builder')) return 'Main Contractor / Builder';
+  if (lower.includes('工费') || lower.includes('造价') || lower.includes('成本') || lower.includes('qs')) return 'Quantity Surveyor & Costing';
+  if (lower.includes('景观') || lower.includes('绿化') || lower.includes('landscape')) return 'Landscape Architecture';
+  if (lower.includes('审批') || lower.includes('政府') || lower.includes('state authority')) return 'State Authority Approval';
+
+  // 3. Sub-string Regex Purge Safety Fallback for any leftover Chinese characters
+  if (/[\u4e00-\u9fa5]/.test(t)) {
+    return t
+      .replace(/通达能力/g, 'Accessibility')
+      .replace(/能力声明/g, 'Compliance Statement')
+      .replace(/视觉影响评估/g, 'Visual Impact Assessment')
+      .replace(/视觉影响/g, 'Visual Impact')
+      .replace(/温室气体/g, 'Greenhouse Gas')
+      .replace(/人类健康评估/g, 'Human Health Assessment')
+      .replace(/健康评估/g, 'Health Assessment')
+      .replace(/测量/g, 'Surveying')
+      .replace(/评估/g, 'Assessment')
+      .replace(/复核/g, 'Review')
+      .replace(/与/g, ' & ')
+      .replace(/及/g, ' & ')
+      .replace(/主导/g, 'Lead')
+      .replace(/声明/g, 'Statement')
+      .replace(/[\u4e00-\u9fa5]+/g, 'Consulting Services'); // Ultimate safety catch for untranslated Chinese words
+  }
+
+  return t;
 }
 
 export function translateRoleShort(role: string, lang: 'zh' | 'en' = 'zh'): string {
@@ -71,6 +117,10 @@ export function translateRoleShort(role: string, lang: 'zh' | 'en' = 'zh'): stri
     if (full.includes('Hydrology') || full.includes('Water')) return 'Water/Stormwater';
     if (full.includes('Heritage')) return 'Heritage';
     if (full.includes('Ecology')) return 'Ecology';
+    if (full.includes('Visual')) return 'Visual (VIA)';
+    if (full.includes('Building Code') || full.includes('Accessibility')) return 'BCA/Access';
+    if (full.includes('ESD')) return 'ESD & Health';
+    if (full.includes('Surveying')) return 'Surveying';
     return full.split(' ')[0];
   }
 }
